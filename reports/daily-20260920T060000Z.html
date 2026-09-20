@@ -1,106 +1,20 @@
-<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>DansLabTrader — daily paper report</title><body><a href="/">Paper dashboard</a><h1>DansLabTrader — daily paper report</h1><p>PAPER ONLY · Simulated results, not investment performance.</p><p>daily: 282 observed cycles; 1 completed paper trades.</p><pre>{
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>DansLabTrader — daily paper report</title><body><a href="/">Paper dashboard</a><h1>DansLabTrader — daily paper report</h1><p>PAPER ONLY · Simulated results, not investment performance.</p><p>daily: 198 observed cycles; 0 completed paper trades.</p><pre>{
   &quot;schema&quot;: 1,
-  &quot;id&quot;: &quot;daily-20260916T060000Z&quot;,
+  &quot;id&quot;: &quot;daily-20260920T060000Z&quot;,
   &quot;kind&quot;: &quot;daily&quot;,
   &quot;mode&quot;: &quot;paper&quot;,
   &quot;published_at&quot;: 1789884140.966018,
-  &quot;generated_at&quot;: 1789538416.4439511,
+  &quot;generated_at&quot;: 1789884023.7837062,
   &quot;window&quot;: {
-    &quot;start_at&quot;: 1789452000.0,
-    &quot;end_at&quot;: 1789538400.0,
+    &quot;start_at&quot;: 1789797600.0,
+    &quot;end_at&quot;: 1789884000.0,
     &quot;duration_seconds&quot;: 86400.0,
     &quot;boundary_convention&quot;: &quot;(start, end]&quot;
   },
   &quot;accounts&quot;: {
     &quot;baseline&quot;: {
-      &quot;start_mark_age_seconds&quot;: 811.8404228687286,
-      &quot;end_mark_age_seconds&quot;: 256.3286259174347,
-      &quot;equity_change&quot;: -5.86533668328002,
-      &quot;closed_trade_net_pnl&quot;: -5.865336683279973,
-      &quot;non_realized_equity_change_residual&quot;: -4.707345624410664e-14,
-      &quot;fills&quot;: 3,
-      &quot;opens&quot;: 1,
-      &quot;adds&quot;: 1,
-      &quot;closed_trades&quot;: 1,
-      &quot;wins&quot;: 0,
-      &quot;losses&quot;: 1,
-      &quot;breakeven&quot;: 0,
-      &quot;win_rate&quot;: 0.0,
-      &quot;expectancy_net_per_close&quot;: -5.865336683279973,
-      &quot;gross_winning_net&quot;: 0,
-      &quot;gross_losing_net&quot;: -5.865336683279973,
-      &quot;fees_paid_during_window&quot;: 0.12850268328,
-      &quot;lifetime_funding_on_window_closes&quot;: 0.0,
-      &quot;period_funding_accrual&quot;: null,
-      &quot;observed_max_drawdown&quot;: 7.659002508159915,
-      &quot;observed_max_drawdown_pct&quot;: 0.7517012847990413,
-      &quot;risk_halts&quot;: 0,
-      &quot;deferred_exits&quot;: 31,
-      &quot;performance&quot;: {
-        &quot;closed_trades&quot;: null,
-        &quot;profit_factor&quot;: null,
-        &quot;average_hold_seconds&quot;: null,
-        &quot;known_hold_trades&quot;: null,
-        &quot;unknown_hold_trades&quot;: null,
-        &quot;trades_total&quot;: null,
-        &quot;per_symbol_total&quot;: null,
-        &quot;profit_factor_state&quot;: &quot;unavailable&quot;,
-        &quot;exposure&quot;: {
-          &quot;observed_seconds&quot;: null,
-          &quot;fraction&quot;: null,
-          &quot;unknown_lifecycles&quot;: null,
-          &quot;coverage&quot;: &quot;unavailable&quot;
-        },
-        &quot;per_symbol_pnl&quot;: [],
-        &quot;trades&quot;: [],
-        &quot;baseline_filter_blocked&quot;: null,
-        &quot;excursion_definition&quot;: &quot;Observed lifetime net-USDT marks include modeled exit slippage, entry/exit fees and prior-rate funding; no intratick extrema are known.&quot;
-      },
-      &quot;start_mark&quot;: {
-        &quot;time&quot;: 1789451188.1595771,
-        &quot;equity&quot;: 1018.8400446063822
-      },
-      &quot;end_mark&quot;: {
-        &quot;time&quot;: 1789538143.671374,
-        &quot;equity&quot;: 1012.9747079231022
-      },
-      &quot;equity_sample_coverage&quot;: {
-        &quot;observed&quot;: 282,
-        &quot;expected_approximately&quot;: null,
-        &quot;max_gap_seconds&quot;: 311.4293167591095,
-        &quot;observation_ratio&quot;: null,
-        &quot;first_at&quot;: 1789452105.61616,
-        &quot;last_at&quot;: 1789538143.671374
-      },
-      &quot;buy_rejections&quot;: {
-        &quot;recorded&quot;: 2,
-        &quot;instrumented_checks&quot;: 282,
-        &quot;legacy_checks&quot;: 0,
-        &quot;coverage&quot;: &quot;complete&quot;,
-        &quot;reasons&quot;: [
-          {
-            &quot;reason&quot;: &quot;below_min_score&quot;,
-            &quot;action&quot;: &quot;open&quot;,
-            &quot;stage&quot;: &quot;selection&quot;,
-            &quot;count&quot;: 1
-          },
-          {
-            &quot;reason&quot;: &quot;insufficient_ask_depth&quot;,
-            &quot;action&quot;: &quot;open&quot;,
-            &quot;stage&quot;: &quot;execution&quot;,
-            &quot;count&quot;: 1
-          }
-        ]
-      },
-      &quot;equity_sampling&quot;: {
-        &quot;tick_samples&quot;: 282,
-        &quot;estimated_tick_samples&quot;: 68,
-        &quot;resolution&quot;: &quot;mixed&quot;
-      }
-    },
-    &quot;liquidation_filter&quot;: {
-      &quot;start_mark_age_seconds&quot;: 811.8404228687286,
-      &quot;end_mark_age_seconds&quot;: 256.3286259174347,
+      &quot;start_mark_age_seconds&quot;: 6721.321551799774,
+      &quot;end_mark_age_seconds&quot;: 6.502512216567993,
       &quot;equity_change&quot;: 0.0,
       &quot;closed_trade_net_pnl&quot;: 0,
       &quot;non_realized_equity_change_residual&quot;: 0.0,
@@ -143,30 +57,110 @@
         &quot;excursion_definition&quot;: &quot;Observed lifetime net-USDT marks include modeled exit slippage, entry/exit fees and prior-rate funding; no intratick extrema are known.&quot;
       },
       &quot;start_mark&quot;: {
-        &quot;time&quot;: 1789451188.1595771,
+        &quot;time&quot;: 1789790878.6784482,
+        &quot;equity&quot;: 1011.7744627740339
+      },
+      &quot;end_mark&quot;: {
+        &quot;time&quot;: 1789883993.4974878,
+        &quot;equity&quot;: 1011.7744627740339
+      },
+      &quot;equity_sample_coverage&quot;: {
+        &quot;observed&quot;: 198,
+        &quot;expected_approximately&quot;: null,
+        &quot;max_gap_seconds&quot;: 26353.613594055176,
+        &quot;observation_ratio&quot;: null,
+        &quot;first_at&quot;: 1789823953.613594,
+        &quot;last_at&quot;: 1789883993.4974878
+      },
+      &quot;buy_rejections&quot;: {
+        &quot;recorded&quot;: 5,
+        &quot;instrumented_checks&quot;: 198,
+        &quot;legacy_checks&quot;: 0,
+        &quot;coverage&quot;: &quot;complete&quot;,
+        &quot;reasons&quot;: [
+          {
+            &quot;reason&quot;: &quot;below_min_score&quot;,
+            &quot;action&quot;: &quot;open&quot;,
+            &quot;stage&quot;: &quot;selection&quot;,
+            &quot;count&quot;: 5
+          }
+        ]
+      },
+      &quot;equity_sampling&quot;: {
+        &quot;tick_samples&quot;: 198,
+        &quot;estimated_tick_samples&quot;: 0,
+        &quot;resolution&quot;: &quot;mixed&quot;
+      }
+    },
+    &quot;liquidation_filter&quot;: {
+      &quot;start_mark_age_seconds&quot;: 6721.321551799774,
+      &quot;end_mark_age_seconds&quot;: 6.502512216567993,
+      &quot;equity_change&quot;: 0.0,
+      &quot;closed_trade_net_pnl&quot;: 0,
+      &quot;non_realized_equity_change_residual&quot;: 0.0,
+      &quot;fills&quot;: 0,
+      &quot;opens&quot;: 0,
+      &quot;adds&quot;: 0,
+      &quot;closed_trades&quot;: 0,
+      &quot;wins&quot;: 0,
+      &quot;losses&quot;: 0,
+      &quot;breakeven&quot;: 0,
+      &quot;win_rate&quot;: null,
+      &quot;expectancy_net_per_close&quot;: null,
+      &quot;gross_winning_net&quot;: 0,
+      &quot;gross_losing_net&quot;: 0,
+      &quot;fees_paid_during_window&quot;: 0,
+      &quot;lifetime_funding_on_window_closes&quot;: 0,
+      &quot;period_funding_accrual&quot;: null,
+      &quot;observed_max_drawdown&quot;: 0.0,
+      &quot;observed_max_drawdown_pct&quot;: 0.0,
+      &quot;risk_halts&quot;: 0,
+      &quot;deferred_exits&quot;: 0,
+      &quot;performance&quot;: {
+        &quot;closed_trades&quot;: null,
+        &quot;profit_factor&quot;: null,
+        &quot;average_hold_seconds&quot;: null,
+        &quot;known_hold_trades&quot;: null,
+        &quot;unknown_hold_trades&quot;: null,
+        &quot;trades_total&quot;: null,
+        &quot;per_symbol_total&quot;: null,
+        &quot;profit_factor_state&quot;: &quot;unavailable&quot;,
+        &quot;exposure&quot;: {
+          &quot;observed_seconds&quot;: null,
+          &quot;fraction&quot;: null,
+          &quot;unknown_lifecycles&quot;: null,
+          &quot;coverage&quot;: &quot;unavailable&quot;
+        },
+        &quot;per_symbol_pnl&quot;: [],
+        &quot;trades&quot;: [],
+        &quot;baseline_filter_blocked&quot;: null,
+        &quot;excursion_definition&quot;: &quot;Observed lifetime net-USDT marks include modeled exit slippage, entry/exit fees and prior-rate funding; no intratick extrema are known.&quot;
+      },
+      &quot;start_mark&quot;: {
+        &quot;time&quot;: 1789790878.6784482,
         &quot;equity&quot;: 1000.0
       },
       &quot;end_mark&quot;: {
-        &quot;time&quot;: 1789538143.671374,
+        &quot;time&quot;: 1789883993.4974878,
         &quot;equity&quot;: 1000.0
       },
       &quot;equity_sample_coverage&quot;: {
-        &quot;observed&quot;: 282,
+        &quot;observed&quot;: 198,
         &quot;expected_approximately&quot;: null,
-        &quot;max_gap_seconds&quot;: 311.4293167591095,
+        &quot;max_gap_seconds&quot;: 26353.613594055176,
         &quot;observation_ratio&quot;: null,
-        &quot;first_at&quot;: 1789452105.61616,
-        &quot;last_at&quot;: 1789538143.671374
+        &quot;first_at&quot;: 1789823953.613594,
+        &quot;last_at&quot;: 1789883993.4974878
       },
       &quot;buy_rejections&quot;: {
         &quot;recorded&quot;: 0,
-        &quot;instrumented_checks&quot;: 282,
+        &quot;instrumented_checks&quot;: 198,
         &quot;legacy_checks&quot;: 0,
         &quot;coverage&quot;: &quot;complete&quot;,
         &quot;reasons&quot;: []
       },
       &quot;equity_sampling&quot;: {
-        &quot;tick_samples&quot;: 282,
+        &quot;tick_samples&quot;: 198,
         &quot;estimated_tick_samples&quot;: 0,
         &quot;resolution&quot;: &quot;mixed&quot;
       }
@@ -175,27 +169,31 @@
   &quot;severity&quot;: &quot;warning&quot;,
   &quot;data&quot;: {
     &quot;cycle_coverage&quot;: {
-      &quot;observed&quot;: 282,
+      &quot;observed&quot;: 198,
       &quot;expected_approximately&quot;: 288,
-      &quot;max_gap_seconds&quot;: 311.4293167591095,
-      &quot;observation_ratio&quot;: 0.9791666666666666,
-      &quot;first_at&quot;: 1789452105.61616,
-      &quot;last_at&quot;: 1789538143.671374
+      &quot;max_gap_seconds&quot;: 26353.613594055176,
+      &quot;observation_ratio&quot;: 0.6875,
+      &quot;first_at&quot;: 1789823953.613594,
+      &quot;last_at&quot;: 1789883993.4974878
     },
-    &quot;observation_records&quot;: 282,
+    &quot;observation_records&quot;: 198,
     &quot;skipped_records&quot;: 0,
     &quot;future_quote_observations&quot;: 0,
     &quot;errors&quot;: [
       {
         &quot;category&quot;: &quot;coinglass_data&quot;,
-        &quot;count&quot;: 117
+        &quot;count&quot;: 24
       }
     ]
   },
   &quot;comparison&quot;: {
-    &quot;filtered_minus_baseline_equity_change&quot;: 5.86533668328002
+    &quot;filtered_minus_baseline_equity_change&quot;: 0.0
   },
   &quot;findings&quot;: [
+    {
+      &quot;subject&quot;: &quot;Coverage&quot;,
+      &quot;severity&quot;: &quot;warning&quot;
+    },
     {
       &quot;subject&quot;: &quot;Data collection&quot;,
       &quot;severity&quot;: &quot;warning&quot;
@@ -205,19 +203,11 @@
       &quot;severity&quot;: &quot;warning&quot;
     },
     {
-      &quot;subject&quot;: &quot;baseline&quot;,
-      &quot;severity&quot;: &quot;warning&quot;
-    },
-    {
-      &quot;subject&quot;: &quot;baseline&quot;,
-      &quot;severity&quot;: &quot;warning&quot;
-    },
-    {
       &quot;subject&quot;: &quot;Evidence&quot;,
       &quot;severity&quot;: &quot;info&quot;
     }
   ],
-  &quot;summary&quot;: &quot;daily: 282 observed cycles; 1 completed paper trades.&quot;,
+  &quot;summary&quot;: &quot;daily: 198 observed cycles; 0 completed paper trades.&quot;,
   &quot;limitations&quot;: [
     &quot;PAPER ONLY: two independent simulations of the same starting account, not pooled capital.&quot;,
     &quot;Periodic audits measure observed paper results; they do not establish future profitability.&quot;,
