@@ -1,0 +1,2977 @@
+{
+  "schema": 1,
+  "mode": "paper",
+  "published_at": 1789866483.453321,
+  "experiment": {
+    "start_at": 1789081915.0211258,
+    "end_at": null,
+    "last_tick_at": 1789866016.504668,
+    "report_at": 1789866016.504668,
+    "next_audit_at": 1789945915.0211258,
+    "mode": "paper",
+    "status": "running",
+    "continuous": true,
+    "tick_seconds": 300,
+    "report_seconds": 1800
+  },
+  "accounts": {
+    "baseline": {
+      "cash": 1011.7744627740339,
+      "equity": 1011.7744627740339,
+      "realized_pnl": 11.774462774034108,
+      "unrealized_net_pnl": -2.575717417130363e-13,
+      "daily_pnl": 0.0,
+      "unpaid_liabilities": 0.0,
+      "trade_count": 22,
+      "total_fees": 2.01248554389036,
+      "funding_cost": 0.09146958547565119,
+      "max_drawdown": 28.509840218955333,
+      "max_drawdown_pct": 2.7791775277689985,
+      "initial_equity": 1000.0,
+      "experiment_pnl": 11.77446277403385,
+      "fills": 53,
+      "mode": "paper",
+      "equity_is_estimate": false,
+      "paused": false,
+      "positions": {},
+      "unpriced_positions": [],
+      "insufficient_exit_depth": [],
+      "checked_at": 1789866016.504668,
+      "last_success_at": 1789866016.504668,
+      "risk_halted": false
+    },
+    "liquidation_filter": {
+      "cash": 1000.0,
+      "equity": 1000.0,
+      "realized_pnl": 0.0,
+      "unrealized_net_pnl": 0.0,
+      "daily_pnl": 0.0,
+      "unpaid_liabilities": 0.0,
+      "trade_count": 0,
+      "total_fees": 0,
+      "funding_cost": 0,
+      "max_drawdown": 0.0,
+      "max_drawdown_pct": 0.0,
+      "initial_equity": 1000.0,
+      "experiment_pnl": 0.0,
+      "fills": 0,
+      "mode": "paper",
+      "equity_is_estimate": false,
+      "paused": false,
+      "positions": {},
+      "unpriced_positions": [],
+      "insufficient_exit_depth": [],
+      "checked_at": 1789866016.504668,
+      "last_success_at": 1789866016.504668,
+      "risk_halted": false
+    }
+  },
+  "history": [
+    {
+      "time": 1789139673.416783,
+      "baseline_equity": 1000.9513934085509,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789141499.21797,
+      "baseline_equity": 1002.619434108076,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789143326.216938,
+      "baseline_equity": 1002.7683928635654,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789145152.933537,
+      "baseline_equity": 1004.5344630884636,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789146981.928635,
+      "baseline_equity": 1001.7857637053655,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789148808.827441,
+      "baseline_equity": 1003.335287285862,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789150635.877055,
+      "baseline_equity": 1003.4757237205189,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789152462.369814,
+      "baseline_equity": 1003.052930175343,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789154289.1485949,
+      "baseline_equity": 1004.4622419925959,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789156117.216167,
+      "baseline_equity": 1003.6166549022441,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789157945.535507,
+      "baseline_equity": 1003.7575860839695,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789159775.9484348,
+      "baseline_equity": 1002.4892054484419,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789161609.912392,
+      "baseline_equity": 1001.9254807215408,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789163439.465631,
+      "baseline_equity": 1002.277808675854,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789165271.318451,
+      "baseline_equity": 1002.8415334027551,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789167100.720553,
+      "baseline_equity": 1003.1938613570683,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789168929.6384919,
+      "baseline_equity": 1003.546177069592,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789170760.443999,
+      "baseline_equity": 1003.5456379091953,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789172591.929142,
+      "baseline_equity": 1004.8133229255666,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789174421.6189609,
+      "baseline_equity": 1005.8703067885061,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789176247.85453,
+      "baseline_equity": 1005.8703067885061,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789178074.788646,
+      "baseline_equity": 1005.8703067885061,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789179902.9925041,
+      "baseline_equity": 1005.8703067885061,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789181730.338304,
+      "baseline_equity": 1005.8703067885061,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789183561.1590211,
+      "baseline_equity": 1005.8703067885061,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789185393.020882,
+      "baseline_equity": 1005.8703067885061,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789187225.445098,
+      "baseline_equity": 1005.8703067885061,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789189058.415234,
+      "baseline_equity": 1005.8703067885061,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789190890.3978088,
+      "baseline_equity": 1000.7985305991022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789192721.832115,
+      "baseline_equity": 1007.1740098344916,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789194553.619222,
+      "baseline_equity": 1015.8349163964042,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789196386.461893,
+      "baseline_equity": 1017.622121822516,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789198218.099749,
+      "baseline_equity": 1017.3655155019087,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789200049.372564,
+      "baseline_equity": 1017.0781297595261,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789201881.666158,
+      "baseline_equity": 1018.3144220843328,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789203714.653379,
+      "baseline_equity": 1018.5005753777255,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789205546.870705,
+      "baseline_equity": 1019.4884645022805,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789207379.8746781,
+      "baseline_equity": 1018.4183137061575,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789209212.055716,
+      "baseline_equity": 1018.230764862011,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789211045.182573,
+      "baseline_equity": 1016.3809515638886,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789212875.303228,
+      "baseline_equity": 1017.7684135733044,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789214703.5047839,
+      "baseline_equity": 1017.7218178106192,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789216531.303902,
+      "baseline_equity": 1023.8397302071884,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789218359.710073,
+      "baseline_equity": 1023.7188658822445,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789220188.327369,
+      "baseline_equity": 1022.594236275176,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789222030.666139,
+      "baseline_equity": 1022.2114204618364,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789223858.155126,
+      "baseline_equity": 1022.7838411316347,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789225686.5708091,
+      "baseline_equity": 1021.9711690238199,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789227517.046676,
+      "baseline_equity": 1022.0659739992916,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789229346.345419,
+      "baseline_equity": 1024.9787135867298,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789231175.072979,
+      "baseline_equity": 1024.9779760867907,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789233003.7526212,
+      "baseline_equity": 1024.8339503263117,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789234832.275797,
+      "baseline_equity": 1022.9227477471035,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789236659.971606,
+      "baseline_equity": 1018.9578035224322,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789238489.623203,
+      "baseline_equity": 1019.6735271610728,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789240320.837058,
+      "baseline_equity": 1018.5265444254202,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789242150.997683,
+      "baseline_equity": 1018.2392795971508,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789243979.280614,
+      "baseline_equity": 1017.3311137927445,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789245806.191652,
+      "baseline_equity": 1017.3783019540706,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789247635.664564,
+      "baseline_equity": 1017.49601931335,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789249463.095475,
+      "baseline_equity": 1017.262290307871,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789251290.850538,
+      "baseline_equity": 1017.2838577102981,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789253118.430809,
+      "baseline_equity": 1017.1887196266141,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789254945.504308,
+      "baseline_equity": 1017.0862888738413,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789256773.3563478,
+      "baseline_equity": 1018.3551598142309,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789258615.67489,
+      "baseline_equity": 1017.7202472843434,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789260444.311003,
+      "baseline_equity": 1017.6542820092233,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789262276.527057,
+      "baseline_equity": 1017.5664367008026,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789264104.1401489,
+      "baseline_equity": 1017.4129453548775,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789265932.8735092,
+      "baseline_equity": 1017.8065144997297,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789267760.778311,
+      "baseline_equity": 1017.1278323681322,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789269592.6180701,
+      "baseline_equity": 1019.2422103762825,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789271423.579849,
+      "baseline_equity": 1016.7671167611459,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789273255.293448,
+      "baseline_equity": 1017.4525032794503,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789275086.677161,
+      "baseline_equity": 1020.4427442677066,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789276918.474574,
+      "baseline_equity": 1021.8394921580527,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789278750.47891,
+      "baseline_equity": 1021.72979262202,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789280582.263458,
+      "baseline_equity": 1020.3105765623978,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789282414.311892,
+      "baseline_equity": 1021.7694987688091,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789284246.148179,
+      "baseline_equity": 1021.7177758467692,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789286078.409324,
+      "baseline_equity": 1020.6807266860865,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789287910.283372,
+      "baseline_equity": 1021.1690390572395,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789289743.54552,
+      "baseline_equity": 1020.4272419324392,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789291575.821075,
+      "baseline_equity": 1020.3187053755548,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789293413.8795478,
+      "baseline_equity": 1020.6413746911657,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789295248.04256,
+      "baseline_equity": 1020.4227412844867,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789297082.513569,
+      "baseline_equity": 1020.3123695293297,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789298915.4151602,
+      "baseline_equity": 1020.7180175179755,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789300747.230551,
+      "baseline_equity": 1017.1571594953979,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789302579.382653,
+      "baseline_equity": 1022.2586520371103,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789304411.449481,
+      "baseline_equity": 1019.9274720332699,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789306243.8554308,
+      "baseline_equity": 1019.719878226179,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789308076.45922,
+      "baseline_equity": 1018.8884962747786,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789309908.682307,
+      "baseline_equity": 1023.192637010895,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789311741.078725,
+      "baseline_equity": 1020.516799724341,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789313575.1724212,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789315406.050786,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789317236.312762,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789319067.090244,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789320898.7217221,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789322730.535618,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789324562.8216681,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789326394.489059,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789328228.5608919,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789330059.067472,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789331889.982089,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789333726.110372,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789335556.8412411,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789337387.71546,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789339218.287672,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789341049.307709,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789342880.325762,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789344710.872056,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789346543.561781,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789348378.5149188,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789350211.9441018,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789352046.569522,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789353880.8265479,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789355716.905112,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789357550.0841012,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789359384.1181738,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789361220.137276,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789363056.4428318,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789364892.129097,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789366727.928333,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789368563.9849632,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789370400.568269,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789372236.6249878,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789374071.929764,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789375908.741623,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789377745.912451,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789379582.165142,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789381417.9538822,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789383254.166049,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789385090.303929,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789386927.983005,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789388764.460475,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789390601.407866,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789392438.889904,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789394276.76652,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789396109.6727931,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789397942.187351,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789399779.3572328,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789401618.971987,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789403455.553341,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789405292.68338,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789407127.4319959,
+      "baseline_equity": 1020.6602757659062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789408962.550262,
+      "baseline_equity": 1020.6926048993222,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789410798.14153,
+      "baseline_equity": 1021.2769371294983,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789412635.4136589,
+      "baseline_equity": 1021.1910059191782,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789414474.311908,
+      "baseline_equity": 1020.8902466830582,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789416311.250954,
+      "baseline_equity": 1020.8300948358342,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789418144.9263191,
+      "baseline_equity": 1021.4487995501382,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789419984.2974389,
+      "baseline_equity": 1021.3113096136262,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789421821.136692,
+      "baseline_equity": 1020.8167622037782,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789423656.832008,
+      "baseline_equity": 1020.1634851653222,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789425493.812814,
+      "baseline_equity": 1020.9994159857142,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789427330.811744,
+      "baseline_equity": 1020.2277337330382,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789429169.005829,
+      "baseline_equity": 1020.7697997981381,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789431004.5010629,
+      "baseline_equity": 1020.2362269340583,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789432838.319264,
+      "baseline_equity": 1020.2362269340583,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789434672.666008,
+      "baseline_equity": 1021.1460985633303,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789436506.752157,
+      "baseline_equity": 1020.8323497256503,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789438343.828696,
+      "baseline_equity": 1019.4989171655103,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789440179.9678311,
+      "baseline_equity": 1021.0676613539102,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789442012.740188,
+      "baseline_equity": 1020.1421022827543,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789443844.932112,
+      "baseline_equity": 1018.6204204200062,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789445678.5095549,
+      "baseline_equity": 1018.8400446063822,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789447514.809212,
+      "baseline_equity": 1018.8400446063822,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789449351.043184,
+      "baseline_equity": 1018.8400446063822,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789451188.1595771,
+      "baseline_equity": 1018.8400446063822,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789453025.035423,
+      "baseline_equity": 1018.8400446063822,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789454863.28894,
+      "baseline_equity": 1018.8400446063822,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789456700.1608472,
+      "baseline_equity": 1018.8400446063822,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789458536.929049,
+      "baseline_equity": 1018.8400446063822,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789460373.7680068,
+      "baseline_equity": 1018.8400446063822,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789462211.350989,
+      "baseline_equity": 1018.8400446063822,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789464048.273546,
+      "baseline_equity": 1018.8400446063822,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789465885.507518,
+      "baseline_equity": 1018.8400446063822,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789467722.35125,
+      "baseline_equity": 1018.8400446063822,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789469559.9058769,
+      "baseline_equity": 1018.8400446063822,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789471396.847619,
+      "baseline_equity": 1018.8400446063822,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789473234.648606,
+      "baseline_equity": 1018.8400446063822,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789475071.69945,
+      "baseline_equity": 1018.8400446063822,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789476909.244711,
+      "baseline_equity": 1018.8400446063822,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789478746.2880168,
+      "baseline_equity": 1018.8400446063822,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789480583.8523872,
+      "baseline_equity": 1018.8400446063822,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789482421.363772,
+      "baseline_equity": 1018.8400446063822,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789484257.848489,
+      "baseline_equity": 1018.8400446063822,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789486093.508995,
+      "baseline_equity": 1018.8400446063822,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789487931.844165,
+      "baseline_equity": 1018.8400446063822,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789489769.850987,
+      "baseline_equity": 1018.8400446063822,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789491608.048015,
+      "baseline_equity": 1018.8400446063822,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789493445.4436648,
+      "baseline_equity": 1018.8400446063822,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789495281.562583,
+      "baseline_equity": 1018.8400446063822,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789497116.547678,
+      "baseline_equity": 1018.6093309881422,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789498949.891764,
+      "baseline_equity": 1018.6042013991823,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789500785.4042351,
+      "baseline_equity": 1017.2193100328623,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789502621.028024,
+      "baseline_equity": 1017.5970076782223,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789504458.776851,
+      "baseline_equity": 1017.2552812371823,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789506300.546506,
+      "baseline_equity": 1013.9819016440623,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789508137.411244,
+      "baseline_equity": 1014.1437720635023,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789509975.14756,
+      "baseline_equity": 1012.6689526863822,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789511814.244848,
+      "baseline_equity": 1012.2013270302223,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789513653.0103629,
+      "baseline_equity": 1011.3020469222223,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789515489.637254,
+      "baseline_equity": 1012.0034854064622,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789517327.263335,
+      "baseline_equity": 1011.5718309546223,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789519168.821944,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789521003.6868968,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789522839.794715,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789524675.905268,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789526512.0284438,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789528348.732895,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789530184.648161,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789532020.942065,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789533857.963817,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789535694.321228,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789537531.5857542,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789539368.714549,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789541205.056903,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789543041.626098,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789544878.42284,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789546715.7867799,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789548552.279757,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789550389.294153,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789552226.134773,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789554063.267393,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789555900.237074,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789557737.140289,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789559573.965277,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789561411.791355,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789563245.631487,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789565078.3761768,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789566911.8529642,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789568746.283138,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789570583.884274,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789572419.361608,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789574257.11184,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789576093.153954,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789577930.8728251,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789579768.079712,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789581605.81472,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789583443.98384,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789585281.1756842,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789587123.035827,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789588960.239792,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789590798.644323,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789592640.923742,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789594479.8194711,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789596317.6426141,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789598156.1242619,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789599993.74463,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789682543.094086,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789684374.51203,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789686211.104555,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789688046.941578,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789689882.567411,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789691716.8026922,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789693551.313538,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789695385.261905,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789697219.785404,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789699054.118242,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789700888.052642,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789702722.246472,
+      "baseline_equity": 1012.9747079231022,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789704556.0581398,
+      "baseline_equity": 1013.1253774469781,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789706390.472647,
+      "baseline_equity": 1011.5403412915941,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789708224.107012,
+      "baseline_equity": 1012.8511369409318,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789710058.3027241,
+      "baseline_equity": 1011.6847182058063,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789711892.6565602,
+      "baseline_equity": 1011.6194442600917,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789713726.7360508,
+      "baseline_equity": 1011.2637060485174,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789715560.926653,
+      "baseline_equity": 1010.8724692378125,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789717395.2954712,
+      "baseline_equity": 1009.816391411408,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789719229.568599,
+      "baseline_equity": 1009.0281918545215,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789721063.469449,
+      "baseline_equity": 1009.8924265806556,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789722897.931093,
+      "baseline_equity": 1009.4463316136131,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789724728.3974888,
+      "baseline_equity": 1010.1911584918467,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789726558.959768,
+      "baseline_equity": 1008.4863737840241,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789728390.208044,
+      "baseline_equity": 1005.1872667144193,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789730221.7174022,
+      "baseline_equity": 1001.4205363098081,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789732052.5233989,
+      "baseline_equity": 1001.4205363098081,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789733883.4773371,
+      "baseline_equity": 1000.9552693750607,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789735714.612084,
+      "baseline_equity": 998.3350228608566,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789737545.5949628,
+      "baseline_equity": 999.6247878878258,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789739377.670403,
+      "baseline_equity": 1001.0194561450938,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789741210.6389802,
+      "baseline_equity": 1002.8862320735177,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789743041.782261,
+      "baseline_equity": 1003.1687711308776,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789744878.956349,
+      "baseline_equity": 1001.4893821213495,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789746712.647864,
+      "baseline_equity": 1001.2368635941034,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789748543.37358,
+      "baseline_equity": 1002.967497722389,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789750374.824897,
+      "baseline_equity": 1002.7808907830064,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789752206.58972,
+      "baseline_equity": 1002.8229775632699,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789754038.65827,
+      "baseline_equity": 1002.9662299595739,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789755871.2208798,
+      "baseline_equity": 1003.5561215161532,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789757712.750765,
+      "baseline_equity": 1003.9496662937225,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789759546.322021,
+      "baseline_equity": 1003.4769052529434,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789761389.09005,
+      "baseline_equity": 1004.0218276929623,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789763243.735486,
+      "baseline_equity": 1005.6130120247199,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789765079.9305248,
+      "baseline_equity": 1006.3367698772432,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789766966.929981,
+      "baseline_equity": 1006.3367698772432,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789768828.2029078,
+      "baseline_equity": 1006.3367698772432,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789770710.233611,
+      "baseline_equity": 1006.3367698772432,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789772555.6426198,
+      "baseline_equity": 1006.3367698772432,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789774389.154349,
+      "baseline_equity": 1006.2213807087335,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789776223.521856,
+      "baseline_equity": 1011.7744627740339,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789778056.55324,
+      "baseline_equity": 1011.7744627740339,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789779886.461449,
+      "baseline_equity": 1011.7744627740339,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789781718.597813,
+      "baseline_equity": 1011.7744627740339,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789783548.821672,
+      "baseline_equity": 1011.7744627740339,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789785379.518551,
+      "baseline_equity": 1011.7744627740339,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789787212.455929,
+      "baseline_equity": 1011.7744627740339,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789789045.7430248,
+      "baseline_equity": 1011.7744627740339,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789790878.6784482,
+      "baseline_equity": 1011.7744627740339,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789823953.613594,
+      "baseline_equity": 1011.7744627740339,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789825781.1238132,
+      "baseline_equity": 1011.7744627740339,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789827609.4453351,
+      "baseline_equity": 1011.7744627740339,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789829437.9452732,
+      "baseline_equity": 1011.7744627740339,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789831266.419337,
+      "baseline_equity": 1011.7744627740339,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789833095.067722,
+      "baseline_equity": 1011.7744627740339,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789834924.2404659,
+      "baseline_equity": 1011.7744627740339,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789836754.4316008,
+      "baseline_equity": 1011.7744627740339,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789838585.0200472,
+      "baseline_equity": 1011.7744627740339,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789840413.163692,
+      "baseline_equity": 1011.7744627740339,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789842241.490387,
+      "baseline_equity": 1011.7744627740339,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789844069.342751,
+      "baseline_equity": 1011.7744627740339,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789845897.477401,
+      "baseline_equity": 1011.7744627740339,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789847726.612355,
+      "baseline_equity": 1011.7744627740339,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789849556.33325,
+      "baseline_equity": 1011.7744627740339,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789851384.745013,
+      "baseline_equity": 1011.7744627740339,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789853217.325233,
+      "baseline_equity": 1011.7744627740339,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789855045.697184,
+      "baseline_equity": 1011.7744627740339,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789856874.5411358,
+      "baseline_equity": 1011.7744627740339,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789858702.90241,
+      "baseline_equity": 1011.7744627740339,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789860533.1496809,
+      "baseline_equity": 1011.7744627740339,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789862362.563734,
+      "baseline_equity": 1011.7744627740339,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789864189.8708951,
+      "baseline_equity": 1011.7744627740339,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789866016.504668,
+      "baseline_equity": 1011.7744627740339,
+      "liquidation_filter_equity": 1000.0
+    }
+  ],
+  "candidates": [
+    {
+      "symbol": "ONEUSDTM",
+      "score": 33.061,
+      "reasons": [
+        "atr_outside_bounds",
+        "not_lower_range",
+        "no_completed_rebound",
+        "strong_downtrend",
+        "insufficient_rebound_room"
+      ],
+      "liquidation_filter_reasons": [
+        "atr_outside_bounds",
+        "not_lower_range",
+        "no_completed_rebound",
+        "strong_downtrend",
+        "insufficient_rebound_room",
+        "coinglass_filter_not_met"
+      ],
+      "signal_eligible": false,
+      "add_signal_eligible": false,
+      "baseline_eligible": false,
+      "liquidation_filter_eligible": false
+    },
+    {
+      "symbol": "AKEUSDTM",
+      "score": 33.4688,
+      "reasons": [
+        "atr_outside_bounds",
+        "not_lower_range",
+        "no_completed_rebound",
+        "insufficient_rebound_room"
+      ],
+      "liquidation_filter_reasons": [
+        "atr_outside_bounds",
+        "not_lower_range",
+        "no_completed_rebound",
+        "insufficient_rebound_room",
+        "coinglass_filter_not_met"
+      ],
+      "signal_eligible": false,
+      "add_signal_eligible": false,
+      "baseline_eligible": false,
+      "liquidation_filter_eligible": false
+    },
+    {
+      "symbol": "B2USDTM",
+      "score": 67.1164,
+      "reasons": [
+        "wide_spread",
+        "atr_outside_bounds"
+      ],
+      "liquidation_filter_reasons": [
+        "wide_spread",
+        "atr_outside_bounds",
+        "coinglass_filter_not_met"
+      ],
+      "signal_eligible": false,
+      "add_signal_eligible": false,
+      "baseline_eligible": false,
+      "liquidation_filter_eligible": false
+    },
+    {
+      "symbol": "CAPUSDTM",
+      "score": 79.7153,
+      "reasons": [
+        "atr_outside_bounds"
+      ],
+      "liquidation_filter_reasons": [
+        "atr_outside_bounds",
+        "coinglass_filter_not_met"
+      ],
+      "signal_eligible": false,
+      "add_signal_eligible": false,
+      "baseline_eligible": false,
+      "liquidation_filter_eligible": false
+    },
+    {
+      "symbol": "GUSDTM",
+      "score": 30.4808,
+      "reasons": [
+        "atr_outside_bounds",
+        "not_lower_range",
+        "no_completed_rebound",
+        "insufficient_rebound_room"
+      ],
+      "liquidation_filter_reasons": [
+        "atr_outside_bounds",
+        "not_lower_range",
+        "no_completed_rebound",
+        "insufficient_rebound_room",
+        "coinglass_filter_not_met"
+      ],
+      "signal_eligible": false,
+      "add_signal_eligible": false,
+      "baseline_eligible": false,
+      "liquidation_filter_eligible": false
+    }
+  ],
+  "events": [
+    {
+      "type": "close",
+      "account": "baseline",
+      "time": 1789747932.039076,
+      "net_pnl": 1.546961412580892,
+      "fee": null,
+      "entry_fees": 0.06818413409999999,
+      "exit_fee": 0.06919795763999999,
+      "funding_model_cost": 0.005362395679115059,
+      "symbol": "MARSCOINUSDTM"
+    },
+    {
+      "type": "buy_rejected",
+      "account": "baseline",
+      "time": 1789748236.960535,
+      "net_pnl": null,
+      "fee": null,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "reason": "insufficient_ask_depth",
+      "action": "open",
+      "stage": "execution",
+      "context": {
+        "lots": null,
+        "unit_cost": null,
+        "budget": null,
+        "required_contracts": 149,
+        "ask_size": 90.0,
+        "cost": null,
+        "fee": null,
+        "cash": null,
+        "existing_cost": null,
+        "position_cap": null,
+        "immediate_net": null,
+        "weighted_drop_pct": null,
+        "max_position_loss": null,
+        "max_price_drop_pct": null,
+        "expected_net": null,
+        "target_net_profit": null,
+        "score": null,
+        "min_score": null,
+        "elapsed_seconds": null,
+        "cooldown_seconds": null,
+        "positions": null,
+        "max_positions": null
+      },
+      "symbol": "GENIUSUSDTM"
+    },
+    {
+      "type": "buy_rejected",
+      "account": "baseline",
+      "time": 1789748543.37358,
+      "net_pnl": null,
+      "fee": null,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "reason": "insufficient_ask_depth",
+      "action": "open",
+      "stage": "execution",
+      "context": {
+        "lots": null,
+        "unit_cost": null,
+        "budget": null,
+        "required_contracts": 149,
+        "ask_size": 90.0,
+        "cost": null,
+        "fee": null,
+        "cash": null,
+        "existing_cost": null,
+        "position_cap": null,
+        "immediate_net": null,
+        "weighted_drop_pct": null,
+        "max_position_loss": null,
+        "max_price_drop_pct": null,
+        "expected_net": null,
+        "target_net_profit": null,
+        "score": null,
+        "min_score": null,
+        "elapsed_seconds": null,
+        "cooldown_seconds": null,
+        "positions": null,
+        "max_positions": null
+      },
+      "symbol": "GENIUSUSDTM"
+    },
+    {
+      "type": "open",
+      "account": "baseline",
+      "time": 1789749153.462445,
+      "net_pnl": null,
+      "fee": 0.029998498499999998,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "symbol": "GENIUSUSDTM"
+    },
+    {
+      "type": "buy_rejected",
+      "account": "baseline",
+      "time": 1789750985.017398,
+      "net_pnl": null,
+      "fee": null,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "reason": "insufficient_ask_depth",
+      "action": "open",
+      "stage": "execution",
+      "context": {
+        "lots": null,
+        "unit_cost": null,
+        "budget": null,
+        "required_contracts": 45,
+        "ask_size": 14.0,
+        "cost": null,
+        "fee": null,
+        "cash": null,
+        "existing_cost": null,
+        "position_cap": null,
+        "immediate_net": null,
+        "weighted_drop_pct": null,
+        "max_position_loss": null,
+        "max_price_drop_pct": null,
+        "expected_net": null,
+        "target_net_profit": null,
+        "score": null,
+        "min_score": null,
+        "elapsed_seconds": null,
+        "cooldown_seconds": null,
+        "positions": null,
+        "max_positions": null
+      },
+      "symbol": "MARSCOINUSDTM"
+    },
+    {
+      "type": "buy_rejected",
+      "account": "baseline",
+      "time": 1789751289.9469728,
+      "net_pnl": null,
+      "fee": null,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "reason": "insufficient_ask_depth",
+      "action": "open",
+      "stage": "execution",
+      "context": {
+        "lots": null,
+        "unit_cost": null,
+        "budget": null,
+        "required_contracts": 45,
+        "ask_size": 12.0,
+        "cost": null,
+        "fee": null,
+        "cash": null,
+        "existing_cost": null,
+        "position_cap": null,
+        "immediate_net": null,
+        "weighted_drop_pct": null,
+        "max_position_loss": null,
+        "max_price_drop_pct": null,
+        "expected_net": null,
+        "target_net_profit": null,
+        "score": null,
+        "min_score": null,
+        "elapsed_seconds": null,
+        "cooldown_seconds": null,
+        "positions": null,
+        "max_positions": null
+      },
+      "symbol": "MARSCOINUSDTM"
+    },
+    {
+      "type": "buy_rejected",
+      "account": "baseline",
+      "time": 1789751594.872156,
+      "net_pnl": null,
+      "fee": null,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "reason": "insufficient_ask_depth",
+      "action": "open",
+      "stage": "execution",
+      "context": {
+        "lots": null,
+        "unit_cost": null,
+        "budget": null,
+        "required_contracts": 45,
+        "ask_size": 14.0,
+        "cost": null,
+        "fee": null,
+        "cash": null,
+        "existing_cost": null,
+        "position_cap": null,
+        "immediate_net": null,
+        "weighted_drop_pct": null,
+        "max_position_loss": null,
+        "max_price_drop_pct": null,
+        "expected_net": null,
+        "target_net_profit": null,
+        "score": null,
+        "min_score": null,
+        "elapsed_seconds": null,
+        "cooldown_seconds": null,
+        "positions": null,
+        "max_positions": null
+      },
+      "symbol": "MARSCOINUSDTM"
+    },
+    {
+      "type": "buy_rejected",
+      "account": "baseline",
+      "time": 1789751899.9258492,
+      "net_pnl": null,
+      "fee": null,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "reason": "insufficient_ask_depth",
+      "action": "open",
+      "stage": "execution",
+      "context": {
+        "lots": null,
+        "unit_cost": null,
+        "budget": null,
+        "required_contracts": 45,
+        "ask_size": 12.0,
+        "cost": null,
+        "fee": null,
+        "cash": null,
+        "existing_cost": null,
+        "position_cap": null,
+        "immediate_net": null,
+        "weighted_drop_pct": null,
+        "max_position_loss": null,
+        "max_price_drop_pct": null,
+        "expected_net": null,
+        "target_net_profit": null,
+        "score": null,
+        "min_score": null,
+        "elapsed_seconds": null,
+        "cooldown_seconds": null,
+        "positions": null,
+        "max_positions": null
+      },
+      "symbol": "MARSCOINUSDTM"
+    },
+    {
+      "type": "open",
+      "account": "baseline",
+      "time": 1789752206.58972,
+      "net_pnl": null,
+      "fee": 0.029630324879999993,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "symbol": "MARSCOINUSDTM"
+    },
+    {
+      "type": "buy_rejected",
+      "account": "baseline",
+      "time": 1789754649.111499,
+      "net_pnl": null,
+      "fee": null,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "reason": "position_capacity",
+      "action": "open",
+      "stage": "selection",
+      "context": {
+        "lots": null,
+        "unit_cost": null,
+        "budget": null,
+        "required_contracts": null,
+        "ask_size": null,
+        "cost": null,
+        "fee": null,
+        "cash": null,
+        "existing_cost": null,
+        "position_cap": null,
+        "immediate_net": null,
+        "weighted_drop_pct": null,
+        "max_position_loss": null,
+        "max_price_drop_pct": null,
+        "expected_net": null,
+        "target_net_profit": null,
+        "score": null,
+        "min_score": null,
+        "elapsed_seconds": null,
+        "cooldown_seconds": null,
+        "positions": 2,
+        "max_positions": 2
+      },
+      "symbol": "COTIUSDTM"
+    },
+    {
+      "type": "deferred_exit",
+      "account": "baseline",
+      "time": 1789754954.227155,
+      "net_pnl": null,
+      "fee": null,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "symbol": "MARSCOINUSDTM"
+    },
+    {
+      "type": "buy_rejected",
+      "account": "baseline",
+      "time": 1789754954.227155,
+      "net_pnl": null,
+      "fee": null,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "reason": "position_capacity",
+      "action": "open",
+      "stage": "selection",
+      "context": {
+        "lots": null,
+        "unit_cost": null,
+        "budget": null,
+        "required_contracts": null,
+        "ask_size": null,
+        "cost": null,
+        "fee": null,
+        "cash": null,
+        "existing_cost": null,
+        "position_cap": null,
+        "immediate_net": null,
+        "weighted_drop_pct": null,
+        "max_position_loss": null,
+        "max_price_drop_pct": null,
+        "expected_net": null,
+        "target_net_profit": null,
+        "score": null,
+        "min_score": null,
+        "elapsed_seconds": null,
+        "cooldown_seconds": null,
+        "positions": 2,
+        "max_positions": 2
+      },
+      "symbol": "COTIUSDTM"
+    },
+    {
+      "type": "deferred_exit",
+      "account": "baseline",
+      "time": 1789755259.255181,
+      "net_pnl": null,
+      "fee": null,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "symbol": "MARSCOINUSDTM"
+    },
+    {
+      "type": "buy_rejected",
+      "account": "baseline",
+      "time": 1789755259.255181,
+      "net_pnl": null,
+      "fee": null,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "reason": "position_capacity",
+      "action": "open",
+      "stage": "selection",
+      "context": {
+        "lots": null,
+        "unit_cost": null,
+        "budget": null,
+        "required_contracts": null,
+        "ask_size": null,
+        "cost": null,
+        "fee": null,
+        "cash": null,
+        "existing_cost": null,
+        "position_cap": null,
+        "immediate_net": null,
+        "weighted_drop_pct": null,
+        "max_position_loss": null,
+        "max_price_drop_pct": null,
+        "expected_net": null,
+        "target_net_profit": null,
+        "score": null,
+        "min_score": null,
+        "elapsed_seconds": null,
+        "cooldown_seconds": null,
+        "positions": 2,
+        "max_positions": 2
+      },
+      "symbol": "COTIUSDTM"
+    },
+    {
+      "type": "deferred_exit",
+      "account": "baseline",
+      "time": 1789755871.2208798,
+      "net_pnl": null,
+      "fee": null,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "symbol": "MARSCOINUSDTM"
+    },
+    {
+      "type": "buy_rejected",
+      "account": "baseline",
+      "time": 1789755871.2208798,
+      "net_pnl": null,
+      "fee": null,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "reason": "position_capacity",
+      "action": "open",
+      "stage": "selection",
+      "context": {
+        "lots": null,
+        "unit_cost": null,
+        "budget": null,
+        "required_contracts": null,
+        "ask_size": null,
+        "cost": null,
+        "fee": null,
+        "cash": null,
+        "existing_cost": null,
+        "position_cap": null,
+        "immediate_net": null,
+        "weighted_drop_pct": null,
+        "max_position_loss": null,
+        "max_price_drop_pct": null,
+        "expected_net": null,
+        "target_net_profit": null,
+        "score": null,
+        "min_score": null,
+        "elapsed_seconds": null,
+        "cooldown_seconds": null,
+        "positions": 2,
+        "max_positions": 2
+      },
+      "symbol": "COTIUSDTM"
+    },
+    {
+      "type": "buy_rejected",
+      "account": "baseline",
+      "time": 1789756481.100937,
+      "net_pnl": null,
+      "fee": null,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "reason": "position_capacity",
+      "action": "open",
+      "stage": "selection",
+      "context": {
+        "lots": null,
+        "unit_cost": null,
+        "budget": null,
+        "required_contracts": null,
+        "ask_size": null,
+        "cost": null,
+        "fee": null,
+        "cash": null,
+        "existing_cost": null,
+        "position_cap": null,
+        "immediate_net": null,
+        "weighted_drop_pct": null,
+        "max_position_loss": null,
+        "max_price_drop_pct": null,
+        "expected_net": null,
+        "target_net_profit": null,
+        "score": null,
+        "min_score": null,
+        "elapsed_seconds": null,
+        "cooldown_seconds": null,
+        "positions": 2,
+        "max_positions": 2
+      },
+      "symbol": "COTIUSDTM"
+    },
+    {
+      "type": "deferred_exit",
+      "account": "baseline",
+      "time": 1789756787.47705,
+      "net_pnl": null,
+      "fee": null,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "symbol": "MARSCOINUSDTM"
+    },
+    {
+      "type": "buy_rejected",
+      "account": "baseline",
+      "time": 1789756787.47705,
+      "net_pnl": null,
+      "fee": null,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "reason": "position_capacity",
+      "action": "open",
+      "stage": "selection",
+      "context": {
+        "lots": null,
+        "unit_cost": null,
+        "budget": null,
+        "required_contracts": null,
+        "ask_size": null,
+        "cost": null,
+        "fee": null,
+        "cash": null,
+        "existing_cost": null,
+        "position_cap": null,
+        "immediate_net": null,
+        "weighted_drop_pct": null,
+        "max_position_loss": null,
+        "max_price_drop_pct": null,
+        "expected_net": null,
+        "target_net_profit": null,
+        "score": null,
+        "min_score": null,
+        "elapsed_seconds": null,
+        "cooldown_seconds": null,
+        "positions": 2,
+        "max_positions": 2
+      },
+      "symbol": "COTIUSDTM"
+    },
+    {
+      "type": "deferred_exit",
+      "account": "baseline",
+      "time": 1789757100.230494,
+      "net_pnl": null,
+      "fee": null,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "symbol": "MARSCOINUSDTM"
+    },
+    {
+      "type": "buy_rejected",
+      "account": "baseline",
+      "time": 1789757100.230494,
+      "net_pnl": null,
+      "fee": null,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "reason": "position_capacity",
+      "action": "open",
+      "stage": "selection",
+      "context": {
+        "lots": null,
+        "unit_cost": null,
+        "budget": null,
+        "required_contracts": null,
+        "ask_size": null,
+        "cost": null,
+        "fee": null,
+        "cash": null,
+        "existing_cost": null,
+        "position_cap": null,
+        "immediate_net": null,
+        "weighted_drop_pct": null,
+        "max_position_loss": null,
+        "max_price_drop_pct": null,
+        "expected_net": null,
+        "target_net_profit": null,
+        "score": null,
+        "min_score": null,
+        "elapsed_seconds": null,
+        "cooldown_seconds": null,
+        "positions": 2,
+        "max_positions": 2
+      },
+      "symbol": "COTIUSDTM"
+    },
+    {
+      "type": "buy_rejected",
+      "account": "baseline",
+      "time": 1789757712.750765,
+      "net_pnl": null,
+      "fee": null,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "reason": "insufficient_ask_depth",
+      "action": "open",
+      "stage": "rotation_trial",
+      "context": {
+        "lots": null,
+        "unit_cost": null,
+        "budget": null,
+        "required_contracts": 243,
+        "ask_size": 16.0,
+        "cost": null,
+        "fee": null,
+        "cash": null,
+        "existing_cost": null,
+        "position_cap": null,
+        "immediate_net": null,
+        "weighted_drop_pct": null,
+        "max_position_loss": null,
+        "max_price_drop_pct": null,
+        "expected_net": null,
+        "target_net_profit": null,
+        "score": null,
+        "min_score": null,
+        "elapsed_seconds": null,
+        "cooldown_seconds": null,
+        "positions": null,
+        "max_positions": null
+      },
+      "symbol": "COTIUSDTM"
+    },
+    {
+      "type": "buy_rejected",
+      "account": "baseline",
+      "time": 1789761081.8722181,
+      "net_pnl": null,
+      "fee": null,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "reason": "position_capacity",
+      "action": "open",
+      "stage": "selection",
+      "context": {
+        "lots": null,
+        "unit_cost": null,
+        "budget": null,
+        "required_contracts": null,
+        "ask_size": null,
+        "cost": null,
+        "fee": null,
+        "cash": null,
+        "existing_cost": null,
+        "position_cap": null,
+        "immediate_net": null,
+        "weighted_drop_pct": null,
+        "max_position_loss": null,
+        "max_price_drop_pct": null,
+        "expected_net": null,
+        "target_net_profit": null,
+        "score": null,
+        "min_score": null,
+        "elapsed_seconds": null,
+        "cooldown_seconds": null,
+        "positions": 2,
+        "max_positions": 2
+      },
+      "symbol": "ONEUSDTM"
+    },
+    {
+      "type": "close",
+      "account": "baseline",
+      "time": 1789762623.49023,
+      "net_pnl": 1.179658113573118,
+      "fee": null,
+      "entry_fees": 0.029998498499999998,
+      "exit_fee": 0.030744149939999993,
+      "funding_model_cost": 0.002351637986875635,
+      "symbol": "GENIUSUSDTM"
+    },
+    {
+      "type": "deferred_exit",
+      "account": "baseline",
+      "time": 1789762623.49023,
+      "net_pnl": null,
+      "fee": null,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "symbol": "MARSCOINUSDTM"
+    },
+    {
+      "type": "deferred_exit",
+      "account": "baseline",
+      "time": 1789762934.873549,
+      "net_pnl": null,
+      "fee": null,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "symbol": "MARSCOINUSDTM"
+    },
+    {
+      "type": "deferred_exit",
+      "account": "baseline",
+      "time": 1789763243.735486,
+      "net_pnl": null,
+      "fee": null,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "symbol": "MARSCOINUSDTM"
+    },
+    {
+      "type": "deferred_exit",
+      "account": "baseline",
+      "time": 1789763549.427265,
+      "net_pnl": null,
+      "fee": null,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "symbol": "MARSCOINUSDTM"
+    },
+    {
+      "type": "deferred_exit",
+      "account": "baseline",
+      "time": 1789763855.16139,
+      "net_pnl": null,
+      "fee": null,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "symbol": "MARSCOINUSDTM"
+    },
+    {
+      "type": "close",
+      "account": "baseline",
+      "time": 1789764161.195534,
+      "net_pnl": 2.1896140412809757,
+      "fee": null,
+      "entry_fees": 0.029630324879999993,
+      "exit_fee": 0.030981702419999996,
+      "funding_model_cost": 0.002069831419031542,
+      "symbol": "MARSCOINUSDTM"
+    },
+    {
+      "type": "buy_rejected",
+      "account": "baseline",
+      "time": 1789764161.195534,
+      "net_pnl": null,
+      "fee": null,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "reason": "below_min_score",
+      "action": "open",
+      "stage": "selection",
+      "context": {
+        "lots": null,
+        "unit_cost": null,
+        "budget": null,
+        "required_contracts": null,
+        "ask_size": null,
+        "cost": null,
+        "fee": null,
+        "cash": null,
+        "existing_cost": null,
+        "position_cap": null,
+        "immediate_net": null,
+        "weighted_drop_pct": null,
+        "max_position_loss": null,
+        "max_price_drop_pct": null,
+        "expected_net": null,
+        "target_net_profit": null,
+        "score": 48.1727,
+        "min_score": 60.0,
+        "elapsed_seconds": null,
+        "cooldown_seconds": null,
+        "positions": null,
+        "max_positions": null
+      },
+      "symbol": "GENIUSUSDTM"
+    },
+    {
+      "type": "buy_rejected",
+      "account": "baseline",
+      "time": 1789764467.278046,
+      "net_pnl": null,
+      "fee": null,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "reason": "below_min_score",
+      "action": "open",
+      "stage": "selection",
+      "context": {
+        "lots": null,
+        "unit_cost": null,
+        "budget": null,
+        "required_contracts": null,
+        "ask_size": null,
+        "cost": null,
+        "fee": null,
+        "cash": null,
+        "existing_cost": null,
+        "position_cap": null,
+        "immediate_net": null,
+        "weighted_drop_pct": null,
+        "max_position_loss": null,
+        "max_price_drop_pct": null,
+        "expected_net": null,
+        "target_net_profit": null,
+        "score": 49.1437,
+        "min_score": 60.0,
+        "elapsed_seconds": null,
+        "cooldown_seconds": null,
+        "positions": null,
+        "max_positions": null
+      },
+      "symbol": "GENIUSUSDTM"
+    },
+    {
+      "type": "open",
+      "account": "baseline",
+      "time": 1789773166.0030668,
+      "net_pnl": null,
+      "fee": 0.029933145431999996,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "symbol": "STGUSDTM"
+    },
+    {
+      "type": "deferred_exit",
+      "account": "baseline",
+      "time": 1789775610.86574,
+      "net_pnl": null,
+      "fee": null,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "symbol": "STGUSDTM"
+    },
+    {
+      "type": "close",
+      "account": "baseline",
+      "time": 1789775916.6452632,
+      "net_pnl": 5.437692896790703,
+      "fee": null,
+      "entry_fees": 0.029933145431999996,
+      "exit_fee": 0.03323395188,
+      "funding_model_cost": 0.00048408589730619244,
+      "symbol": "STGUSDTM"
+    },
+    {
+      "type": "buy_rejected",
+      "account": "baseline",
+      "time": 1789846506.438081,
+      "net_pnl": null,
+      "fee": null,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "reason": "below_min_score",
+      "action": "open",
+      "stage": "selection",
+      "context": {
+        "lots": null,
+        "unit_cost": null,
+        "budget": null,
+        "required_contracts": null,
+        "ask_size": null,
+        "cost": null,
+        "fee": null,
+        "cash": null,
+        "existing_cost": null,
+        "position_cap": null,
+        "immediate_net": null,
+        "weighted_drop_pct": null,
+        "max_position_loss": null,
+        "max_price_drop_pct": null,
+        "expected_net": null,
+        "target_net_profit": null,
+        "score": 53.3211,
+        "min_score": 60.0,
+        "elapsed_seconds": null,
+        "cooldown_seconds": null,
+        "positions": null,
+        "max_positions": null
+      },
+      "symbol": "MYXUSDTM"
+    },
+    {
+      "type": "buy_rejected",
+      "account": "baseline",
+      "time": 1789846810.837384,
+      "net_pnl": null,
+      "fee": null,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "reason": "below_min_score",
+      "action": "open",
+      "stage": "selection",
+      "context": {
+        "lots": null,
+        "unit_cost": null,
+        "budget": null,
+        "required_contracts": null,
+        "ask_size": null,
+        "cost": null,
+        "fee": null,
+        "cash": null,
+        "existing_cost": null,
+        "position_cap": null,
+        "immediate_net": null,
+        "weighted_drop_pct": null,
+        "max_position_loss": null,
+        "max_price_drop_pct": null,
+        "expected_net": null,
+        "target_net_profit": null,
+        "score": 51.572,
+        "min_score": 60.0,
+        "elapsed_seconds": null,
+        "cooldown_seconds": null,
+        "positions": null,
+        "max_positions": null
+      },
+      "symbol": "MYXUSDTM"
+    },
+    {
+      "type": "buy_rejected",
+      "account": "baseline",
+      "time": 1789847115.30686,
+      "net_pnl": null,
+      "fee": null,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "reason": "below_min_score",
+      "action": "open",
+      "stage": "selection",
+      "context": {
+        "lots": null,
+        "unit_cost": null,
+        "budget": null,
+        "required_contracts": null,
+        "ask_size": null,
+        "cost": null,
+        "fee": null,
+        "cash": null,
+        "existing_cost": null,
+        "position_cap": null,
+        "immediate_net": null,
+        "weighted_drop_pct": null,
+        "max_position_loss": null,
+        "max_price_drop_pct": null,
+        "expected_net": null,
+        "target_net_profit": null,
+        "score": 53.5966,
+        "min_score": 60.0,
+        "elapsed_seconds": null,
+        "cooldown_seconds": null,
+        "positions": null,
+        "max_positions": null
+      },
+      "symbol": "MYXUSDTM"
+    },
+    {
+      "type": "buy_rejected",
+      "account": "baseline",
+      "time": 1789847420.076405,
+      "net_pnl": null,
+      "fee": null,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "reason": "below_min_score",
+      "action": "open",
+      "stage": "selection",
+      "context": {
+        "lots": null,
+        "unit_cost": null,
+        "budget": null,
+        "required_contracts": null,
+        "ask_size": null,
+        "cost": null,
+        "fee": null,
+        "cash": null,
+        "existing_cost": null,
+        "position_cap": null,
+        "immediate_net": null,
+        "weighted_drop_pct": null,
+        "max_position_loss": null,
+        "max_price_drop_pct": null,
+        "expected_net": null,
+        "target_net_profit": null,
+        "score": 51.7873,
+        "min_score": 60.0,
+        "elapsed_seconds": null,
+        "cooldown_seconds": null,
+        "positions": null,
+        "max_positions": null
+      },
+      "symbol": "MYXUSDTM"
+    },
+    {
+      "type": "buy_rejected",
+      "account": "baseline",
+      "time": 1789847726.612355,
+      "net_pnl": null,
+      "fee": null,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "reason": "below_min_score",
+      "action": "open",
+      "stage": "selection",
+      "context": {
+        "lots": null,
+        "unit_cost": null,
+        "budget": null,
+        "required_contracts": null,
+        "ask_size": null,
+        "cost": null,
+        "fee": null,
+        "cash": null,
+        "existing_cost": null,
+        "position_cap": null,
+        "immediate_net": null,
+        "weighted_drop_pct": null,
+        "max_position_loss": null,
+        "max_price_drop_pct": null,
+        "expected_net": null,
+        "target_net_profit": null,
+        "score": 50.7204,
+        "min_score": 60.0,
+        "elapsed_seconds": null,
+        "cooldown_seconds": null,
+        "positions": null,
+        "max_positions": null
+      },
+      "symbol": "MYXUSDTM"
+    }
+  ],
+  "limitations": [
+    "PAPER ONLY: two independent simulations of the same starting account, not pooled capital.",
+    "Periodic audits measure observed paper results; they do not establish future profitability.",
+    "Polling fills use displayed full depth, modeled fees, adverse slippage and positive funding.",
+    "No intratick fills, partial fills, queue simulation, maintenance margin or liquidation model.",
+    "Stops can exceed their thresholds or be deferred when quotes or depth are unavailable.",
+    "CoinGlass completed liquidations are historical cross-exchange context, not future clusters.",
+    "Audit boundaries do not close positions or reset balances; open exposure stays in total equity."
+  ],
+  "errors": [
+    {
+      "category": "coinglass_data",
+      "count": 18
+    },
+    {
+      "category": "unknown",
+      "count": 12
+    }
+  ],
+  "coinglass": {
+    "fetched_at": 1789866012.155497,
+    "symbols": {
+      "AKEUSDTM": {
+        "eligible": false,
+        "reason": "liquidation_burst_below_3x"
+      },
+      "B2USDTM": {
+        "eligible": false,
+        "reason": "liquidation_burst_below_3x"
+      },
+      "CAPUSDTM": {
+        "eligible": false,
+        "reason": "liquidation_burst_below_3x"
+      },
+      "GUSDTM": {
+        "eligible": false,
+        "reason": "liquidation_burst_below_3x"
+      },
+      "ONEUSDTM": {
+        "eligible": false,
+        "reason": "liquidation_burst_below_3x"
+      }
+    }
+  },
+  "config": {
+    "initial_balance": 1000.0,
+    "max_positions": 2,
+    "leverage": 1,
+    "position_notional_cap": 200.0,
+    "target_net_profit": 1.0,
+    "fee_rate": 0.0006,
+    "slippage_rate": 0.0002,
+    "max_quote_age": 90.0,
+    "max_spread_pct": 0.2,
+    "cooldown_seconds": 300.0,
+    "max_position_loss": 10.0,
+    "max_price_drop_pct": 5.0,
+    "daily_loss_limit": 30.0,
+    "min_score": 60.0,
+    "rotation_score_delta": 15.0,
+    "rotation_min_hold": 1800.0,
+    "rotation_cooldown": 1800.0,
+    "rotation_max_loss": 2.0,
+    "tranches": [
+      50.0,
+      65.0,
+      85.0
+    ],
+    "add_drop_pct": [
+      1.0,
+      2.0
+    ]
+  },
+  "health": {
+    "mode": "paper",
+    "published_at": 1789866483.453321,
+    "worker_alive": true,
+    "experiment_status": "running",
+    "collection_error": false,
+    "audit_error": false,
+    "errors": [
+      {
+        "category": "coinglass_data",
+        "count": 5
+      }
+    ],
+    "last_tick_at": 1789866320.582581,
+    "report_at": 1789866016.504668,
+    "last_attempt_at": null,
+    "last_poll_at": 1789866471.3295648
+  }
+}
