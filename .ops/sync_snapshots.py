@@ -93,6 +93,14 @@ def sync(state):
     uid = deployment["id"]
     if not re.fullmatch("dpl_[A-Za-z0-9]+", uid):
         raise ValueError("invalid deployment identity")
+    if deployment.get("source") == "git":
+        # Git deployments already have a source commit and do not expose the
+        # uploaded-file API used by the independent CLI snapshot publisher.
+        source = deployment.get("gitSource") or {}
+        if (str(source.get("repoId")) != "1377729777" or source.get("ref") != "main"
+                or not re.fullmatch("[0-9a-f]{40}", source.get("sha", ""))):
+            raise ValueError("unexpected production Git source")
+        return {"status": "already_in_git", "deployment_id": uid, "commit": source["sha"]}
     with tempfile.TemporaryDirectory(prefix="snapshot-", dir=state) as temporary:
         root = Path(temporary)
         run(["git", "init", "-b", BRANCH], root)

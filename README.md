@@ -15,7 +15,7 @@ Preserve the Content Security Policy hashes in `vercel.json` when updating inlin
 
 ## Live snapshot mirror
 
-The `live-snapshots` branch tracks completed production deployments every five minutes through a separate local LaunchAgent, `com.danslab.trader-git-sync`. The original trading publisher remains unchanged. This is a one-way mirror from Vercel into Git; use `main` for reviewed site changes.
+The `live-snapshots` branch tracks completed production deployments every five minutes through a separate local LaunchAgent, `com.danslab.trader-git-sync`. The original trading publisher remains unchanged. Production deployments built from `main` are reported as `already_in_git`; only the independent publisher’s uploaded snapshots need mirroring. This is a one-way mirror from Vercel into Git; use `main` for reviewed site changes.
 
 Only known public dashboard, data, report, and Vercel configuration files are copied. Each source file is checked against Vercel's SHA-1. `.snapshot.json` records the deployment and original hashes. The mirror changes only `git.deploymentEnabled` to `false` in `vercel.json` so snapshot commits do not trigger deployments. There are no credentials or private trading ledgers in this branch.
 
