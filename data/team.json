@@ -1,136 +1,17 @@
 {
   "schema_version": 2,
-  "generated_at_ms": 1789917303255,
-  "cycle_id": "CTRL-20260920-18",
-  "last_cycle_at": "2026-09-20T15:15:03.255000Z",
+  "generated_at_ms": 1789920905540,
+  "cycle_id": "CTRL-20260920-19",
+  "last_cycle_at": "2026-09-20T16:15:05.540000Z",
   "scheduler": "hourly :15 Europe/Bucharest",
   "doctor": {
-    "status": "warn",
-    "failing": []
+    "status": "fail",
+    "failing": [
+      "autopilot"
+    ]
   },
-  "open_dispatches": 20,
+  "open_dispatches": 21,
   "dispatches": [
-    {
-      "dispatch_id": "D-20260920-16-risk_sentinel-ENTRIES_STALLED-1",
-      "role_name": "Risk Sentinel",
-      "room": "Paper Grid Trading Team",
-      "event": "ENTRIES_STALLED",
-      "instruction": "Entries are stalled with free slots and live candidates. Name the blocking rule and the evidence that would clear it.",
-      "created_at": "2026-09-20T13:15:04.632000Z",
-      "due_at": "2026-09-20T15:15:04.632000Z",
-      "status": "PENDING",
-      "payload": {}
-    },
-    {
-      "dispatch_id": "D-20260920-16-data_structure-RADAR_SCAN-1",
-      "role_name": "Data & Structure",
-      "room": "Paper Grid Trading Team",
-      "event": "RADAR_SCAN",
-      "instruction": "Radar scan 1789909803853 carries 18 core candidates. Report structure freshness and which candidates have confirmed bounds.",
-      "created_at": "2026-09-20T13:15:04.632000Z",
-      "due_at": "2026-09-20T15:15:04.632000Z",
-      "status": "PENDING",
-      "payload": {
-        "scan_id": "1789909803853",
-        "candidates": 18,
-        "candidates_changed": true
-      }
-    },
-    {
-      "dispatch_id": "D-20260920-17-technical_interpreter-LIQ_CLUSTERS_READY-1",
-      "role_name": "Technical Interpreter",
-      "room": "Paper Grid Trading Team",
-      "event": "LIQ_CLUSTERS_READY",
-      "instruction": "New liquidation clusters are published. Normalise venue, scope and as-of before comparing them to our ranges.",
-      "created_at": "2026-09-20T14:15:01.599000Z",
-      "due_at": "2026-09-20T16:15:01.599000Z",
-      "status": "PENDING",
-      "payload": {}
-    },
-    {
-      "dispatch_id": "D-20260920-18-grid_desk_lead-ROLE_IDLE-1",
-      "role_name": "Grid Desk Lead",
-      "room": "Paper Grid Trading Team",
-      "event": "ROLE_IDLE",
-      "instruction": "Paper Desk Secretary has not answered for 38.73 hours. Reassign its work or record the blocker on the board.",
-      "created_at": "2026-09-20T15:15:03.255000Z",
-      "due_at": "2026-09-20T17:15:03.255000Z",
-      "status": "PENDING",
-      "payload": {
-        "role": "Paper Desk Secretary",
-        "idle_h": 38.73
-      }
-    },
-    {
-      "dispatch_id": "D-20260920-18-grid_desk_lead-ROLE_IDLE-2",
-      "role_name": "Grid Desk Lead",
-      "room": "Paper Grid Trading Team",
-      "event": "ROLE_IDLE",
-      "instruction": "Performance Analyst has not answered for 106.79 hours. Reassign its work or record the blocker on the board.",
-      "created_at": "2026-09-20T15:15:03.255000Z",
-      "due_at": "2026-09-20T17:15:03.255000Z",
-      "status": "PENDING",
-      "payload": {
-        "role": "Performance Analyst",
-        "idle_h": 106.79
-      }
-    },
-    {
-      "dispatch_id": "D-20260920-18-grid_desk_lead-ROLE_IDLE-3",
-      "role_name": "Grid Desk Lead",
-      "room": "Paper Grid Trading Team",
-      "event": "ROLE_IDLE",
-      "instruction": "Research Scout has not answered for 56.66 hours. Reassign its work or record the blocker on the board.",
-      "created_at": "2026-09-20T15:15:03.255000Z",
-      "due_at": "2026-09-20T17:15:03.255000Z",
-      "status": "PENDING",
-      "payload": {
-        "role": "Research Scout",
-        "idle_h": 56.66
-      }
-    },
-    {
-      "dispatch_id": "D-20260920-18-grid_desk_lead-ROLE_IDLE-4",
-      "role_name": "Grid Desk Lead",
-      "room": "Paper Grid Trading Team",
-      "event": "ROLE_IDLE",
-      "instruction": "X Setup Researcher has not answered for 56.67 hours. Reassign its work or record the blocker on the board.",
-      "created_at": "2026-09-20T15:15:03.255000Z",
-      "due_at": "2026-09-20T17:15:03.255000Z",
-      "status": "PENDING",
-      "payload": {
-        "role": "X Setup Researcher",
-        "idle_h": 56.67
-      }
-    },
-    {
-      "dispatch_id": "D-20260920-18-grid_desk_lead-ROLE_IDLE-5",
-      "role_name": "Grid Desk Lead",
-      "room": "Paper Grid Trading Team",
-      "event": "ROLE_IDLE",
-      "instruction": "Technical Interpreter has not answered for 3.815 hours. Reassign its work or record the blocker on the board.",
-      "created_at": "2026-09-20T15:15:03.255000Z",
-      "due_at": "2026-09-20T17:15:03.255000Z",
-      "status": "PENDING",
-      "payload": {
-        "role": "Technical Interpreter",
-        "idle_h": 3.815
-      }
-    },
-    {
-      "dispatch_id": "D-20260920-18-grid_desk_lead-ROLE_IDLE-6",
-      "role_name": "Grid Desk Lead",
-      "room": "Paper Grid Trading Team",
-      "event": "ROLE_IDLE",
-      "instruction": "Data & Structure has not answered for 4.083 hours. Reassign its work or record the blocker on the board.",
-      "created_at": "2026-09-20T15:15:03.255000Z",
-      "due_at": "2026-09-20T17:15:03.255000Z",
-      "status": "PENDING",
-      "payload": {
-        "role": "Data & Structure",
-        "idle_h": 4.083
-      }
-    },
     {
       "dispatch_id": "D-20260920-18-data_structure-RADAR_SCAN-1",
       "role_name": "Data & Structure",
@@ -147,16 +28,154 @@
       }
     },
     {
-      "dispatch_id": "D-20260920-18-grid_desk_lead-SYNTHESIS-1",
+      "dispatch_id": "D-20260920-19-risk_sentinel-DOCTOR_FAIL-1",
+      "role_name": "Risk Sentinel",
+      "room": "Paper Grid Trading Team",
+      "event": "DOCTOR_FAIL",
+      "instruction": "Doctor check autopilot is failing (last tick 950s ago). Say what it puts at risk for the open positions and the one number that decides it.",
+      "created_at": "2026-09-20T16:15:05.540000Z",
+      "due_at": "2026-09-20T18:15:05.540000Z",
+      "status": "PENDING",
+      "payload": {
+        "check": "autopilot",
+        "where": "autopilot is alive but not ticking; check its log",
+        "detail": "last tick 950s ago"
+      }
+    },
+    {
+      "dispatch_id": "D-20260920-19-senior_developer-DOCTOR_FAIL-1",
+      "role_name": "Dan's Senior Developer",
+      "room": "Paper Grid Research & Data",
+      "event": "DOCTOR_FAIL",
+      "instruction": "Doctor check autopilot is failing (last tick 950s ago). Say what it puts at risk for the open positions and the one number that decides it.",
+      "created_at": "2026-09-20T16:15:05.540000Z",
+      "due_at": "2026-09-20T18:15:05.540000Z",
+      "status": "PENDING",
+      "payload": {
+        "check": "autopilot",
+        "where": "autopilot is alive but not ticking; check its log",
+        "detail": "last tick 950s ago"
+      }
+    },
+    {
+      "dispatch_id": "D-20260920-19-grid_desk_lead-ROLE_IDLE-1",
+      "role_name": "Grid Desk Lead",
+      "room": "Paper Grid Trading Team",
+      "event": "ROLE_IDLE",
+      "instruction": "Paper Desk Secretary has not answered for 39.73 hours. Reassign its work or record the blocker on the board.",
+      "created_at": "2026-09-20T16:15:05.540000Z",
+      "due_at": "2026-09-20T18:15:05.540000Z",
+      "status": "PENDING",
+      "payload": {
+        "role": "Paper Desk Secretary",
+        "idle_h": 39.73
+      }
+    },
+    {
+      "dispatch_id": "D-20260920-19-grid_desk_lead-ROLE_IDLE-2",
+      "role_name": "Grid Desk Lead",
+      "room": "Paper Grid Trading Team",
+      "event": "ROLE_IDLE",
+      "instruction": "Research Scout has not answered for 57.66 hours. Reassign its work or record the blocker on the board.",
+      "created_at": "2026-09-20T16:15:05.540000Z",
+      "due_at": "2026-09-20T18:15:05.540000Z",
+      "status": "PENDING",
+      "payload": {
+        "role": "Research Scout",
+        "idle_h": 57.66
+      }
+    },
+    {
+      "dispatch_id": "D-20260920-19-grid_desk_lead-ROLE_IDLE-3",
+      "role_name": "Grid Desk Lead",
+      "room": "Paper Grid Trading Team",
+      "event": "ROLE_IDLE",
+      "instruction": "X Setup Researcher has not answered for 57.68 hours. Reassign its work or record the blocker on the board.",
+      "created_at": "2026-09-20T16:15:05.540000Z",
+      "due_at": "2026-09-20T18:15:05.540000Z",
+      "status": "PENDING",
+      "payload": {
+        "role": "X Setup Researcher",
+        "idle_h": 57.68
+      }
+    },
+    {
+      "dispatch_id": "D-20260920-19-grid_desk_lead-ROLE_IDLE-4",
+      "role_name": "Grid Desk Lead",
+      "room": "Paper Grid Trading Team",
+      "event": "ROLE_IDLE",
+      "instruction": "Risk Sentinel has not answered for 0.0 hours. Reassign its work or record the blocker on the board.",
+      "created_at": "2026-09-20T16:15:05.540000Z",
+      "due_at": "2026-09-20T18:15:05.540000Z",
+      "status": "PENDING",
+      "payload": {
+        "role": "Risk Sentinel",
+        "idle_h": 0.0
+      }
+    },
+    {
+      "dispatch_id": "D-20260920-19-grid_desk_lead-ROLE_IDLE-5",
+      "role_name": "Grid Desk Lead",
+      "room": "Paper Grid Trading Team",
+      "event": "ROLE_IDLE",
+      "instruction": "Data & Structure has not answered for 5.083 hours. Reassign its work or record the blocker on the board.",
+      "created_at": "2026-09-20T16:15:05.540000Z",
+      "due_at": "2026-09-20T18:15:05.540000Z",
+      "status": "PENDING",
+      "payload": {
+        "role": "Data & Structure",
+        "idle_h": 5.083
+      }
+    },
+    {
+      "dispatch_id": "D-20260920-19-grid_desk_lead-ROLE_IDLE-6",
+      "role_name": "Grid Desk Lead",
+      "room": "Paper Grid Trading Team",
+      "event": "ROLE_IDLE",
+      "instruction": "Technical Interpreter has not answered for 4.816 hours. Reassign its work or record the blocker on the board.",
+      "created_at": "2026-09-20T16:15:05.540000Z",
+      "due_at": "2026-09-20T18:15:05.540000Z",
+      "status": "PENDING",
+      "payload": {
+        "role": "Technical Interpreter",
+        "idle_h": 4.816
+      }
+    },
+    {
+      "dispatch_id": "D-20260920-19-technical_interpreter-LIQ_CLUSTERS_READY-1",
+      "role_name": "Technical Interpreter",
+      "room": "Paper Grid Trading Team",
+      "event": "LIQ_CLUSTERS_READY",
+      "instruction": "New liquidation clusters are published. Normalise venue, scope and as-of before comparing them to our ranges.",
+      "created_at": "2026-09-20T16:15:05.540000Z",
+      "due_at": "2026-09-20T18:15:05.540000Z",
+      "status": "PENDING",
+      "payload": {}
+    },
+    {
+      "dispatch_id": "D-20260920-19-grid_desk_lead-SYNTHESIS-1",
       "role_name": "Grid Desk Lead",
       "room": "Paper Grid Trading Team",
       "event": "SYNTHESIS",
-      "instruction": "Close this cycle with one synthesis over 7 dispatch(es): evidence window, net outcome, compliance, unresolved disagreement, one advisory.",
-      "created_at": "2026-09-20T15:15:03.255000Z",
-      "due_at": "2026-09-20T17:15:03.255000Z",
+      "instruction": "Close this cycle with one synthesis over 9 dispatch(es): evidence window, net outcome, compliance, unresolved disagreement, one advisory.",
+      "created_at": "2026-09-20T16:15:05.540000Z",
+      "due_at": "2026-09-20T18:15:05.540000Z",
       "status": "PENDING",
       "payload": {
-        "count": 7
+        "count": 9
+      }
+    },
+    {
+      "dispatch_id": "D-20260920-19-paper_desk_secretary-FINAL_RESPONSE-1",
+      "role_name": "Paper Desk Secretary",
+      "room": "Paper Desk Office",
+      "event": "FINAL_RESPONSE",
+      "instruction": "Give the user one final answer covering DOCTOR_FAIL. Name any blocker and its owner; do not duplicate an earlier answer.",
+      "created_at": "2026-09-20T16:15:05.540000Z",
+      "due_at": "2026-09-20T18:15:05.540000Z",
+      "status": "PENDING",
+      "payload": {
+        "outcomes": "DOCTOR_FAIL"
       }
     },
     {
@@ -677,19 +696,6 @@
       "payload": {
         "count": 3
       }
-    },
-    {
-      "dispatch_id": "D-20260914-02-paper_desk_secretary-FINAL_RESPONSE-1",
-      "role_name": "Paper Desk Secretary",
-      "room": "Paper Desk Office",
-      "event": "FINAL_RESPONSE",
-      "instruction": "Give the user one final answer covering BOT_CLOSED. Name any blocker and its owner; do not duplicate an earlier answer.",
-      "created_at": "2026-09-13T23:15:06.322000Z",
-      "due_at": "2026-09-14T01:15:06.322000Z",
-      "status": "DONE",
-      "payload": {
-        "outcomes": "BOT_CLOSED"
-      }
     }
   ],
   "roster": [
@@ -697,9 +703,9 @@
       "name": "Grid Desk Lead",
       "kind": "native",
       "status": "BLOCKED",
-      "last_seen_at": "2026-09-20T14:29:58Z",
+      "last_seen_at": "2026-09-20T15:27:26Z",
       "installed": true,
-      "idle_h": 0.751,
+      "idle_h": 0.794,
       "max_idle_h": 24.0,
       "rooms": [
         "Paper Grid Trading Team",
@@ -713,7 +719,7 @@
       "status": "BLOCKED",
       "last_seen_at": "2026-09-20T11:10:05Z",
       "installed": true,
-      "idle_h": 4.083,
+      "idle_h": 5.083,
       "max_idle_h": 24.0,
       "rooms": [
         "Paper Grid Trading Team"
@@ -725,7 +731,7 @@
       "status": "BLOCKED",
       "last_seen_at": null,
       "installed": true,
-      "idle_h": 2.0,
+      "idle_h": null,
       "max_idle_h": 24.0,
       "rooms": [
         "Paper Grid Trading Team"
@@ -735,9 +741,9 @@
       "name": "Performance Analyst",
       "kind": "native",
       "status": "BLOCKED",
-      "last_seen_at": "2026-09-16T04:27:39Z",
+      "last_seen_at": null,
       "installed": true,
-      "idle_h": 106.79,
+      "idle_h": null,
       "max_idle_h": 24.0,
       "rooms": [
         "Paper Grid Trading Team"
@@ -749,7 +755,7 @@
       "status": "IDLE",
       "last_seen_at": "2026-09-18T06:35:21Z",
       "installed": true,
-      "idle_h": 56.662,
+      "idle_h": 57.662,
       "max_idle_h": 24.0,
       "rooms": [
         "Paper Grid Research & Data"
@@ -761,7 +767,7 @@
       "status": "IDLE",
       "last_seen_at": "2026-09-18T06:34:32Z",
       "installed": true,
-      "idle_h": 56.675,
+      "idle_h": 57.676,
       "max_idle_h": 24.0,
       "rooms": [
         "Paper Grid Research & Data"
@@ -773,7 +779,7 @@
       "status": "OK",
       "last_seen_at": "2026-09-20T07:25:00Z",
       "installed": true,
-      "idle_h": 7.834,
+      "idle_h": 8.835,
       "max_idle_h": 24.0,
       "rooms": [
         "Paper Grid Trading Team",
@@ -786,7 +792,7 @@
       "status": "BLOCKED",
       "last_seen_at": "2026-09-20T11:26:08Z",
       "installed": true,
-      "idle_h": 3.815,
+      "idle_h": 4.816,
       "max_idle_h": 24.0,
       "rooms": [
         "Paper Grid Trading Team",
@@ -799,7 +805,7 @@
       "status": "OK",
       "last_seen_at": "2026-09-20T08:26:38Z",
       "installed": true,
-      "idle_h": 6.807,
+      "idle_h": 7.808,
       "max_idle_h": 24.0,
       "rooms": [
         "Paper Desk Office"
@@ -811,7 +817,7 @@
       "status": "OK",
       "last_seen_at": "2026-09-20T13:28:36Z",
       "installed": true,
-      "idle_h": 1.774,
+      "idle_h": 2.775,
       "max_idle_h": 6.0,
       "rooms": [
         "Paper Grid Research & Data",
@@ -824,7 +830,7 @@
       "status": "BLOCKED",
       "last_seen_at": "2026-09-19T00:31:11Z",
       "installed": true,
-      "idle_h": 38.731,
+      "idle_h": 39.732,
       "max_idle_h": 24.0,
       "rooms": [
         "Paper Desk Office"
@@ -834,9 +840,9 @@
       "name": "Market data collector",
       "kind": "deterministic",
       "status": "OK",
-      "last_seen_at": "2026-09-20T15:15:10.077000Z",
+      "last_seen_at": "2026-09-20T16:15:10.182000Z",
       "installed": true,
-      "idle_h": -0.002,
+      "idle_h": -0.001,
       "max_idle_h": 1.0,
       "rooms": []
     },
@@ -844,9 +850,9 @@
       "name": "Radar",
       "kind": "deterministic",
       "status": "OK",
-      "last_seen_at": "2026-09-20T15:12:04.731000Z",
+      "last_seen_at": "2026-09-20T16:12:46.201000Z",
       "installed": true,
-      "idle_h": 0.05,
+      "idle_h": 0.039,
       "max_idle_h": 2.0,
       "rooms": []
     },
@@ -854,9 +860,9 @@
       "name": "Autopilot",
       "kind": "deterministic",
       "status": "OK",
-      "last_seen_at": "2026-09-20T15:14:53.426000Z",
+      "last_seen_at": "2026-09-20T16:15:03.012000Z",
       "installed": true,
-      "idle_h": 0.003,
+      "idle_h": 0.001,
       "max_idle_h": 0.1,
       "rooms": []
     },
@@ -864,9 +870,9 @@
       "name": "Publisher",
       "kind": "deterministic",
       "status": "OK",
-      "last_seen_at": "2026-09-20T15:13:54.652000Z",
+      "last_seen_at": "2026-09-20T16:11:59.922000Z",
       "installed": true,
-      "idle_h": 0.019,
+      "idle_h": 0.052,
       "max_idle_h": 0.5,
       "rooms": []
     },
@@ -874,9 +880,9 @@
       "name": "CoinGlass history",
       "kind": "deterministic",
       "status": "OK",
-      "last_seen_at": "2026-09-20T14:52:22.048000Z",
+      "last_seen_at": "2026-09-20T15:52:28.438000Z",
       "installed": true,
-      "idle_h": 0.378,
+      "idle_h": 0.377,
       "max_idle_h": 3.0,
       "rooms": []
     },
@@ -884,9 +890,9 @@
       "name": "Liquidation clusters",
       "kind": "deterministic",
       "status": "OK",
-      "last_seen_at": "2026-09-20T14:11:57.834000Z",
+      "last_seen_at": "2026-09-20T16:12:36.713000Z",
       "installed": true,
-      "idle_h": 1.052,
+      "idle_h": 0.041,
       "max_idle_h": 3.0,
       "rooms": []
     },
@@ -896,7 +902,7 @@
       "status": "OK",
       "last_seen_at": "2026-09-20T04:00:43.426000Z",
       "installed": true,
-      "idle_h": 11.239,
+      "idle_h": 12.239,
       "max_idle_h": 26.0,
       "rooms": []
     },
@@ -906,7 +912,7 @@
       "status": "OK",
       "last_seen_at": "2026-09-20T04:00:43.308000Z",
       "installed": true,
-      "idle_h": 11.239,
+      "idle_h": 12.24,
       "max_idle_h": 26.0,
       "rooms": []
     },
@@ -914,9 +920,9 @@
       "name": "Doctor",
       "kind": "deterministic",
       "status": "OK",
-      "last_seen_at": "2026-09-20T15:13:48.252000Z",
+      "last_seen_at": "2026-09-20T16:12:19.128000Z",
       "installed": true,
-      "idle_h": 0.021,
+      "idle_h": 0.046,
       "max_idle_h": 1.0,
       "rooms": []
     },
@@ -924,12 +930,12 @@
       "name": "Team controller",
       "kind": "deterministic",
       "status": "OK",
-      "last_seen_at": "2026-09-20T14:15:01.599000Z",
+      "last_seen_at": "2026-09-20T15:15:03.255000Z",
       "installed": true,
-      "idle_h": 1.0,
+      "idle_h": 1.001,
       "max_idle_h": 2.0,
       "rooms": []
     }
   ],
-  "published_at_ms": 1789920704460
+  "published_at_ms": 1789921021879
 }
