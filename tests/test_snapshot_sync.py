@@ -4,12 +4,25 @@ import importlib.util
 import json
 from pathlib import Path
 import unittest
+from unittest.mock import patch
 
 spec = importlib.util.spec_from_file_location("sync", Path(__file__).parents[1] / ".ops/sync_snapshots.py")
 sync = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(sync)
 
 class SnapshotTests(unittest.TestCase):
+    def test_git_deployment_needs_no_uploaded_files_or_push(self):
+        deployment = {"projectId": sync.PROJECT, "readyState": "READY", "target": "production",
+                      "alias": [sync.SITE], "id": "dpl_test", "source": "git",
+                      "gitSource": {"repoId": 1377729777, "ref": "main", "sha": "a" * 40}}
+        with patch.object(sync, "api", return_value=deployment) as api, patch.object(sync, "run") as run:
+            self.assertEqual(sync.sync(Path("unused"))["status"], "already_in_git")
+            api.assert_called_once()
+            run.assert_not_called()
+        deployment["gitSource"]["repoId"] = 123
+        with patch.object(sync, "api", return_value=deployment), self.assertRaises(ValueError):
+            sync.sync(Path("unused"))
+
     def test_allowlist_excludes_secrets_and_arbitrary_files(self):
         for path in [".env", ".vercel/project.json", "data/credentials.json", "../index.html", "reports/secret.json", "scripts/publish.py"]:
             self.assertFalse(sync.allowed(path), path)
