@@ -109,9 +109,6 @@ def sync(state):
         if exists:
             run(["git", "fetch", "--depth=1", "origin", BRANCH], root)
             run(["git", "checkout", "-B", BRANCH, "FETCH_HEAD"], root)
-            metadata = root / ".snapshot.json"
-            if metadata.is_file() and json.loads(metadata.read_text()).get("deployment_id") == uid:
-                return {"status": "unchanged", "deployment_id": uid}
         files = manifest(api("/v6/deployments/" + uid + "/files"))
         cache = state / "cache"
         cache.mkdir(exist_ok=True)
@@ -141,6 +138,10 @@ def sync(state):
                       "configuration_difference": "git.deploymentEnabled=false prevents mirror deployments"}
         (root / ".snapshot.json").write_text(json.dumps(provenance, indent=2) + "\n")
         run(["git", "add", "--all"], root)
+        # Compare the full reconstructed snapshot, including provenance and
+        # deployment settings, rather than trusting a recorded deployment ID.
+        if not run(["git", "diff", "--cached", "--name-only"], root).strip():
+            return {"status": "unchanged", "deployment_id": uid}
         run(["git", "-c", "user.name=DansLab Snapshot Sync", "-c",
              "user.email=76887748+DansiDanutz@users.noreply.github.com", "commit", "-m",
              "chore: mirror published snapshot " + uid, "-m",
