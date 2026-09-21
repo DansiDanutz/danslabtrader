@@ -1,71 +1,15 @@
 {
   "schema_version": 2,
-  "generated_at_ms": 1789982102056,
-  "cycle_id": "CTRL-20260921-12",
-  "last_cycle_at": "2026-09-21T09:15:02.056000Z",
+  "generated_at_ms": 1789985705345,
+  "cycle_id": "CTRL-20260921-13",
+  "last_cycle_at": "2026-09-21T10:15:05.345000Z",
   "scheduler": "hourly :15 Europe/Bucharest",
   "doctor": {
     "status": "warn",
     "failing": []
   },
-  "open_dispatches": 21,
+  "open_dispatches": 19,
   "dispatches": [
-    {
-      "dispatch_id": "D-20260921-09-x_setup_researcher-RESEARCH_DUE-1",
-      "role_name": "X Setup Researcher",
-      "room": "Paper Grid Research & Data",
-      "event": "RESEARCH_DUE",
-      "instruction": "Daily research pass, due 09:15 and 0.0h late. Bring at most one falsifiable finding with source, date and its limitation.",
-      "created_at": "2026-09-21T06:15:05.938000Z",
-      "due_at": "2026-09-21T09:15:05.938000Z",
-      "status": "PENDING",
-      "payload": {
-        "phase": "research",
-        "due_local": "09:15",
-        "overdue_h": 0.0
-      }
-    },
-    {
-      "dispatch_id": "D-20260921-09-research_scout-RESEARCH_DUE-1",
-      "role_name": "Research Scout",
-      "room": "Paper Grid Research & Data",
-      "event": "RESEARCH_DUE",
-      "instruction": "Daily research pass, due 09:15 and 0.0h late. Bring at most one falsifiable finding with source, date and its limitation.",
-      "created_at": "2026-09-21T06:15:05.938000Z",
-      "due_at": "2026-09-21T09:15:05.938000Z",
-      "status": "PENDING",
-      "payload": {
-        "phase": "research",
-        "due_local": "09:15",
-        "overdue_h": 0.0
-      }
-    },
-    {
-      "dispatch_id": "D-20260921-10-paper_desk_secretary-FINAL_RESPONSE-1",
-      "role_name": "Paper Desk Secretary",
-      "room": "Paper Desk Office",
-      "event": "FINAL_RESPONSE",
-      "instruction": "Give the user one final answer covering ENGINEERING_DUE. Name any blocker and its owner; do not duplicate an earlier answer.",
-      "created_at": "2026-09-21T07:15:04.823000Z",
-      "due_at": "2026-09-21T09:15:04.823000Z",
-      "status": "PENDING",
-      "payload": {
-        "outcomes": "ENGINEERING_DUE"
-      }
-    },
-    {
-      "dispatch_id": "D-20260921-11-discovery_auditor-DISCOVERY-1",
-      "role_name": "Discovery Auditor",
-      "room": "Paper Desk Office",
-      "event": "DISCOVERY",
-      "instruction": "Daily system audit. Gaps the controller can already see: blocked dispatches: Data & Structure, Grid Desk Lead, Paper Desk Secretary, Performance Analyst, Risk Sentinel, Technical Interpreter. Propose each new bot setup or integration as a NEED- item with an owner and an acceptance measure.",
-      "created_at": "2026-09-21T08:15:02.098000Z",
-      "due_at": "2026-09-21T10:15:02.098000Z",
-      "status": "PENDING",
-      "payload": {
-        "gaps": "blocked dispatches: Data & Structure, Grid Desk Lead, Paper Desk Secretary, Performance Analyst, Risk Sentinel, Technical Interpreter"
-      }
-    },
     {
       "dispatch_id": "D-20260921-12-grid_desk_lead-ROLE_IDLE-1",
       "role_name": "Grid Desk Lead",
@@ -175,6 +119,30 @@
       "status": "PENDING",
       "payload": {
         "count": 7
+      }
+    },
+    {
+      "dispatch_id": "D-20260921-13-technical_interpreter-LIQ_CLUSTERS_READY-1",
+      "role_name": "Technical Interpreter",
+      "room": "Paper Grid Trading Team",
+      "event": "LIQ_CLUSTERS_READY",
+      "instruction": "New liquidation clusters are published. Normalise venue, scope and as-of before comparing them to our ranges.",
+      "created_at": "2026-09-21T10:15:05.345000Z",
+      "due_at": "2026-09-21T12:15:05.345000Z",
+      "status": "PENDING",
+      "payload": {}
+    },
+    {
+      "dispatch_id": "D-20260921-13-grid_desk_lead-SYNTHESIS-1",
+      "role_name": "Grid Desk Lead",
+      "room": "Paper Grid Trading Team",
+      "event": "SYNTHESIS",
+      "instruction": "Close this cycle with one synthesis over 1 dispatch(es): evidence window, net outcome, compliance, unresolved disagreement, one advisory.",
+      "created_at": "2026-09-21T10:15:05.345000Z",
+      "due_at": "2026-09-21T12:15:05.345000Z",
+      "status": "PENDING",
+      "payload": {
+        "count": 1
       }
     },
     {
@@ -695,6 +663,30 @@
       "payload": {
         "count": 3
       }
+    },
+    {
+      "dispatch_id": "D-20260914-02-paper_desk_secretary-FINAL_RESPONSE-1",
+      "role_name": "Paper Desk Secretary",
+      "room": "Paper Desk Office",
+      "event": "FINAL_RESPONSE",
+      "instruction": "Give the user one final answer covering BOT_CLOSED. Name any blocker and its owner; do not duplicate an earlier answer.",
+      "created_at": "2026-09-13T23:15:06.322000Z",
+      "due_at": "2026-09-14T01:15:06.322000Z",
+      "status": "DONE",
+      "payload": {
+        "outcomes": "BOT_CLOSED"
+      }
+    },
+    {
+      "dispatch_id": "D-20260914-00-technical_interpreter-LIQ_CLUSTERS_READY-1",
+      "role_name": "Technical Interpreter",
+      "room": "Paper Grid Trading Team",
+      "event": "LIQ_CLUSTERS_READY",
+      "instruction": "New liquidation clusters are published. Normalise venue, scope and as-of before comparing them to our ranges.",
+      "created_at": "2026-09-13T21:15:02.172000Z",
+      "due_at": "2026-09-13T23:15:02.172000Z",
+      "status": "DONE",
+      "payload": {}
     }
   ],
   "roster": [
@@ -704,7 +696,7 @@
       "status": "BLOCKED",
       "last_seen_at": "2026-09-21T02:23:38Z",
       "installed": true,
-      "idle_h": 6.857,
+      "idle_h": 7.858,
       "max_idle_h": 24.0,
       "rooms": [
         "Paper Grid Trading Team",
@@ -718,7 +710,7 @@
       "status": "BLOCKED",
       "last_seen_at": "2026-09-20T11:10:05Z",
       "installed": true,
-      "idle_h": 22.083,
+      "idle_h": 23.083,
       "max_idle_h": 24.0,
       "rooms": [
         "Paper Grid Trading Team"
@@ -751,10 +743,10 @@
     {
       "name": "Research Scout",
       "kind": "native",
-      "status": "IDLE",
+      "status": "BLOCKED",
       "last_seen_at": "2026-09-18T06:35:21Z",
       "installed": true,
-      "idle_h": 74.661,
+      "idle_h": 75.662,
       "max_idle_h": 24.0,
       "rooms": [
         "Paper Grid Research & Data"
@@ -763,10 +755,10 @@
     {
       "name": "X Setup Researcher",
       "kind": "native",
-      "status": "IDLE",
+      "status": "BLOCKED",
       "last_seen_at": "2026-09-18T06:34:32Z",
       "installed": true,
-      "idle_h": 74.675,
+      "idle_h": 75.676,
       "max_idle_h": 24.0,
       "rooms": [
         "Paper Grid Research & Data"
@@ -778,7 +770,7 @@
       "status": "IDLE",
       "last_seen_at": "2026-09-20T07:25:00Z",
       "installed": true,
-      "idle_h": 25.834,
+      "idle_h": 26.835,
       "max_idle_h": 24.0,
       "rooms": [
         "Paper Grid Trading Team",
@@ -791,7 +783,7 @@
       "status": "BLOCKED",
       "last_seen_at": "2026-09-20T11:26:08Z",
       "installed": true,
-      "idle_h": 21.815,
+      "idle_h": 22.816,
       "max_idle_h": 24.0,
       "rooms": [
         "Paper Grid Trading Team",
@@ -801,10 +793,10 @@
     {
       "name": "Discovery Auditor",
       "kind": "native",
-      "status": "IDLE",
+      "status": "BLOCKED",
       "last_seen_at": "2026-09-20T08:26:38Z",
       "installed": true,
-      "idle_h": 24.807,
+      "idle_h": 25.808,
       "max_idle_h": 24.0,
       "rooms": [
         "Paper Desk Office"
@@ -816,7 +808,7 @@
       "status": "IDLE",
       "last_seen_at": "2026-09-20T16:27:25Z",
       "installed": true,
-      "idle_h": 16.794,
+      "idle_h": 17.795,
       "max_idle_h": 6.0,
       "rooms": [
         "Paper Grid Research & Data",
@@ -829,7 +821,7 @@
       "status": "BLOCKED",
       "last_seen_at": "2026-09-19T00:31:11Z",
       "installed": true,
-      "idle_h": 56.731,
+      "idle_h": 57.732,
       "max_idle_h": 24.0,
       "rooms": [
         "Paper Desk Office"
@@ -839,9 +831,9 @@
       "name": "Market data collector",
       "kind": "deterministic",
       "status": "OK",
-      "last_seen_at": "2026-09-21T09:08:53.281000Z",
+      "last_seen_at": "2026-09-21T10:13:01.307000Z",
       "installed": true,
-      "idle_h": 0.102,
+      "idle_h": 0.034,
       "max_idle_h": 1.0,
       "rooms": []
     },
@@ -849,9 +841,9 @@
       "name": "Radar",
       "kind": "deterministic",
       "status": "OK",
-      "last_seen_at": "2026-09-21T09:13:56.379000Z",
+      "last_seen_at": "2026-09-21T10:12:40.525000Z",
       "installed": true,
-      "idle_h": 0.018,
+      "idle_h": 0.04,
       "max_idle_h": 2.0,
       "rooms": []
     },
@@ -859,9 +851,9 @@
       "name": "Autopilot",
       "kind": "deterministic",
       "status": "OK",
-      "last_seen_at": "2026-09-21T09:14:52.430000Z",
+      "last_seen_at": "2026-09-21T10:15:03.416000Z",
       "installed": true,
-      "idle_h": 0.003,
+      "idle_h": 0.001,
       "max_idle_h": 0.1,
       "rooms": []
     },
@@ -869,9 +861,9 @@
       "name": "Publisher",
       "kind": "deterministic",
       "status": "OK",
-      "last_seen_at": "2026-09-21T09:11:34.616000Z",
+      "last_seen_at": "2026-09-21T10:15:02.583000Z",
       "installed": true,
-      "idle_h": 0.058,
+      "idle_h": 0.001,
       "max_idle_h": 0.5,
       "rooms": []
     },
@@ -879,9 +871,9 @@
       "name": "CoinGlass history",
       "kind": "deterministic",
       "status": "OK",
-      "last_seen_at": "2026-09-21T08:56:37.572000Z",
+      "last_seen_at": "2026-09-21T09:56:44.495000Z",
       "installed": true,
-      "idle_h": 0.307,
+      "idle_h": 0.306,
       "max_idle_h": 3.0,
       "rooms": []
     },
@@ -889,9 +881,9 @@
       "name": "Liquidation clusters",
       "kind": "deterministic",
       "status": "OK",
-      "last_seen_at": "2026-09-21T08:11:14.395000Z",
+      "last_seen_at": "2026-09-21T10:12:32.062000Z",
       "installed": true,
-      "idle_h": 1.063,
+      "idle_h": 0.043,
       "max_idle_h": 3.0,
       "rooms": []
     },
@@ -901,7 +893,7 @@
       "status": "OK",
       "last_seen_at": "2026-09-21T04:01:14.754000Z",
       "installed": true,
-      "idle_h": 5.23,
+      "idle_h": 6.231,
       "max_idle_h": 26.0,
       "rooms": []
     },
@@ -911,7 +903,7 @@
       "status": "OK",
       "last_seen_at": "2026-09-21T04:01:14.604000Z",
       "installed": true,
-      "idle_h": 5.23,
+      "idle_h": 6.231,
       "max_idle_h": 26.0,
       "rooms": []
     },
@@ -919,9 +911,9 @@
       "name": "Doctor",
       "kind": "deterministic",
       "status": "OK",
-      "last_seen_at": "2026-09-21T09:14:12.412000Z",
+      "last_seen_at": "2026-09-21T10:10:16.820000Z",
       "installed": true,
-      "idle_h": 0.014,
+      "idle_h": 0.08,
       "max_idle_h": 1.0,
       "rooms": []
     },
@@ -929,12 +921,12 @@
       "name": "Team controller",
       "kind": "deterministic",
       "status": "OK",
-      "last_seen_at": "2026-09-21T08:15:02.098000Z",
+      "last_seen_at": "2026-09-21T09:15:02.056000Z",
       "installed": true,
-      "idle_h": 1.0,
+      "idle_h": 1.001,
       "max_idle_h": 2.0,
       "rooms": []
     }
   ],
-  "published_at_ms": 1789985363237
+  "published_at_ms": 1789986003701
 }
