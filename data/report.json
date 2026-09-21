@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "mode": "paper",
-  "published_at": 1789990160.359036,
+  "published_at": 1789990474.390016,
   "experiment": {
     "start_at": 1789081915.0211258,
     "end_at": null,
-    "last_tick_at": 1789988641.808744,
-    "report_at": 1789988641.808744,
+    "last_tick_at": 1789990473.358109,
+    "report_at": 1789990473.358109,
     "next_audit_at": 1790118715.0211258,
     "mode": "paper",
     "status": "running",
@@ -36,8 +36,8 @@
       "positions": {},
       "unpriced_positions": [],
       "insufficient_exit_depth": [],
-      "checked_at": 1789988641.808744,
-      "last_success_at": 1789988641.808744,
+      "checked_at": 1789990473.358109,
+      "last_success_at": 1789990473.358109,
       "risk_halted": false
     },
     "liquidation_filter": {
@@ -61,17 +61,12 @@
       "positions": {},
       "unpriced_positions": [],
       "insufficient_exit_depth": [],
-      "checked_at": 1789988641.808744,
-      "last_success_at": 1789988641.808744,
+      "checked_at": 1789990473.358109,
+      "last_success_at": 1789990473.358109,
       "risk_halted": false
     }
   },
   "history": [
-    {
-      "time": 1789262276.527057,
-      "baseline_equity": 1017.5664367008026,
-      "liquidation_filter_equity": 1000.0
-    },
     {
       "time": 1789264104.1401489,
       "baseline_equity": 1017.4129453548775,
@@ -1746,12 +1741,17 @@
       "time": 1789988641.808744,
       "baseline_equity": 1011.7744627740339,
       "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789990473.358109,
+      "baseline_equity": 1011.7744627740339,
+      "liquidation_filter_equity": 1000.0
     }
   ],
   "candidates": [
     {
       "symbol": "AKEUSDTM",
-      "score": 75.9154,
+      "score": 74.7223,
       "reasons": [
         "atr_outside_bounds",
         "strong_downtrend"
@@ -1768,7 +1768,7 @@
     },
     {
       "symbol": "2U2USDTM",
-      "score": 36.9548,
+      "score": 47.0293,
       "reasons": [
         "wide_spread",
         "atr_outside_bounds",
@@ -1789,14 +1789,19 @@
     },
     {
       "symbol": "GUSDTM",
-      "score": 67.2976,
-      "reasons": [],
+      "score": 32.8767,
+      "reasons": [
+        "not_lower_range",
+        "insufficient_rebound_room"
+      ],
       "liquidation_filter_reasons": [
+        "not_lower_range",
+        "insufficient_rebound_room",
         "coinglass_filter_not_met"
       ],
-      "signal_eligible": true,
-      "add_signal_eligible": true,
-      "baseline_eligible": true,
+      "signal_eligible": false,
+      "add_signal_eligible": false,
+      "baseline_eligible": false,
       "liquidation_filter_eligible": false
     },
     {
@@ -1816,7 +1821,7 @@
     },
     {
       "symbol": "B2USDTM",
-      "score": 26.0352,
+      "score": 25.4274,
       "reasons": [
         "stale_quote",
         "low_turnover",
@@ -1841,82 +1846,6 @@
     }
   ],
   "events": [
-    {
-      "type": "buy_rejected",
-      "account": "baseline",
-      "time": 1789922691.2891362,
-      "net_pnl": null,
-      "fee": null,
-      "entry_fees": null,
-      "exit_fee": null,
-      "funding_model_cost": null,
-      "reason": "insufficient_ask_depth",
-      "action": "open",
-      "stage": "execution",
-      "context": {
-        "lots": null,
-        "unit_cost": null,
-        "budget": null,
-        "required_contracts": 11,
-        "ask_size": 4.0,
-        "cost": null,
-        "fee": null,
-        "cash": null,
-        "existing_cost": null,
-        "position_cap": null,
-        "immediate_net": null,
-        "weighted_drop_pct": null,
-        "max_position_loss": null,
-        "max_price_drop_pct": null,
-        "expected_net": null,
-        "target_net_profit": null,
-        "score": null,
-        "min_score": null,
-        "elapsed_seconds": null,
-        "cooldown_seconds": null,
-        "positions": null,
-        "max_positions": null
-      },
-      "symbol": "CAPUSDTM"
-    },
-    {
-      "type": "buy_rejected",
-      "account": "baseline",
-      "time": 1789922995.647601,
-      "net_pnl": null,
-      "fee": null,
-      "entry_fees": null,
-      "exit_fee": null,
-      "funding_model_cost": null,
-      "reason": "insufficient_ask_depth",
-      "action": "open",
-      "stage": "execution",
-      "context": {
-        "lots": null,
-        "unit_cost": null,
-        "budget": null,
-        "required_contracts": 11,
-        "ask_size": 4.0,
-        "cost": null,
-        "fee": null,
-        "cash": null,
-        "existing_cost": null,
-        "position_cap": null,
-        "immediate_net": null,
-        "weighted_drop_pct": null,
-        "max_position_loss": null,
-        "max_price_drop_pct": null,
-        "expected_net": null,
-        "target_net_profit": null,
-        "score": null,
-        "min_score": null,
-        "elapsed_seconds": null,
-        "cooldown_seconds": null,
-        "positions": null,
-        "max_positions": null
-      },
-      "symbol": "CAPUSDTM"
-    },
     {
       "type": "buy_rejected",
       "account": "baseline",
@@ -3360,6 +3289,82 @@
         "max_positions": null
       },
       "symbol": "GUSDTM"
+    },
+    {
+      "type": "buy_rejected",
+      "account": "baseline",
+      "time": 1789988946.601134,
+      "net_pnl": null,
+      "fee": null,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "reason": "insufficient_ask_depth",
+      "action": "open",
+      "stage": "execution",
+      "context": {
+        "lots": null,
+        "unit_cost": null,
+        "budget": null,
+        "required_contracts": 79,
+        "ask_size": 9.0,
+        "cost": null,
+        "fee": null,
+        "cash": null,
+        "existing_cost": null,
+        "position_cap": null,
+        "immediate_net": null,
+        "weighted_drop_pct": null,
+        "max_position_loss": null,
+        "max_price_drop_pct": null,
+        "expected_net": null,
+        "target_net_profit": null,
+        "score": null,
+        "min_score": null,
+        "elapsed_seconds": null,
+        "cooldown_seconds": null,
+        "positions": null,
+        "max_positions": null
+      },
+      "symbol": "GUSDTM"
+    },
+    {
+      "type": "buy_rejected",
+      "account": "baseline",
+      "time": 1789989251.3050199,
+      "net_pnl": null,
+      "fee": null,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "reason": "insufficient_ask_depth",
+      "action": "open",
+      "stage": "execution",
+      "context": {
+        "lots": null,
+        "unit_cost": null,
+        "budget": null,
+        "required_contracts": 78,
+        "ask_size": 8.0,
+        "cost": null,
+        "fee": null,
+        "cash": null,
+        "existing_cost": null,
+        "position_cap": null,
+        "immediate_net": null,
+        "weighted_drop_pct": null,
+        "max_position_loss": null,
+        "max_price_drop_pct": null,
+        "expected_net": null,
+        "target_net_profit": null,
+        "score": null,
+        "min_score": null,
+        "elapsed_seconds": null,
+        "cooldown_seconds": null,
+        "positions": null,
+        "max_positions": null
+      },
+      "symbol": "GUSDTM"
     }
   ],
   "limitations": [
@@ -3382,7 +3387,7 @@
     }
   ],
   "coinglass": {
-    "fetched_at": 1789988637.320435,
+    "fetched_at": 1789990468.686033,
     "symbols": {
       "2U2USDTM": {
         "eligible": false,
@@ -3437,7 +3442,7 @@
   },
   "health": {
     "mode": "paper",
-    "published_at": 1789990160.359036,
+    "published_at": 1789990474.390016,
     "worker_alive": true,
     "experiment_status": "running",
     "collection_error": false,
@@ -3452,9 +3457,9 @@
         "count": 2
       }
     ],
-    "last_tick_at": 1789989861.7146509,
-    "report_at": 1789988641.808744,
+    "last_tick_at": 1789990473.358109,
+    "report_at": 1789990473.358109,
     "last_attempt_at": null,
-    "last_poll_at": 1789990133.520309
+    "last_poll_at": 1789990473.5182998
   }
 }
