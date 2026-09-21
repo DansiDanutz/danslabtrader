@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "mode": "paper",
-  "published_at": 1789959257.232209,
+  "published_at": 1789959572.2041159,
   "experiment": {
     "start_at": 1789081915.0211258,
     "end_at": null,
-    "last_tick_at": 1789957451.515201,
-    "report_at": 1789957451.515201,
+    "last_tick_at": 1789959287.09246,
+    "report_at": 1789959287.09246,
     "next_audit_at": 1790118715.0211258,
     "mode": "paper",
     "status": "running",
@@ -36,8 +36,8 @@
       "positions": {},
       "unpriced_positions": [],
       "insufficient_exit_depth": [],
-      "checked_at": 1789957451.515201,
-      "last_success_at": 1789957451.515201,
+      "checked_at": 1789959287.09246,
+      "last_success_at": 1789959287.09246,
       "risk_halted": false
     },
     "liquidation_filter": {
@@ -61,17 +61,12 @@
       "positions": {},
       "unpriced_positions": [],
       "insufficient_exit_depth": [],
-      "checked_at": 1789957451.515201,
-      "last_success_at": 1789957451.515201,
+      "checked_at": 1789959287.09246,
+      "last_success_at": 1789959287.09246,
       "risk_halted": false
     }
   },
   "history": [
-    {
-      "time": 1789231175.072979,
-      "baseline_equity": 1024.9779760867907,
-      "liquidation_filter_equity": 1000.0
-    },
     {
       "time": 1789233003.7526212,
       "baseline_equity": 1024.8339503263117,
@@ -1746,12 +1741,17 @@
       "time": 1789957451.515201,
       "baseline_equity": 1011.7744627740339,
       "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1789959287.09246,
+      "baseline_equity": 1011.7744627740339,
+      "liquidation_filter_equity": 1000.0
     }
   ],
   "candidates": [
     {
       "symbol": "AKEUSDTM",
-      "score": 75.3998,
+      "score": 78.3352,
       "reasons": [
         "wide_spread",
         "atr_outside_bounds",
@@ -1772,7 +1772,7 @@
     },
     {
       "symbol": "2U2USDTM",
-      "score": 32.1048,
+      "score": 54.5297,
       "reasons": [
         "wide_spread",
         "atr_outside_bounds",
@@ -1791,12 +1791,14 @@
     },
     {
       "symbol": "GUSDTM",
-      "score": 78.9236,
+      "score": 76.5287,
       "reasons": [
+        "wide_spread",
         "strong_downtrend",
         "funding_outside_bounds"
       ],
       "liquidation_filter_reasons": [
+        "wide_spread",
         "strong_downtrend",
         "funding_outside_bounds",
         "coinglass_filter_not_met"
@@ -1823,7 +1825,7 @@
     },
     {
       "symbol": "B2USDTM",
-      "score": 25.9371,
+      "score": 27.0029,
       "reasons": [
         "low_turnover",
         "wide_spread",
@@ -3387,7 +3389,7 @@
     }
   ],
   "coinglass": {
-    "fetched_at": 1789957447.196233,
+    "fetched_at": 1789959282.570894,
     "symbols": {
       "2U2USDTM": {
         "eligible": false,
@@ -3442,7 +3444,7 @@
   },
   "health": {
     "mode": "paper",
-    "published_at": 1789959257.232209,
+    "published_at": 1789959572.2041159,
     "worker_alive": true,
     "experiment_status": "running",
     "collection_error": false,
@@ -3457,9 +3459,9 @@
         "count": 2
       }
     ],
-    "last_tick_at": 1789958980.345598,
-    "report_at": 1789957451.515201,
+    "last_tick_at": 1789959287.09246,
+    "report_at": 1789959287.09246,
     "last_attempt_at": null,
-    "last_poll_at": 1789959252.4340339
+    "last_poll_at": 1789959559.34626
   }
 }
