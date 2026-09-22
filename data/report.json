@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "mode": "paper",
-  "published_at": 1790114547.637055,
+  "published_at": 1790114863.1029062,
   "experiment": {
     "start_at": 1789081915.0211258,
     "end_at": null,
-    "last_tick_at": 1790113006.5480509,
-    "report_at": 1790113006.5480509,
+    "last_tick_at": 1790114842.9676511,
+    "report_at": 1790114842.9676511,
     "next_audit_at": 1790118715.0211258,
     "mode": "paper",
     "status": "running",
@@ -36,8 +36,8 @@
       "positions": {},
       "unpriced_positions": [],
       "insufficient_exit_depth": [],
-      "checked_at": 1790113006.5480509,
-      "last_success_at": 1790113006.5480509,
+      "checked_at": 1790114842.9676511,
+      "last_success_at": 1790114842.9676511,
       "risk_halted": false
     },
     "liquidation_filter": {
@@ -61,17 +61,12 @@
       "positions": {},
       "unpriced_positions": [],
       "insufficient_exit_depth": [],
-      "checked_at": 1790113006.5480509,
-      "last_success_at": 1790113006.5480509,
+      "checked_at": 1790114842.9676511,
+      "last_success_at": 1790114842.9676511,
       "risk_halted": false
     }
   },
   "history": [
-    {
-      "time": 1789339218.287672,
-      "baseline_equity": 1020.6602757659062,
-      "liquidation_filter_equity": 1000.0
-    },
     {
       "time": 1789341049.307709,
       "baseline_equity": 1020.6602757659062,
@@ -1746,20 +1741,27 @@
       "time": 1790113006.5480509,
       "baseline_equity": 1011.7744627740339,
       "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1790114842.9676511,
+      "baseline_equity": 1011.7744627740339,
+      "liquidation_filter_equity": 1000.0
     }
   ],
   "candidates": [
     {
       "symbol": "MUBARAKUSDTM",
-      "score": 26.77,
+      "score": 28.0846,
       "reasons": [
         "atr_outside_bounds",
         "not_lower_range",
+        "no_completed_rebound",
         "insufficient_rebound_room"
       ],
       "liquidation_filter_reasons": [
         "atr_outside_bounds",
         "not_lower_range",
+        "no_completed_rebound",
         "insufficient_rebound_room",
         "coinglass_filter_not_met"
       ],
@@ -1770,17 +1772,15 @@
     },
     {
       "symbol": "LONGXIAUSDTM",
-      "score": 84.4055,
+      "score": 81.0006,
       "reasons": [
         "atr_outside_bounds",
-        "no_completed_rebound",
         "strong_downtrend"
       ],
       "liquidation_filter_reasons": [
         "atr_outside_bounds",
-        "no_completed_rebound",
         "strong_downtrend",
-        "coinglass_missing_or_stale"
+        "coinglass_filter_not_met"
       ],
       "signal_eligible": false,
       "add_signal_eligible": false,
@@ -1789,15 +1789,13 @@
     },
     {
       "symbol": "ONEUSDTM",
-      "score": 77.8473,
+      "score": 81.5186,
       "reasons": [
-        "wide_spread",
-        "no_completed_rebound",
+        "atr_outside_bounds",
         "strong_downtrend"
       ],
       "liquidation_filter_reasons": [
-        "wide_spread",
-        "no_completed_rebound",
+        "atr_outside_bounds",
         "strong_downtrend",
         "coinglass_filter_not_met"
       ],
@@ -1808,17 +1806,15 @@
     },
     {
       "symbol": "2U2USDTM",
-      "score": 15.0455,
+      "score": 0,
       "reasons": [
         "wide_spread",
         "not_lower_range",
-        "no_completed_rebound",
         "insufficient_rebound_room"
       ],
       "liquidation_filter_reasons": [
         "wide_spread",
         "not_lower_range",
-        "no_completed_rebound",
         "insufficient_rebound_room",
         "coinglass_missing_or_stale"
       ],
@@ -1829,7 +1825,7 @@
     },
     {
       "symbol": "KERNELUSDTM",
-      "score": 26.6972,
+      "score": 17.5833,
       "reasons": [
         "wide_spread",
         "not_lower_range",
@@ -3387,7 +3383,7 @@
     }
   ],
   "coinglass": {
-    "fetched_at": 1790113001.8335,
+    "fetched_at": 1790114837.718498,
     "symbols": {
       "2U2USDTM": {
         "eligible": false,
@@ -3399,7 +3395,7 @@
       },
       "LONGXIAUSDTM": {
         "eligible": false,
-        "reason": "data_unavailable"
+        "reason": "liquidation_burst_below_3x"
       },
       "MUBARAKUSDTM": {
         "eligible": false,
@@ -3442,7 +3438,7 @@
   },
   "health": {
     "mode": "paper",
-    "published_at": 1790114547.637055,
+    "published_at": 1790114863.1029062,
     "worker_alive": true,
     "experiment_status": "running",
     "collection_error": false,
@@ -3453,9 +3449,9 @@
         "count": 5
       }
     ],
-    "last_tick_at": 1790114534.727457,
-    "report_at": 1790113006.5480509,
+    "last_tick_at": 1790114842.9676511,
+    "report_at": 1790114842.9676511,
     "last_attempt_at": null,
-    "last_poll_at": 1790114534.8894799
+    "last_poll_at": 1790114843.128402
   }
 }
