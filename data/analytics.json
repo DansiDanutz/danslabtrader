@@ -2,23 +2,23 @@
   "schema": 1,
   "mode": "paper",
   "status": "ok",
-  "generated_at": 1790110727.7878,
-  "source_last_tick_at": 1790110554.209464,
+  "generated_at": 1790111043.6851351,
+  "source_last_tick_at": 1790110863.2153769,
   "start_at": 1789081915.0211258,
   "windows": {
     "all": {
       "start_at": 1789081915.0211258,
-      "end_at": 1790110727.7878,
+      "end_at": 1790111043.6851351,
       "checks": {
-        "attempts": 2779,
-        "successful": 2779,
+        "attempts": 2780,
+        "successful": 2780,
         "skipped": 0,
-        "expected_approximately": 3430,
-        "coverage_ratio": 0.810204081632653,
+        "expected_approximately": 3431,
+        "coverage_ratio": 0.8102593995919557,
         "max_gap_seconds": 82243.37146091461
       },
       "discovery": {
-        "distinct_shortlist_coins": 35,
+        "distinct_shortlist_coins": 36,
         "shortlist_symbols": [
           "2U2USDTM",
           "AINUSDTM",
@@ -38,6 +38,7 @@
           "GENIUSUSDTM",
           "GRIFFAINUSDTM",
           "GUSDTM",
+          "KERNELUSDTM",
           "LABUSDTM",
           "LONGXIAUSDTM",
           "MARSCOINUSDTM",
@@ -56,11 +57,11 @@
           "STGUSDTM",
           "UAIUSDTM"
         ],
-        "distinct_scan_snapshots": 12,
-        "new_discovery_scans": 11,
-        "latest_scan_at": 1790068947.5408719,
-        "latest_liquid_contracts": 168,
-        "symbol_observations": 14020,
+        "distinct_scan_snapshots": 13,
+        "new_discovery_scans": 12,
+        "latest_scan_at": 1790110857.0882611,
+        "latest_liquid_contracts": 175,
+        "symbol_observations": 14025,
         "baseline_eligible_observations": 529,
         "filtered_eligible_observations": 0
       },
@@ -84,7 +85,7 @@
           "marked_equity_change": 11.77446277403385,
           "start_equity": 1000.0,
           "end_equity": 1011.7744627740339,
-          "end_mark_age_seconds": 173.5783360004425,
+          "end_mark_age_seconds": 180.46975827217102,
           "observed_max_drawdown": 28.509840218955333,
           "observed_max_drawdown_pct": 2.7791775277689985,
           "expectancy": 0.5352028533651867,
@@ -141,7 +142,7 @@
           "buy_rejections": {
             "recorded": 174,
             "coverage": "partial",
-            "instrumented_checks": 2769,
+            "instrumented_checks": 2770,
             "legacy_checks": 10,
             "first_instrumented_at": 1789085135.240156,
             "reasons": [
@@ -178,7 +179,7 @@
             ]
           },
           "equity_sampling": {
-            "tick_samples": 2769,
+            "tick_samples": 2770,
             "estimated_tick_samples": 776,
             "resolution": "mixed"
           },
@@ -259,7 +260,7 @@
             "per_symbol_total": 13,
             "exposure": {
               "observed_seconds": 293132.81044101715,
-              "fraction": 0.28492337958498754,
+              "fraction": 0.28483592061172913,
               "coverage": "complete_recorded_lifecycles",
               "unknown_lifecycles": 0
             },
@@ -1135,7 +1136,7 @@
           "marked_equity_change": 0.0,
           "start_equity": 1000.0,
           "end_equity": 1000.0,
-          "end_mark_age_seconds": 173.5783360004425,
+          "end_mark_age_seconds": 180.46975827217102,
           "observed_max_drawdown": 0.0,
           "observed_max_drawdown_pct": 0.0,
           "expectancy": null,
@@ -1173,13 +1174,13 @@
           "buy_rejections": {
             "recorded": 0,
             "coverage": "partial",
-            "instrumented_checks": 2769,
+            "instrumented_checks": 2770,
             "legacy_checks": 10,
             "first_instrumented_at": 1789085135.240156,
             "reasons": []
           },
           "equity_sampling": {
-            "tick_samples": 2769,
+            "tick_samples": 2770,
             "estimated_tick_samples": 0,
             "resolution": "mixed"
           },
@@ -1447,6 +1448,26 @@
             "losses": 0,
             "net_closed_pnl": 0.0
           }
+        },
+        {
+          "day": "2026-09-23",
+          "checks": 1,
+          "baseline": {
+            "entries": 0,
+            "adds": 0,
+            "closes": 0,
+            "wins": 0,
+            "losses": 0,
+            "net_closed_pnl": 0.0
+          },
+          "liquidation_filter": {
+            "entries": 0,
+            "adds": 0,
+            "closes": 0,
+            "wins": 0,
+            "losses": 0,
+            "net_closed_pnl": 0.0
+          }
         }
       ],
       "coins": [
@@ -1474,7 +1495,7 @@
         },
         {
           "symbol": "2U2USDTM",
-          "observations": 887,
+          "observations": 888,
           "baseline_eligible": 2,
           "filtered_eligible": 0,
           "baseline": {
@@ -1518,7 +1539,7 @@
         },
         {
           "symbol": "LONGXIAUSDTM",
-          "observations": 703,
+          "observations": 704,
           "baseline_eligible": 0,
           "filtered_eligible": 0,
           "baseline": {
@@ -1672,7 +1693,7 @@
         },
         {
           "symbol": "ONEUSDTM",
-          "observations": 555,
+          "observations": 556,
           "baseline_eligible": 1,
           "filtered_eligible": 0,
           "baseline": {
@@ -2177,6 +2198,28 @@
           }
         },
         {
+          "symbol": "MUBARAKUSDTM",
+          "observations": 138,
+          "baseline_eligible": 0,
+          "filtered_eligible": 0,
+          "baseline": {
+            "entries": 0,
+            "adds": 0,
+            "closes": 0,
+            "wins": 0,
+            "losses": 0,
+            "net_closed_pnl": 0.0
+          },
+          "liquidation_filter": {
+            "entries": 0,
+            "adds": 0,
+            "closes": 0,
+            "wins": 0,
+            "losses": 0,
+            "net_closed_pnl": 0.0
+          }
+        },
+        {
           "symbol": "FORMUSDTM",
           "observations": 137,
           "baseline_eligible": 0,
@@ -2199,8 +2242,8 @@
           }
         },
         {
-          "symbol": "MUBARAKUSDTM",
-          "observations": 137,
+          "symbol": "KERNELUSDTM",
+          "observations": 1,
           "baseline_eligible": 0,
           "filtered_eligible": 0,
           "baseline": {
@@ -2223,30 +2266,32 @@
       ]
     },
     "24h": {
-      "start_at": 1790024327.7878,
-      "end_at": 1790110727.7878,
+      "start_at": 1790024643.6851351,
+      "end_at": 1790111043.6851351,
       "checks": {
-        "attempts": 137,
-        "successful": 137,
+        "attempts": 138,
+        "successful": 138,
         "skipped": 0,
         "expected_approximately": 289,
-        "coverage_ratio": 0.4740484429065744,
-        "max_gap_seconds": 44631.84618806839
+        "coverage_ratio": 0.47750865051903113,
+        "max_gap_seconds": 44315.9488530159
       },
       "discovery": {
-        "distinct_shortlist_coins": 5,
+        "distinct_shortlist_coins": 7,
         "shortlist_symbols": [
           "2U2USDTM",
           "FORMUSDTM",
+          "KERNELUSDTM",
           "LONGXIAUSDTM",
           "MUBARAKUSDTM",
+          "ONEUSDTM",
           "UAIUSDTM"
         ],
-        "distinct_scan_snapshots": 1,
-        "new_discovery_scans": 1,
-        "latest_scan_at": 1790068947.5408719,
-        "latest_liquid_contracts": 168,
-        "symbol_observations": 685,
+        "distinct_scan_snapshots": 2,
+        "new_discovery_scans": 2,
+        "latest_scan_at": 1790110857.0882611,
+        "latest_liquid_contracts": 175,
+        "symbol_observations": 690,
         "baseline_eligible_observations": 0,
         "filtered_eligible_observations": 0
       },
@@ -2270,7 +2315,7 @@
           "marked_equity_change": 0.0,
           "start_equity": 1011.7744627740339,
           "end_equity": 1011.7744627740339,
-          "end_mark_age_seconds": 173.5783360004425,
+          "end_mark_age_seconds": 180.46975827217102,
           "observed_max_drawdown": 0.0,
           "observed_max_drawdown_pct": 0.0,
           "expectancy": null,
@@ -2308,13 +2353,13 @@
           "buy_rejections": {
             "recorded": 0,
             "coverage": "complete",
-            "instrumented_checks": 137,
+            "instrumented_checks": 138,
             "legacy_checks": 0,
             "first_instrumented_at": 1790068959.6339881,
             "reasons": []
           },
           "equity_sampling": {
-            "tick_samples": 137,
+            "tick_samples": 138,
             "estimated_tick_samples": 0,
             "resolution": "mixed"
           },
@@ -2367,7 +2412,7 @@
           "marked_equity_change": 0.0,
           "start_equity": 1000.0,
           "end_equity": 1000.0,
-          "end_mark_age_seconds": 173.5783360004425,
+          "end_mark_age_seconds": 180.46975827217102,
           "observed_max_drawdown": 0.0,
           "observed_max_drawdown_pct": 0.0,
           "expectancy": null,
@@ -2405,13 +2450,13 @@
           "buy_rejections": {
             "recorded": 0,
             "coverage": "complete",
-            "instrumented_checks": 137,
+            "instrumented_checks": 138,
             "legacy_checks": 0,
             "first_instrumented_at": 1790068959.6339881,
             "reasons": []
           },
           "equity_sampling": {
-            "tick_samples": 137,
+            "tick_samples": 138,
             "estimated_tick_samples": 0,
             "resolution": "mixed"
           },
@@ -2441,8 +2486,8 @@
       },
       "daily": [
         {
-          "day": "2026-09-21",
-          "checks": 0,
+          "day": "2026-09-22",
+          "checks": 137,
           "baseline": {
             "entries": 0,
             "adds": 0,
@@ -2461,8 +2506,8 @@
           }
         },
         {
-          "day": "2026-09-22",
-          "checks": 137,
+          "day": "2026-09-23",
+          "checks": 1,
           "baseline": {
             "entries": 0,
             "adds": 0,
@@ -2484,7 +2529,51 @@
       "coins": [
         {
           "symbol": "2U2USDTM",
-          "observations": 137,
+          "observations": 138,
+          "baseline_eligible": 0,
+          "filtered_eligible": 0,
+          "baseline": {
+            "entries": 0,
+            "adds": 0,
+            "closes": 0,
+            "wins": 0,
+            "losses": 0,
+            "net_closed_pnl": 0.0
+          },
+          "liquidation_filter": {
+            "entries": 0,
+            "adds": 0,
+            "closes": 0,
+            "wins": 0,
+            "losses": 0,
+            "net_closed_pnl": 0.0
+          }
+        },
+        {
+          "symbol": "LONGXIAUSDTM",
+          "observations": 138,
+          "baseline_eligible": 0,
+          "filtered_eligible": 0,
+          "baseline": {
+            "entries": 0,
+            "adds": 0,
+            "closes": 0,
+            "wins": 0,
+            "losses": 0,
+            "net_closed_pnl": 0.0
+          },
+          "liquidation_filter": {
+            "entries": 0,
+            "adds": 0,
+            "closes": 0,
+            "wins": 0,
+            "losses": 0,
+            "net_closed_pnl": 0.0
+          }
+        },
+        {
+          "symbol": "MUBARAKUSDTM",
+          "observations": 138,
           "baseline_eligible": 0,
           "filtered_eligible": 0,
           "baseline": {
@@ -2527,52 +2616,52 @@
           }
         },
         {
-          "symbol": "LONGXIAUSDTM",
-          "observations": 137,
-          "baseline_eligible": 0,
-          "filtered_eligible": 0,
-          "baseline": {
-            "entries": 0,
-            "adds": 0,
-            "closes": 0,
-            "wins": 0,
-            "losses": 0,
-            "net_closed_pnl": 0.0
-          },
-          "liquidation_filter": {
-            "entries": 0,
-            "adds": 0,
-            "closes": 0,
-            "wins": 0,
-            "losses": 0,
-            "net_closed_pnl": 0.0
-          }
-        },
-        {
-          "symbol": "MUBARAKUSDTM",
-          "observations": 137,
-          "baseline_eligible": 0,
-          "filtered_eligible": 0,
-          "baseline": {
-            "entries": 0,
-            "adds": 0,
-            "closes": 0,
-            "wins": 0,
-            "losses": 0,
-            "net_closed_pnl": 0.0
-          },
-          "liquidation_filter": {
-            "entries": 0,
-            "adds": 0,
-            "closes": 0,
-            "wins": 0,
-            "losses": 0,
-            "net_closed_pnl": 0.0
-          }
-        },
-        {
           "symbol": "UAIUSDTM",
           "observations": 137,
+          "baseline_eligible": 0,
+          "filtered_eligible": 0,
+          "baseline": {
+            "entries": 0,
+            "adds": 0,
+            "closes": 0,
+            "wins": 0,
+            "losses": 0,
+            "net_closed_pnl": 0.0
+          },
+          "liquidation_filter": {
+            "entries": 0,
+            "adds": 0,
+            "closes": 0,
+            "wins": 0,
+            "losses": 0,
+            "net_closed_pnl": 0.0
+          }
+        },
+        {
+          "symbol": "KERNELUSDTM",
+          "observations": 1,
+          "baseline_eligible": 0,
+          "filtered_eligible": 0,
+          "baseline": {
+            "entries": 0,
+            "adds": 0,
+            "closes": 0,
+            "wins": 0,
+            "losses": 0,
+            "net_closed_pnl": 0.0
+          },
+          "liquidation_filter": {
+            "entries": 0,
+            "adds": 0,
+            "closes": 0,
+            "wins": 0,
+            "losses": 0,
+            "net_closed_pnl": 0.0
+          }
+        },
+        {
+          "symbol": "ONEUSDTM",
+          "observations": 1,
           "baseline_eligible": 0,
           "filtered_eligible": 0,
           "baseline": {
@@ -2595,8 +2684,8 @@
       ]
     },
     "7d": {
-      "start_at": 1789505927.7878,
-      "end_at": 1790110727.7878,
+      "start_at": 1789506243.6851351,
+      "end_at": 1790111043.6851351,
       "checks": {
         "attempts": 1453,
         "successful": 1453,
@@ -2606,12 +2695,11 @@
         "max_gap_seconds": 82243.37146091461
       },
       "discovery": {
-        "distinct_shortlist_coins": 24,
+        "distinct_shortlist_coins": 23,
         "shortlist_symbols": [
           "2U2USDTM",
           "AINUSDTM",
           "AKEUSDTM",
-          "ARKUSDTM",
           "AVAUSDTM",
           "B2USDTM",
           "BRUSDTM",
@@ -2622,9 +2710,9 @@
           "FUSDTM",
           "GENIUSUSDTM",
           "GUSDTM",
+          "KERNELUSDTM",
           "LONGXIAUSDTM",
           "MARSCOINUSDTM",
-          "MTLUSDTM",
           "MUBARAKUSDTM",
           "MYXUSDTM",
           "ONEUSDTM",
@@ -2634,9 +2722,9 @@
           "UAIUSDTM"
         ],
         "distinct_scan_snapshots": 8,
-        "new_discovery_scans": 7,
-        "latest_scan_at": 1790068947.5408719,
-        "latest_liquid_contracts": 168,
+        "new_discovery_scans": 8,
+        "latest_scan_at": 1790110857.0882611,
+        "latest_liquid_contracts": 175,
         "symbol_observations": 7308,
         "baseline_eligible_observations": 184,
         "filtered_eligible_observations": 0
@@ -2658,12 +2746,12 @@
           "profit_factor_state": "finite",
           "fees_paid": 0.5151469668036,
           "modeled_funding_on_closes": 0.018726271704769176,
-          "marked_equity_change": -3.610315838508427,
-          "start_equity": 1015.3847786125423,
+          "marked_equity_change": -2.1714676657084055,
+          "start_equity": 1013.9459304397423,
           "end_equity": 1011.7744627740339,
-          "end_mark_age_seconds": 173.5783360004425,
-          "observed_max_drawdown": 18.05730062887892,
-          "observed_max_drawdown_pct": 1.7783702305989908,
+          "end_mark_age_seconds": 180.46975827217102,
+          "observed_max_drawdown": 17.64598831267051,
+          "observed_max_drawdown_pct": 1.738566464900921,
           "expectancy": -1.1775969720580515,
           "close_reasons": [
             {
@@ -2720,7 +2808,7 @@
             "coverage": "complete",
             "instrumented_checks": 1453,
             "legacy_checks": 0,
-            "first_instrumented_at": 1789505989.1171892,
+            "first_instrumented_at": 1789506300.546506,
             "reasons": [
               {
                 "reason": "below_min_score",
@@ -2756,7 +2844,7 @@
           },
           "equity_sampling": {
             "tick_samples": 1453,
-            "estimated_tick_samples": 210,
+            "estimated_tick_samples": 209,
             "resolution": "mixed"
           },
           "performance": {
@@ -2790,8 +2878,8 @@
             ],
             "per_symbol_total": 4,
             "exposure": {
-              "observed_seconds": 70715.36857366562,
-              "fraction": 0.1169235591495794,
+              "observed_seconds": 70399.47123861313,
+              "fraction": 0.11640124212733652,
               "coverage": "complete_recorded_lifecycles",
               "unknown_lifecycles": 0
             },
@@ -3059,7 +3147,7 @@
           "marked_equity_change": 0.0,
           "start_equity": 1000.0,
           "end_equity": 1000.0,
-          "end_mark_age_seconds": 173.5783360004425,
+          "end_mark_age_seconds": 180.46975827217102,
           "observed_max_drawdown": 0.0,
           "observed_max_drawdown_pct": 0.0,
           "expectancy": null,
@@ -3099,7 +3187,7 @@
             "coverage": "complete",
             "instrumented_checks": 1453,
             "legacy_checks": 0,
-            "first_instrumented_at": 1789505989.1171892,
+            "first_instrumented_at": 1789506300.546506,
             "reasons": []
           },
           "equity_sampling": {
@@ -3132,26 +3220,6 @@
         }
       },
       "daily": [
-        {
-          "day": "2026-09-15",
-          "checks": 1,
-          "baseline": {
-            "entries": 0,
-            "adds": 0,
-            "closes": 0,
-            "wins": 0,
-            "losses": 0,
-            "net_closed_pnl": 0.0
-          },
-          "liquidation_filter": {
-            "entries": 0,
-            "adds": 0,
-            "closes": 0,
-            "wins": 0,
-            "losses": 0,
-            "net_closed_pnl": 0.0
-          }
-        },
         {
           "day": "2026-09-16",
           "checks": 282,
@@ -3291,6 +3359,26 @@
             "losses": 0,
             "net_closed_pnl": 0.0
           }
+        },
+        {
+          "day": "2026-09-23",
+          "checks": 1,
+          "baseline": {
+            "entries": 0,
+            "adds": 0,
+            "closes": 0,
+            "wins": 0,
+            "losses": 0,
+            "net_closed_pnl": 0.0
+          },
+          "liquidation_filter": {
+            "entries": 0,
+            "adds": 0,
+            "closes": 0,
+            "wins": 0,
+            "losses": 0,
+            "net_closed_pnl": 0.0
+          }
         }
       ],
       "coins": [
@@ -3340,7 +3428,7 @@
         },
         {
           "symbol": "2U2USDTM",
-          "observations": 691,
+          "observations": 692,
           "baseline_eligible": 2,
           "filtered_eligible": 0,
           "baseline": {
@@ -3384,7 +3472,7 @@
         },
         {
           "symbol": "ONEUSDTM",
-          "observations": 555,
+          "observations": 556,
           "baseline_eligible": 1,
           "filtered_eligible": 0,
           "baseline": {
@@ -3406,7 +3494,7 @@
         },
         {
           "symbol": "CAPUSDTM",
-          "observations": 328,
+          "observations": 327,
           "baseline_eligible": 47,
           "filtered_eligible": 0,
           "baseline": {
@@ -3428,7 +3516,7 @@
         },
         {
           "symbol": "AINUSDTM",
-          "observations": 309,
+          "observations": 308,
           "baseline_eligible": 0,
           "filtered_eligible": 0,
           "baseline": {
@@ -3450,7 +3538,7 @@
         },
         {
           "symbol": "BRUSDTM",
-          "observations": 309,
+          "observations": 308,
           "baseline_eligible": 0,
           "filtered_eligible": 0,
           "baseline": {
@@ -3669,30 +3757,8 @@
           }
         },
         {
-          "symbol": "FORMUSDTM",
-          "observations": 137,
-          "baseline_eligible": 0,
-          "filtered_eligible": 0,
-          "baseline": {
-            "entries": 0,
-            "adds": 0,
-            "closes": 0,
-            "wins": 0,
-            "losses": 0,
-            "net_closed_pnl": 0.0
-          },
-          "liquidation_filter": {
-            "entries": 0,
-            "adds": 0,
-            "closes": 0,
-            "wins": 0,
-            "losses": 0,
-            "net_closed_pnl": 0.0
-          }
-        },
-        {
           "symbol": "LONGXIAUSDTM",
-          "observations": 137,
+          "observations": 138,
           "baseline_eligible": 0,
           "filtered_eligible": 0,
           "baseline": {
@@ -3714,6 +3780,28 @@
         },
         {
           "symbol": "MUBARAKUSDTM",
+          "observations": 138,
+          "baseline_eligible": 0,
+          "filtered_eligible": 0,
+          "baseline": {
+            "entries": 0,
+            "adds": 0,
+            "closes": 0,
+            "wins": 0,
+            "losses": 0,
+            "net_closed_pnl": 0.0
+          },
+          "liquidation_filter": {
+            "entries": 0,
+            "adds": 0,
+            "closes": 0,
+            "wins": 0,
+            "losses": 0,
+            "net_closed_pnl": 0.0
+          }
+        },
+        {
+          "symbol": "FORMUSDTM",
           "observations": 137,
           "baseline_eligible": 0,
           "filtered_eligible": 0,
@@ -3779,29 +3867,7 @@
           }
         },
         {
-          "symbol": "ARKUSDTM",
-          "observations": 1,
-          "baseline_eligible": 0,
-          "filtered_eligible": 0,
-          "baseline": {
-            "entries": 0,
-            "adds": 0,
-            "closes": 0,
-            "wins": 0,
-            "losses": 0,
-            "net_closed_pnl": 0.0
-          },
-          "liquidation_filter": {
-            "entries": 0,
-            "adds": 0,
-            "closes": 0,
-            "wins": 0,
-            "losses": 0,
-            "net_closed_pnl": 0.0
-          }
-        },
-        {
-          "symbol": "MTLUSDTM",
+          "symbol": "KERNELUSDTM",
           "observations": 1,
           "baseline_eligible": 0,
           "filtered_eligible": 0,
