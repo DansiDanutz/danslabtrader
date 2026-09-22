@@ -1,131 +1,20 @@
-# DansLabTrader — weekly paper report
-
-PAPER ONLY.
-
-weekly: 1608 observed cycles; 8 completed paper trades.
-
-```json
 {
   "schema": 1,
-  "id": "weekly-20260921T060000Z",
-  "kind": "weekly",
+  "id": "audit48h-20260922T231155Z",
+  "kind": "audit48h",
   "mode": "paper",
   "published_at": 1790118991.34637,
-  "generated_at": 1789970413.8294022,
+  "generated_at": 1790118720.3116329,
   "window": {
-    "start_at": 1789365600.0,
-    "end_at": 1789970400.0,
-    "duration_seconds": 604800.0,
+    "start_at": 1789945915.0211258,
+    "end_at": 1790118715.0211258,
+    "duration_seconds": 172800.0,
     "boundary_convention": "(start, end]"
   },
   "accounts": {
     "baseline": {
-      "start_mark_age_seconds": 707.8709030151367,
-      "end_mark_age_seconds": 76.84414315223694,
-      "equity_change": -8.885812991872399,
-      "closed_trade_net_pnl": -8.885812991872303,
-      "non_realized_equity_change_residual": -9.592326932761353e-14,
-      "fills": 19,
-      "opens": 8,
-      "adds": 3,
-      "closed_trades": 8,
-      "wins": 5,
-      "losses": 3,
-      "breakeven": 0,
-      "win_rate": 0.625,
-      "expectancy_net_per_close": -1.1107266239840379,
-      "gross_winning_net": 11.640851268313698,
-      "gross_losing_net": -20.526664260186,
-      "fees_paid_during_window": 0.6992677781676,
-      "lifetime_funding_on_window_closes": 0.018726271704769176,
-      "period_funding_accrual": null,
-      "observed_max_drawdown": 24.712804767054877,
-      "observed_max_drawdown_pct": 2.4179873517844968,
-      "risk_halts": 0,
-      "deferred_exits": 65,
-      "performance": {
-        "closed_trades": null,
-        "profit_factor": null,
-        "average_hold_seconds": null,
-        "known_hold_trades": null,
-        "unknown_hold_trades": null,
-        "trades_total": null,
-        "per_symbol_total": null,
-        "profit_factor_state": "unavailable",
-        "exposure": {
-          "observed_seconds": null,
-          "fraction": null,
-          "unknown_lifecycles": null,
-          "coverage": "unavailable"
-        },
-        "per_symbol_pnl": [],
-        "trades": [],
-        "baseline_filter_blocked": null,
-        "excursion_definition": "Observed lifetime net-USDT marks include modeled exit slippage, entry/exit fees and prior-rate funding; no intratick extrema are known."
-      },
-      "start_mark": {
-        "time": 1789364892.129097,
-        "equity": 1020.6602757659062
-      },
-      "end_mark": {
-        "time": 1789970323.1558568,
-        "equity": 1011.7744627740339
-      },
-      "equity_sample_coverage": {
-        "observed": 1608,
-        "expected_approximately": null,
-        "max_gap_seconds": 82243.37146091461,
-        "observation_ratio": null,
-        "first_at": 1789365809.0341818,
-        "last_at": 1789970323.1558568
-      },
-      "buy_rejections": {
-        "recorded": 81,
-        "instrumented_checks": 1608,
-        "legacy_checks": 0,
-        "coverage": "complete",
-        "reasons": [
-          {
-            "reason": "below_min_score",
-            "action": "open",
-            "stage": "selection",
-            "count": 23
-          },
-          {
-            "reason": "insufficient_ask_depth",
-            "action": "add",
-            "stage": "execution",
-            "count": 4
-          },
-          {
-            "reason": "insufficient_ask_depth",
-            "action": "open",
-            "stage": "execution",
-            "count": 45
-          },
-          {
-            "reason": "insufficient_ask_depth",
-            "action": "open",
-            "stage": "rotation_trial",
-            "count": 1
-          },
-          {
-            "reason": "position_capacity",
-            "action": "open",
-            "stage": "selection",
-            "count": 8
-          }
-        ]
-      },
-      "equity_sampling": {
-        "tick_samples": 1608,
-        "estimated_tick_samples": 334,
-        "resolution": "mixed"
-      }
-    },
-    "liquidation_filter": {
-      "start_mark_age_seconds": 707.8709030151367,
-      "end_mark_age_seconds": 76.84414315223694,
+      "start_mark_age_seconds": 1272.078447818756,
+      "end_mark_age_seconds": 237.09163975715637,
       "equity_change": 0.0,
       "closed_trade_net_pnl": 0,
       "non_realized_equity_change_residual": 0.0,
@@ -168,30 +57,116 @@ weekly: 1608 observed cycles; 8 completed paper trades.
         "excursion_definition": "Observed lifetime net-USDT marks include modeled exit slippage, entry/exit fees and prior-rate funding; no intratick extrema are known."
       },
       "start_mark": {
-        "time": 1789364892.129097,
+        "time": 1789944642.942678,
+        "equity": 1011.7744627740339
+      },
+      "end_mark": {
+        "time": 1790118477.929486,
+        "equity": 1011.7744627740339
+      },
+      "equity_sample_coverage": {
+        "observed": 408,
+        "expected_approximately": null,
+        "max_gap_seconds": 47947.635169029236,
+        "observation_ratio": null,
+        "first_at": 1789946165.9741771,
+        "last_at": 1790118477.929486
+      },
+      "buy_rejections": {
+        "recorded": 31,
+        "instrumented_checks": 408,
+        "legacy_checks": 0,
+        "coverage": "complete",
+        "reasons": [
+          {
+            "reason": "below_min_score",
+            "action": "open",
+            "stage": "selection",
+            "count": 28
+          },
+          {
+            "reason": "insufficient_ask_depth",
+            "action": "open",
+            "stage": "execution",
+            "count": 3
+          }
+        ]
+      },
+      "equity_sampling": {
+        "tick_samples": 408,
+        "estimated_tick_samples": 0,
+        "resolution": "mixed"
+      }
+    },
+    "liquidation_filter": {
+      "start_mark_age_seconds": 1272.078447818756,
+      "end_mark_age_seconds": 237.09163975715637,
+      "equity_change": 0.0,
+      "closed_trade_net_pnl": 0,
+      "non_realized_equity_change_residual": 0.0,
+      "fills": 0,
+      "opens": 0,
+      "adds": 0,
+      "closed_trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "breakeven": 0,
+      "win_rate": null,
+      "expectancy_net_per_close": null,
+      "gross_winning_net": 0,
+      "gross_losing_net": 0,
+      "fees_paid_during_window": 0,
+      "lifetime_funding_on_window_closes": 0,
+      "period_funding_accrual": null,
+      "observed_max_drawdown": 0.0,
+      "observed_max_drawdown_pct": 0.0,
+      "risk_halts": 0,
+      "deferred_exits": 0,
+      "performance": {
+        "closed_trades": null,
+        "profit_factor": null,
+        "average_hold_seconds": null,
+        "known_hold_trades": null,
+        "unknown_hold_trades": null,
+        "trades_total": null,
+        "per_symbol_total": null,
+        "profit_factor_state": "unavailable",
+        "exposure": {
+          "observed_seconds": null,
+          "fraction": null,
+          "unknown_lifecycles": null,
+          "coverage": "unavailable"
+        },
+        "per_symbol_pnl": [],
+        "trades": [],
+        "baseline_filter_blocked": null,
+        "excursion_definition": "Observed lifetime net-USDT marks include modeled exit slippage, entry/exit fees and prior-rate funding; no intratick extrema are known."
+      },
+      "start_mark": {
+        "time": 1789944642.942678,
         "equity": 1000.0
       },
       "end_mark": {
-        "time": 1789970323.1558568,
+        "time": 1790118477.929486,
         "equity": 1000.0
       },
       "equity_sample_coverage": {
-        "observed": 1608,
+        "observed": 408,
         "expected_approximately": null,
-        "max_gap_seconds": 82243.37146091461,
+        "max_gap_seconds": 47947.635169029236,
         "observation_ratio": null,
-        "first_at": 1789365809.0341818,
-        "last_at": 1789970323.1558568
+        "first_at": 1789946165.9741771,
+        "last_at": 1790118477.929486
       },
       "buy_rejections": {
         "recorded": 0,
-        "instrumented_checks": 1608,
+        "instrumented_checks": 408,
         "legacy_checks": 0,
         "coverage": "complete",
         "reasons": []
       },
       "equity_sampling": {
-        "tick_samples": 1608,
+        "tick_samples": 408,
         "estimated_tick_samples": 0,
         "resolution": "mixed"
       }
@@ -200,29 +175,29 @@ weekly: 1608 observed cycles; 8 completed paper trades.
   "severity": "warning",
   "data": {
     "cycle_coverage": {
-      "observed": 1608,
-      "expected_approximately": 2016,
-      "max_gap_seconds": 82243.37146091461,
-      "observation_ratio": 0.7976190476190477,
-      "first_at": 1789365809.0341818,
-      "last_at": 1789970323.1558568
+      "observed": 408,
+      "expected_approximately": 576,
+      "max_gap_seconds": 47947.635169029236,
+      "observation_ratio": 0.7083333333333334,
+      "first_at": 1789946165.9741771,
+      "last_at": 1790118477.929486
     },
-    "observation_records": 1608,
+    "observation_records": 408,
     "skipped_records": 0,
     "future_quote_observations": 0,
     "errors": [
       {
         "category": "coinglass_data",
-        "count": 529
+        "count": 408
       },
       {
         "category": "unknown",
-        "count": 483
+        "count": 174
       }
     ]
   },
   "comparison": {
-    "filtered_minus_baseline_equity_change": 8.885812991872399
+    "filtered_minus_baseline_equity_change": 0.0
   },
   "findings": [
     {
@@ -238,19 +213,11 @@ weekly: 1608 observed cycles; 8 completed paper trades.
       "severity": "warning"
     },
     {
-      "subject": "baseline",
-      "severity": "warning"
-    },
-    {
-      "subject": "baseline",
-      "severity": "warning"
-    },
-    {
       "subject": "Evidence",
       "severity": "info"
     }
   ],
-  "summary": "weekly: 1608 observed cycles; 8 completed paper trades.",
+  "summary": "audit48h: 408 observed cycles; 0 completed paper trades.",
   "limitations": [
     "PAPER ONLY: two independent simulations of the same starting account, not pooled capital.",
     "Periodic audits measure observed paper results; they do not establish future profitability.",
@@ -261,4 +228,3 @@ weekly: 1608 observed cycles; 8 completed paper trades.
     "Audit boundaries do not close positions or reset balances; open exposure stays in total equity."
   ]
 }
-```
