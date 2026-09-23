@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "mode": "paper",
-  "published_at": 1790165898.723686,
+  "published_at": 1790166574.818409,
   "experiment": {
     "start_at": 1789081915.0211258,
     "end_at": null,
-    "last_tick_at": 1790164648.664051,
-    "report_at": 1790164648.664051,
+    "last_tick_at": 1790166480.691979,
+    "report_at": 1790166480.691979,
     "next_audit_at": 1790291515.0211258,
     "mode": "paper",
     "status": "running",
@@ -17,10 +17,10 @@
   "accounts": {
     "baseline": {
       "cash": 962.0664221738379,
-      "equity": 1011.2603414418338,
+      "equity": 1011.0256293336458,
       "realized_pnl": 11.774462774034108,
-      "unrealized_net_pnl": -0.5141213322002915,
-      "daily_pnl": -0.514121332200034,
+      "unrealized_net_pnl": -0.7488334403882693,
+      "daily_pnl": -0.7488334403880117,
       "unpaid_liabilities": 0.0,
       "trade_count": 22,
       "total_fees": 2.04229248408636,
@@ -28,7 +28,7 @@
       "max_drawdown": 28.509840218955333,
       "max_drawdown_pct": 2.7791775277689985,
       "initial_equity": 1000.0,
-      "experiment_pnl": 11.260341441833816,
+      "experiment_pnl": 11.025629333645838,
       "fills": 54,
       "mode": "paper",
       "equity_is_estimate": true,
@@ -45,23 +45,25 @@
           "lot_size": 1,
           "average_price": 0.057101418,
           "last_fill": 0.057101418,
-          "last_bid": 0.05659,
-          "last_mark": 0.05664,
-          "score": 81.8949,
-          "unrealized_net_pnl": -0.5141213321999976,
-          "valuation_bid": 0.05659,
+          "last_bid": 0.05632,
+          "last_mark": 0.05631,
+          "score": 82.3208,
+          "unrealized_net_pnl": -0.7488334403880003,
+          "valuation_bid": 0.05632,
           "opened_at": 1790161289.6348531,
           "last_fill_at": 1790161289.6348531,
-          "quote_time": 1790164634.37,
+          "quote_time": 1790166360.356,
           "equity_is_estimate": true
         }
       },
-      "unpriced_positions": [],
+      "unpriced_positions": [
+        "KERNELUSDTM"
+      ],
       "insufficient_exit_depth": [
         "KERNELUSDTM"
       ],
-      "checked_at": 1790164648.664051,
-      "last_success_at": 1790164648.664051,
+      "checked_at": 1790166480.691979,
+      "last_success_at": 1790166480.691979,
       "risk_halted": false
     },
     "liquidation_filter": {
@@ -85,17 +87,12 @@
       "positions": {},
       "unpriced_positions": [],
       "insufficient_exit_depth": [],
-      "checked_at": 1790164648.664051,
-      "last_success_at": 1790164648.664051,
+      "checked_at": 1790166480.691979,
+      "last_success_at": 1790166480.691979,
       "risk_halted": false
     }
   },
   "history": [
-    {
-      "time": 1789390601.407866,
-      "baseline_equity": 1020.6602757659062,
-      "liquidation_filter_equity": 1000.0
-    },
     {
       "time": 1789392438.889904,
       "baseline_equity": 1020.6602757659062,
@@ -1770,12 +1767,17 @@
       "time": 1790164648.664051,
       "baseline_equity": 1011.2603414418338,
       "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1790166480.691979,
+      "baseline_equity": 1011.0256293336458,
+      "liquidation_filter_equity": 1000.0
     }
   ],
   "candidates": [
     {
       "symbol": "MUBARAKUSDTM",
-      "score": 76.5149,
+      "score": 78.1718,
       "reasons": [
         "wide_spread",
         "atr_outside_bounds",
@@ -1796,14 +1798,18 @@
     },
     {
       "symbol": "LONGXIAUSDTM",
-      "score": 57.4908,
+      "score": 65.218,
       "reasons": [
         "wide_spread",
-        "atr_outside_bounds"
+        "atr_outside_bounds",
+        "no_completed_rebound",
+        "strong_downtrend"
       ],
       "liquidation_filter_reasons": [
         "wide_spread",
         "atr_outside_bounds",
+        "no_completed_rebound",
+        "strong_downtrend",
         "coinglass_filter_not_met"
       ],
       "signal_eligible": false,
@@ -1813,14 +1819,12 @@
     },
     {
       "symbol": "ONEUSDTM",
-      "score": 76.2478,
+      "score": 64.6205,
       "reasons": [
-        "wide_spread",
-        "no_completed_rebound"
+        "wide_spread"
       ],
       "liquidation_filter_reasons": [
         "wide_spread",
-        "no_completed_rebound",
         "coinglass_filter_not_met"
       ],
       "signal_eligible": false,
@@ -1830,17 +1834,19 @@
     },
     {
       "symbol": "2U2USDTM",
-      "score": 5.6801,
+      "score": 22.3137,
       "reasons": [
         "wide_spread",
         "atr_outside_bounds",
         "not_lower_range",
+        "strong_downtrend",
         "insufficient_rebound_room"
       ],
       "liquidation_filter_reasons": [
         "wide_spread",
         "atr_outside_bounds",
         "not_lower_range",
+        "strong_downtrend",
         "insufficient_rebound_room",
         "coinglass_missing_or_stale"
       ],
@@ -1851,14 +1857,19 @@
     },
     {
       "symbol": "KERNELUSDTM",
-      "score": 81.8949,
-      "reasons": [],
-      "liquidation_filter_reasons": [
-        "coinglass_missing_or_stale"
+      "score": 82.6781,
+      "reasons": [
+        "stale_quote",
+        "no_completed_rebound"
       ],
-      "signal_eligible": true,
-      "add_signal_eligible": true,
-      "baseline_eligible": true,
+      "liquidation_filter_reasons": [
+        "stale_quote",
+        "no_completed_rebound",
+        "coinglass_filter_not_met"
+      ],
+      "signal_eligible": false,
+      "add_signal_eligible": false,
+      "baseline_eligible": false,
       "liquidation_filter_eligible": false
     }
   ],
@@ -3373,7 +3384,7 @@
     }
   ],
   "coinglass": {
-    "fetched_at": 1790164644.259341,
+    "fetched_at": 1790166476.033694,
     "symbols": {
       "2U2USDTM": {
         "eligible": false,
@@ -3381,7 +3392,7 @@
       },
       "KERNELUSDTM": {
         "eligible": false,
-        "reason": "data_unavailable"
+        "reason": "liquidation_burst_below_3x"
       },
       "LONGXIAUSDTM": {
         "eligible": false,
@@ -3428,7 +3439,7 @@
   },
   "health": {
     "mode": "paper",
-    "published_at": 1790165898.723686,
+    "published_at": 1790166574.818409,
     "worker_alive": true,
     "experiment_status": "running",
     "collection_error": false,
@@ -3439,9 +3450,9 @@
         "count": 5
       }
     ],
-    "last_tick_at": 1790165868.868601,
-    "report_at": 1790164648.664051,
+    "last_tick_at": 1790166480.691979,
+    "report_at": 1790166480.691979,
     "last_attempt_at": null,
-    "last_poll_at": 1790165869.028828
+    "last_poll_at": 1790166571.6345081
   }
 }
