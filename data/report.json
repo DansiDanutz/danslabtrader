@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "mode": "paper",
-  "published_at": 1790164617.4671192,
+  "published_at": 1790165261.074209,
   "experiment": {
     "start_at": 1789081915.0211258,
     "end_at": null,
-    "last_tick_at": 1790162817.094867,
-    "report_at": 1790162817.094867,
+    "last_tick_at": 1790164648.664051,
+    "report_at": 1790164648.664051,
     "next_audit_at": 1790291515.0211258,
     "mode": "paper",
     "status": "running",
@@ -17,10 +17,10 @@
   "accounts": {
     "baseline": {
       "cash": 962.0664221738379,
-      "equity": 1010.9213128411178,
+      "equity": 1011.2603414418338,
       "realized_pnl": 11.774462774034108,
-      "unrealized_net_pnl": -0.8531499329162973,
-      "daily_pnl": -0.8531499329160397,
+      "unrealized_net_pnl": -0.5141213322002915,
+      "daily_pnl": -0.514121332200034,
       "unpaid_liabilities": 0.0,
       "trade_count": 22,
       "total_fees": 2.04229248408636,
@@ -28,7 +28,7 @@
       "max_drawdown": 28.509840218955333,
       "max_drawdown_pct": 2.7791775277689985,
       "initial_equity": 1000.0,
-      "experiment_pnl": 10.92131284111781,
+      "experiment_pnl": 11.260341441833816,
       "fills": 54,
       "mode": "paper",
       "equity_is_estimate": true,
@@ -45,14 +45,14 @@
           "lot_size": 1,
           "average_price": 0.057101418,
           "last_fill": 0.057101418,
-          "last_bid": 0.0562,
-          "last_mark": 0.05624,
-          "score": 82.8041,
-          "unrealized_net_pnl": -0.8531499329159975,
-          "valuation_bid": 0.0562,
+          "last_bid": 0.05659,
+          "last_mark": 0.05664,
+          "score": 81.8949,
+          "unrealized_net_pnl": -0.5141213321999976,
+          "valuation_bid": 0.05659,
           "opened_at": 1790161289.6348531,
           "last_fill_at": 1790161289.6348531,
-          "quote_time": 1790162803.356,
+          "quote_time": 1790164634.37,
           "equity_is_estimate": true
         }
       },
@@ -60,8 +60,8 @@
       "insufficient_exit_depth": [
         "KERNELUSDTM"
       ],
-      "checked_at": 1790162817.094867,
-      "last_success_at": 1790162817.094867,
+      "checked_at": 1790164648.664051,
+      "last_success_at": 1790164648.664051,
       "risk_halted": false
     },
     "liquidation_filter": {
@@ -85,17 +85,12 @@
       "positions": {},
       "unpriced_positions": [],
       "insufficient_exit_depth": [],
-      "checked_at": 1790162817.094867,
-      "last_success_at": 1790162817.094867,
+      "checked_at": 1790164648.664051,
+      "last_success_at": 1790164648.664051,
       "risk_halted": false
     }
   },
   "history": [
-    {
-      "time": 1789388764.460475,
-      "baseline_equity": 1020.6602757659062,
-      "liquidation_filter_equity": 1000.0
-    },
     {
       "time": 1789390601.407866,
       "baseline_equity": 1020.6602757659062,
@@ -1770,12 +1765,17 @@
       "time": 1790162817.094867,
       "baseline_equity": 1010.9213128411178,
       "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1790164648.664051,
+      "baseline_equity": 1011.2603414418338,
+      "liquidation_filter_equity": 1000.0
     }
   ],
   "candidates": [
     {
       "symbol": "MUBARAKUSDTM",
-      "score": 76.683,
+      "score": 76.5149,
       "reasons": [
         "wide_spread",
         "atr_outside_bounds",
@@ -1796,7 +1796,7 @@
     },
     {
       "symbol": "LONGXIAUSDTM",
-      "score": 54.015,
+      "score": 57.4908,
       "reasons": [
         "wide_spread",
         "atr_outside_bounds"
@@ -1813,7 +1813,7 @@
     },
     {
       "symbol": "ONEUSDTM",
-      "score": 64.6344,
+      "score": 76.2478,
       "reasons": [
         "wide_spread",
         "no_completed_rebound"
@@ -1830,7 +1830,7 @@
     },
     {
       "symbol": "2U2USDTM",
-      "score": 8.1957,
+      "score": 5.6801,
       "reasons": [
         "wide_spread",
         "atr_outside_bounds",
@@ -1851,7 +1851,7 @@
     },
     {
       "symbol": "KERNELUSDTM",
-      "score": 82.8041,
+      "score": 81.8949,
       "reasons": [],
       "liquidation_filter_reasons": [
         "coinglass_missing_or_stale"
@@ -1863,82 +1863,6 @@
     }
   ],
   "events": [
-    {
-      "type": "buy_rejected",
-      "account": "baseline",
-      "time": 1789936712.074404,
-      "net_pnl": null,
-      "fee": null,
-      "entry_fees": null,
-      "exit_fee": null,
-      "funding_model_cost": null,
-      "reason": "below_min_score",
-      "action": "open",
-      "stage": "selection",
-      "context": {
-        "lots": null,
-        "unit_cost": null,
-        "budget": null,
-        "required_contracts": null,
-        "ask_size": null,
-        "cost": null,
-        "fee": null,
-        "cash": null,
-        "existing_cost": null,
-        "position_cap": null,
-        "immediate_net": null,
-        "weighted_drop_pct": null,
-        "max_position_loss": null,
-        "max_price_drop_pct": null,
-        "expected_net": null,
-        "target_net_profit": null,
-        "score": 58.1904,
-        "min_score": 60.0,
-        "elapsed_seconds": null,
-        "cooldown_seconds": null,
-        "positions": null,
-        "max_positions": null
-      },
-      "symbol": "CAPUSDTM"
-    },
-    {
-      "type": "buy_rejected",
-      "account": "baseline",
-      "time": 1789937017.109641,
-      "net_pnl": null,
-      "fee": null,
-      "entry_fees": null,
-      "exit_fee": null,
-      "funding_model_cost": null,
-      "reason": "below_min_score",
-      "action": "open",
-      "stage": "selection",
-      "context": {
-        "lots": null,
-        "unit_cost": null,
-        "budget": null,
-        "required_contracts": null,
-        "ask_size": null,
-        "cost": null,
-        "fee": null,
-        "cash": null,
-        "existing_cost": null,
-        "position_cap": null,
-        "immediate_net": null,
-        "weighted_drop_pct": null,
-        "max_position_loss": null,
-        "max_price_drop_pct": null,
-        "expected_net": null,
-        "target_net_profit": null,
-        "score": 58.4188,
-        "min_score": 60.0,
-        "elapsed_seconds": null,
-        "cooldown_seconds": null,
-        "positions": null,
-        "max_positions": null
-      },
-      "symbol": "CAPUSDTM"
-    },
     {
       "type": "buy_rejected",
       "account": "baseline",
@@ -3355,6 +3279,82 @@
         "max_positions": null
       },
       "symbol": "KERNELUSDTM"
+    },
+    {
+      "type": "buy_rejected",
+      "account": "baseline",
+      "time": 1790163426.862592,
+      "net_pnl": null,
+      "fee": null,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "reason": "insufficient_ask_depth",
+      "action": "add",
+      "stage": "execution",
+      "context": {
+        "lots": null,
+        "unit_cost": null,
+        "budget": null,
+        "required_contracts": 115,
+        "ask_size": 75.0,
+        "cost": null,
+        "fee": null,
+        "cash": null,
+        "existing_cost": null,
+        "position_cap": null,
+        "immediate_net": null,
+        "weighted_drop_pct": null,
+        "max_position_loss": null,
+        "max_price_drop_pct": null,
+        "expected_net": null,
+        "target_net_profit": null,
+        "score": null,
+        "min_score": null,
+        "elapsed_seconds": null,
+        "cooldown_seconds": null,
+        "positions": null,
+        "max_positions": null
+      },
+      "symbol": "KERNELUSDTM"
+    },
+    {
+      "type": "buy_rejected",
+      "account": "baseline",
+      "time": 1790163731.733006,
+      "net_pnl": null,
+      "fee": null,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "reason": "insufficient_ask_depth",
+      "action": "add",
+      "stage": "execution",
+      "context": {
+        "lots": null,
+        "unit_cost": null,
+        "budget": null,
+        "required_contracts": 115,
+        "ask_size": 73.0,
+        "cost": null,
+        "fee": null,
+        "cash": null,
+        "existing_cost": null,
+        "position_cap": null,
+        "immediate_net": null,
+        "weighted_drop_pct": null,
+        "max_position_loss": null,
+        "max_price_drop_pct": null,
+        "expected_net": null,
+        "target_net_profit": null,
+        "score": null,
+        "min_score": null,
+        "elapsed_seconds": null,
+        "cooldown_seconds": null,
+        "positions": null,
+        "max_positions": null
+      },
+      "symbol": "KERNELUSDTM"
     }
   ],
   "limitations": [
@@ -3373,7 +3373,7 @@
     }
   ],
   "coinglass": {
-    "fetched_at": 1790162812.256779,
+    "fetched_at": 1790164644.259341,
     "symbols": {
       "2U2USDTM": {
         "eligible": false,
@@ -3428,7 +3428,7 @@
   },
   "health": {
     "mode": "paper",
-    "published_at": 1790164617.4671192,
+    "published_at": 1790165261.074209,
     "worker_alive": true,
     "experiment_status": "running",
     "collection_error": false,
@@ -3439,9 +3439,9 @@
         "count": 5
       }
     ],
-    "last_tick_at": 1790164342.0187762,
-    "report_at": 1790162817.094867,
+    "last_tick_at": 1790165259.08759,
+    "report_at": 1790164648.664051,
     "last_attempt_at": null,
-    "last_poll_at": 1790164614.05534
+    "last_poll_at": 1790165259.2487712
   }
 }
