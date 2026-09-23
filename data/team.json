@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generated_at_ms": 1790182343212,
+  "generated_at_ms": 1790182522790,
   "cycle_id": "CTRL-20260923-19",
-  "last_cycle_at": "2026-09-23T16:52:23.212000Z",
+  "last_cycle_at": "2026-09-23T16:55:22.790000Z",
   "scheduler": "hourly :15 Europe/Bucharest",
   "doctor": {
     "status": "fail",
@@ -10,24 +10,8 @@
       "autopilot"
     ]
   },
-  "open_dispatches": 16,
+  "open_dispatches": 15,
   "dispatches": [
-    {
-      "dispatch_id": "D-20260923-19-senior_developer-DATA_PHASE_DUE-1",
-      "role_name": "Dan's Senior Developer",
-      "room": "Paper Grid Research & Data",
-      "event": "DATA_PHASE_DUE",
-      "instruction": "Daily data phase, due 08:15 and 10.22h late. Publish one sanitized market packet with source times, coverage and gaps.",
-      "created_at": "2026-09-23T16:52:23.212000Z",
-      "due_at": "2026-09-23T19:52:23.212000Z",
-      "status": "PENDING",
-      "payload": {
-        "phase": "data",
-        "due_local": "08:15",
-        "overdue_h": 10.22,
-        "event_observed_at": "2026-09-23T15:28:59.719000Z"
-      }
-    },
     {
       "dispatch_id": "D-20260923-19-x_setup_researcher-RESEARCH_DUE-1",
       "role_name": "X Setup Researcher",
@@ -249,21 +233,6 @@
         "bot_id": 30,
         "symbol": "PEPEUSDTM",
         "direction": "NEUTRAL"
-      }
-    },
-    {
-      "dispatch_id": "D-20260913-20-x_setup_researcher-RESEARCH_DUE-1",
-      "role_name": "X Setup Researcher",
-      "room": "Paper Grid Research & Data",
-      "event": "RESEARCH_DUE",
-      "instruction": "Daily research pass, due 09:15 and 11.68h late. Bring at most one falsifiable finding with source, date and its limitation.",
-      "created_at": "2026-09-13T17:56:00.823000Z",
-      "due_at": "2026-09-13T20:56:00.823000Z",
-      "status": "DONE",
-      "payload": {
-        "phase": "research",
-        "due_local": "09:15",
-        "overdue_h": 11.68
       }
     },
     {
@@ -705,6 +674,34 @@
       "payload": {
         "count": 2
       }
+    },
+    {
+      "dispatch_id": "D-20260914-07-data_structure-RADAR_SCAN-1",
+      "role_name": "Data & Structure",
+      "room": "Paper Grid Trading Team",
+      "event": "RADAR_SCAN",
+      "instruction": "Radar scan 1789359006482 carries 12 core candidates. Report structure freshness and which candidates have confirmed bounds.",
+      "created_at": "2026-09-14T04:15:02.743000Z",
+      "due_at": "2026-09-14T06:15:02.743000Z",
+      "status": "DONE",
+      "payload": {
+        "scan_id": "1789359006482",
+        "candidates": 12,
+        "candidates_changed": true
+      }
+    },
+    {
+      "dispatch_id": "D-20260914-07-grid_desk_lead-SYNTHESIS-1",
+      "role_name": "Grid Desk Lead",
+      "room": "Paper Grid Trading Team",
+      "event": "SYNTHESIS",
+      "instruction": "Close this cycle with one synthesis over 3 dispatch(es): evidence window, net outcome, compliance, unresolved disagreement, one advisory.",
+      "created_at": "2026-09-14T04:15:02.743000Z",
+      "due_at": "2026-09-14T06:15:02.743000Z",
+      "status": "DONE",
+      "payload": {
+        "count": 3
+      }
     }
   ],
   "roster": [
@@ -714,7 +711,7 @@
       "status": "OK",
       "last_seen_at": "2026-09-23T16:44:38Z",
       "installed": true,
-      "idle_h": 0.129,
+      "idle_h": 0.179,
       "max_idle_h": 24.0,
       "rooms": [
         "Paper Grid Trading Team",
@@ -728,7 +725,7 @@
       "status": "IDLE",
       "last_seen_at": "2026-09-20T11:10:05Z",
       "installed": true,
-      "idle_h": 77.705,
+      "idle_h": 77.755,
       "max_idle_h": 24.0,
       "rooms": [
         "Paper Grid Trading Team"
@@ -737,7 +734,7 @@
     {
       "name": "Risk Sentinel",
       "kind": "native",
-      "status": "BLOCKED",
+      "status": "UNOBSERVED",
       "last_seen_at": null,
       "installed": true,
       "idle_h": null,
@@ -764,7 +761,7 @@
       "status": "IDLE",
       "last_seen_at": "2026-09-18T06:35:21Z",
       "installed": true,
-      "idle_h": 130.284,
+      "idle_h": 130.334,
       "max_idle_h": 24.0,
       "rooms": [
         "Paper Grid Research & Data"
@@ -776,7 +773,7 @@
       "status": "IDLE",
       "last_seen_at": "2026-09-18T06:34:32Z",
       "installed": true,
-      "idle_h": 130.298,
+      "idle_h": 130.347,
       "max_idle_h": 24.0,
       "rooms": [
         "Paper Grid Research & Data"
@@ -788,7 +785,7 @@
       "status": "IDLE",
       "last_seen_at": "2026-09-20T07:25:00Z",
       "installed": true,
-      "idle_h": 81.456,
+      "idle_h": 81.506,
       "max_idle_h": 24.0,
       "rooms": [
         "Paper Grid Trading Team",
@@ -801,7 +798,7 @@
       "status": "OK",
       "last_seen_at": "2026-09-23T16:37:32Z",
       "installed": true,
-      "idle_h": 0.248,
+      "idle_h": 0.297,
       "max_idle_h": 24.0,
       "rooms": [
         "Paper Grid Trading Team",
@@ -814,7 +811,7 @@
       "status": "IDLE",
       "last_seen_at": "2026-09-20T08:26:38Z",
       "installed": true,
-      "idle_h": 80.429,
+      "idle_h": 80.479,
       "max_idle_h": 24.0,
       "rooms": [
         "Paper Desk Office"
@@ -823,10 +820,10 @@
     {
       "name": "Dan's Senior Developer",
       "kind": "steward",
-      "status": "IDLE",
-      "last_seen_at": "2026-09-20T16:27:25Z",
+      "status": "OK",
+      "last_seen_at": "2026-09-23T16:53:54Z",
       "installed": true,
-      "idle_h": 72.416,
+      "idle_h": 0.025,
       "max_idle_h": 6.0,
       "rooms": [
         "Paper Grid Research & Data",
@@ -839,7 +836,7 @@
       "status": "IDLE",
       "last_seen_at": "2026-09-19T00:31:11Z",
       "installed": true,
-      "idle_h": 112.353,
+      "idle_h": 112.403,
       "max_idle_h": 24.0,
       "rooms": [
         "Paper Desk Office"
@@ -851,7 +848,7 @@
       "status": "OK",
       "last_seen_at": "2026-09-23T16:51:15.209000Z",
       "installed": true,
-      "idle_h": 0.019,
+      "idle_h": 0.069,
       "max_idle_h": 1.0,
       "rooms": []
     },
@@ -861,7 +858,7 @@
       "status": "OK",
       "last_seen_at": "2026-09-23T16:20:16.533000Z",
       "installed": true,
-      "idle_h": 0.535,
+      "idle_h": 0.585,
       "max_idle_h": 2.0,
       "rooms": []
     },
@@ -869,7 +866,7 @@
       "name": "Autopilot",
       "kind": "deterministic",
       "status": "OK",
-      "last_seen_at": "2026-09-23T16:52:19.841000Z",
+      "last_seen_at": "2026-09-23T16:55:19.859000Z",
       "installed": true,
       "idle_h": 0.001,
       "max_idle_h": 0.1,
@@ -879,9 +876,9 @@
       "name": "Publisher",
       "kind": "deterministic",
       "status": "OK",
-      "last_seen_at": "2026-09-23T16:49:47.445000Z",
+      "last_seen_at": "2026-09-23T16:55:05.682000Z",
       "installed": true,
-      "idle_h": 0.043,
+      "idle_h": 0.005,
       "max_idle_h": 0.5,
       "rooms": []
     },
@@ -891,7 +888,7 @@
       "status": "OK",
       "last_seen_at": "2026-09-23T16:28:34.154000Z",
       "installed": true,
-      "idle_h": 0.397,
+      "idle_h": 0.447,
       "max_idle_h": 3.0,
       "rooms": []
     },
@@ -901,7 +898,7 @@
       "status": "OK",
       "last_seen_at": "2026-09-23T16:20:11.180000Z",
       "installed": true,
-      "idle_h": 0.537,
+      "idle_h": 0.587,
       "max_idle_h": 3.0,
       "rooms": []
     },
@@ -911,7 +908,7 @@
       "status": "OK",
       "last_seen_at": "2026-09-23T04:00:06.144000Z",
       "installed": true,
-      "idle_h": 12.871,
+      "idle_h": 12.921,
       "max_idle_h": 26.0,
       "rooms": []
     },
@@ -921,7 +918,7 @@
       "status": "OK",
       "last_seen_at": "2026-09-23T04:00:06.034000Z",
       "installed": true,
-      "idle_h": 12.871,
+      "idle_h": 12.921,
       "max_idle_h": 26.0,
       "rooms": []
     },
@@ -929,9 +926,9 @@
       "name": "Doctor",
       "kind": "deterministic",
       "status": "OK",
-      "last_seen_at": "2026-09-23T16:49:24.613000Z",
+      "last_seen_at": "2026-09-23T16:54:25.861000Z",
       "installed": true,
-      "idle_h": 0.05,
+      "idle_h": 0.016,
       "max_idle_h": 1.0,
       "rooms": []
     },
@@ -939,12 +936,12 @@
       "name": "Team controller",
       "kind": "deterministic",
       "status": "OK",
-      "last_seen_at": "2026-09-23T16:15:06.545000Z",
+      "last_seen_at": "2026-09-23T16:52:23.212000Z",
       "installed": true,
-      "idle_h": 0.621,
+      "idle_h": 0.05,
       "max_idle_h": 2.0,
       "rooms": []
     }
   ],
-  "published_at_ms": 1790182489077
+  "published_at_ms": 1790182807942
 }
