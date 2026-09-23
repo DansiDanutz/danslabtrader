@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "mode": "paper",
-  "published_at": 1790192094.1222951,
+  "published_at": 1790192411.7090309,
   "experiment": {
     "start_at": 1789081915.0211258,
     "end_at": null,
-    "last_tick_at": 1790190314.0467122,
-    "report_at": 1790190314.0467122,
+    "last_tick_at": 1790192148.5903518,
+    "report_at": 1790192148.5903518,
     "next_audit_at": 1790291515.0211258,
     "mode": "paper",
     "status": "running",
@@ -36,8 +36,8 @@
       "positions": {},
       "unpriced_positions": [],
       "insufficient_exit_depth": [],
-      "checked_at": 1790190314.0467122,
-      "last_success_at": 1790190314.0467122,
+      "checked_at": 1790192148.5903518,
+      "last_success_at": 1790192148.5903518,
       "risk_halted": false
     },
     "liquidation_filter": {
@@ -61,17 +61,12 @@
       "positions": {},
       "unpriced_positions": [],
       "insufficient_exit_depth": [],
-      "checked_at": 1790190314.0467122,
-      "last_success_at": 1790190314.0467122,
+      "checked_at": 1790192148.5903518,
+      "last_success_at": 1790192148.5903518,
       "risk_halted": false
     }
   },
   "history": [
-    {
-      "time": 1789416311.250954,
-      "baseline_equity": 1020.8300948358342,
-      "liquidation_filter_equity": 1000.0
-    },
     {
       "time": 1789418144.9263191,
       "baseline_equity": 1021.4487995501382,
@@ -1746,19 +1741,22 @@
       "time": 1790190314.0467122,
       "baseline_equity": 1008.9219134009978,
       "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1790192148.5903518,
+      "baseline_equity": 1008.9219134009978,
+      "liquidation_filter_equity": 1000.0
     }
   ],
   "candidates": [
     {
       "symbol": "MUBARAKUSDTM",
-      "score": 78.6865,
+      "score": 80.8008,
       "reasons": [
-        "wide_spread",
         "atr_outside_bounds",
         "strong_downtrend"
       ],
       "liquidation_filter_reasons": [
-        "wide_spread",
         "atr_outside_bounds",
         "strong_downtrend",
         "coinglass_filter_not_met"
@@ -1770,7 +1768,7 @@
     },
     {
       "symbol": "LONGXIAUSDTM",
-      "score": 70.5726,
+      "score": 73.3089,
       "reasons": [
         "wide_spread",
         "atr_outside_bounds"
@@ -1787,14 +1785,18 @@
     },
     {
       "symbol": "ONEUSDTM",
-      "score": 74.1231,
+      "score": 79.5732,
       "reasons": [
         "wide_spread",
+        "atr_outside_bounds",
+        "not_lower_range",
         "no_completed_rebound",
         "strong_downtrend"
       ],
       "liquidation_filter_reasons": [
         "wide_spread",
+        "atr_outside_bounds",
+        "not_lower_range",
         "no_completed_rebound",
         "strong_downtrend",
         "coinglass_filter_not_met"
@@ -1806,15 +1808,13 @@
     },
     {
       "symbol": "2U2USDTM",
-      "score": 56.1984,
+      "score": 39.7293,
       "reasons": [
         "wide_spread",
-        "atr_outside_bounds",
         "no_completed_rebound"
       ],
       "liquidation_filter_reasons": [
         "wide_spread",
-        "atr_outside_bounds",
         "no_completed_rebound",
         "coinglass_missing_or_stale"
       ],
@@ -1825,13 +1825,11 @@
     },
     {
       "symbol": "KERNELUSDTM",
-      "score": 62.9588,
+      "score": 54.35,
       "reasons": [
-        "stale_quote",
         "no_completed_rebound"
       ],
       "liquidation_filter_reasons": [
-        "stale_quote",
         "no_completed_rebound",
         "coinglass_filter_not_met"
       ],
@@ -3325,7 +3323,7 @@
     }
   ],
   "coinglass": {
-    "fetched_at": 1790190309.5183868,
+    "fetched_at": 1790192143.942831,
     "symbols": {
       "2U2USDTM": {
         "eligible": false,
@@ -3380,7 +3378,7 @@
   },
   "health": {
     "mode": "paper",
-    "published_at": 1790192094.1222951,
+    "published_at": 1790192411.7090309,
     "worker_alive": true,
     "experiment_status": "running",
     "collection_error": false,
@@ -3391,9 +3389,9 @@
         "count": 5
       }
     ],
-    "last_tick_at": 1790191840.911797,
-    "report_at": 1790190314.0467122,
+    "last_tick_at": 1790192148.5903518,
+    "report_at": 1790192148.5903518,
     "last_attempt_at": null,
-    "last_poll_at": 1790192083.385056
+    "last_poll_at": 1790192390.974619
   }
 }
