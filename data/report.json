@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "mode": "paper",
-  "published_at": 1790158861.95434,
+  "published_at": 1790159504.060493,
   "experiment": {
     "start_at": 1789081915.0211258,
     "end_at": null,
-    "last_tick_at": 1790157316.955939,
-    "report_at": 1790157316.955939,
+    "last_tick_at": 1790159151.8319092,
+    "report_at": 1790159151.8319092,
     "next_audit_at": 1790291515.0211258,
     "mode": "paper",
     "status": "running",
@@ -36,8 +36,8 @@
       "positions": {},
       "unpriced_positions": [],
       "insufficient_exit_depth": [],
-      "checked_at": 1790157316.955939,
-      "last_success_at": 1790157316.955939,
+      "checked_at": 1790159151.8319092,
+      "last_success_at": 1790159151.8319092,
       "risk_halted": false
     },
     "liquidation_filter": {
@@ -61,17 +61,12 @@
       "positions": {},
       "unpriced_positions": [],
       "insufficient_exit_depth": [],
-      "checked_at": 1790157316.955939,
-      "last_success_at": 1790157316.955939,
+      "checked_at": 1790159151.8319092,
+      "last_success_at": 1790159151.8319092,
       "risk_halted": false
     }
   },
   "history": [
-    {
-      "time": 1789383254.166049,
-      "baseline_equity": 1020.6602757659062,
-      "liquidation_filter_equity": 1000.0
-    },
     {
       "time": 1789385090.303929,
       "baseline_equity": 1020.6602757659062,
@@ -1746,19 +1741,26 @@
       "time": 1790157316.955939,
       "baseline_equity": 1011.7744627740339,
       "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1790159151.8319092,
+      "baseline_equity": 1011.7744627740339,
+      "liquidation_filter_equity": 1000.0
     }
   ],
   "candidates": [
     {
       "symbol": "MUBARAKUSDTM",
-      "score": 80.7624,
+      "score": 86.3032,
       "reasons": [
         "atr_outside_bounds",
+        "not_lower_range",
         "no_completed_rebound",
         "strong_downtrend"
       ],
       "liquidation_filter_reasons": [
         "atr_outside_bounds",
+        "not_lower_range",
         "no_completed_rebound",
         "strong_downtrend",
         "coinglass_filter_not_met"
@@ -1770,15 +1772,17 @@
     },
     {
       "symbol": "LONGXIAUSDTM",
-      "score": 53.0304,
+      "score": 52.9755,
       "reasons": [
         "wide_spread",
-        "atr_outside_bounds"
+        "atr_outside_bounds",
+        "no_completed_rebound"
       ],
       "liquidation_filter_reasons": [
         "wide_spread",
         "atr_outside_bounds",
-        "coinglass_missing_or_stale"
+        "no_completed_rebound",
+        "coinglass_filter_not_met"
       ],
       "signal_eligible": false,
       "add_signal_eligible": false,
@@ -1787,14 +1791,12 @@
     },
     {
       "symbol": "ONEUSDTM",
-      "score": 62.6758,
+      "score": 70.6926,
       "reasons": [
-        "wide_spread",
-        "strong_downtrend"
+        "wide_spread"
       ],
       "liquidation_filter_reasons": [
         "wide_spread",
-        "strong_downtrend",
         "coinglass_filter_not_met"
       ],
       "signal_eligible": false,
@@ -1804,12 +1806,11 @@
     },
     {
       "symbol": "2U2USDTM",
-      "score": 9.7249,
+      "score": 18.7522,
       "reasons": [
         "wide_spread",
         "atr_outside_bounds",
         "not_lower_range",
-        "no_completed_rebound",
         "strong_downtrend",
         "insufficient_rebound_room"
       ],
@@ -1817,7 +1818,6 @@
         "wide_spread",
         "atr_outside_bounds",
         "not_lower_range",
-        "no_completed_rebound",
         "strong_downtrend",
         "insufficient_rebound_room",
         "coinglass_missing_or_stale"
@@ -1829,12 +1829,14 @@
     },
     {
       "symbol": "KERNELUSDTM",
-      "score": 84.6574,
+      "score": 83.4702,
       "reasons": [
+        "stale_quote",
         "no_completed_rebound",
         "funding_outside_bounds"
       ],
       "liquidation_filter_reasons": [
+        "stale_quote",
         "no_completed_rebound",
         "funding_outside_bounds",
         "coinglass_filter_not_met"
@@ -3383,7 +3385,7 @@
     }
   ],
   "coinglass": {
-    "fetched_at": 1790157312.4743848,
+    "fetched_at": 1790159147.388296,
     "symbols": {
       "2U2USDTM": {
         "eligible": false,
@@ -3395,7 +3397,7 @@
       },
       "LONGXIAUSDTM": {
         "eligible": false,
-        "reason": "data_unavailable"
+        "reason": "liquidation_burst_below_3x"
       },
       "MUBARAKUSDTM": {
         "eligible": false,
@@ -3438,7 +3440,7 @@
   },
   "health": {
     "mode": "paper",
-    "published_at": 1790158861.95434,
+    "published_at": 1790159504.060493,
     "worker_alive": true,
     "experiment_status": "running",
     "collection_error": false,
@@ -3449,9 +3451,9 @@
         "count": 5
       }
     ],
-    "last_tick_at": 1790158844.44082,
-    "report_at": 1790157316.955939,
+    "last_tick_at": 1790159457.450568,
+    "report_at": 1790159151.8319092,
     "last_attempt_at": null,
-    "last_poll_at": 1790158844.596461
+    "last_poll_at": 1790159487.892303
   }
 }
