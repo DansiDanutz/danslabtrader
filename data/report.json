@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "mode": "paper",
-  "published_at": 1790142594.5387928,
+  "published_at": 1790142911.709943,
   "experiment": {
     "start_at": 1789081915.0211258,
     "end_at": null,
-    "last_tick_at": 1790140801.028119,
-    "report_at": 1790140801.028119,
+    "last_tick_at": 1790142634.7309709,
+    "report_at": 1790142634.7309709,
     "next_audit_at": 1790291515.0211258,
     "mode": "paper",
     "status": "running",
@@ -36,8 +36,8 @@
       "positions": {},
       "unpriced_positions": [],
       "insufficient_exit_depth": [],
-      "checked_at": 1790140801.028119,
-      "last_success_at": 1790140801.028119,
+      "checked_at": 1790142634.7309709,
+      "last_success_at": 1790142634.7309709,
       "risk_halted": false
     },
     "liquidation_filter": {
@@ -61,17 +61,12 @@
       "positions": {},
       "unpriced_positions": [],
       "insufficient_exit_depth": [],
-      "checked_at": 1790140801.028119,
-      "last_success_at": 1790140801.028119,
+      "checked_at": 1790142634.7309709,
+      "last_success_at": 1790142634.7309709,
       "risk_halted": false
     }
   },
   "history": [
-    {
-      "time": 1789366727.928333,
-      "baseline_equity": 1020.6602757659062,
-      "liquidation_filter_equity": 1000.0
-    },
     {
       "time": 1789368563.9849632,
       "baseline_equity": 1020.6602757659062,
@@ -1746,25 +1741,28 @@
       "time": 1790140801.028119,
       "baseline_equity": 1011.7744627740339,
       "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1790142634.7309709,
+      "baseline_equity": 1011.7744627740339,
+      "liquidation_filter_equity": 1000.0
     }
   ],
   "candidates": [
     {
       "symbol": "MUBARAKUSDTM",
-      "score": 39.1031,
+      "score": 47.6916,
       "reasons": [
         "atr_outside_bounds",
         "not_lower_range",
         "no_completed_rebound",
-        "strong_downtrend",
-        "insufficient_rebound_room"
+        "strong_downtrend"
       ],
       "liquidation_filter_reasons": [
         "atr_outside_bounds",
         "not_lower_range",
         "no_completed_rebound",
         "strong_downtrend",
-        "insufficient_rebound_room",
         "coinglass_filter_not_met"
       ],
       "signal_eligible": false,
@@ -1774,14 +1772,20 @@
     },
     {
       "symbol": "LONGXIAUSDTM",
-      "score": 66.1514,
+      "score": 20.8471,
       "reasons": [
         "wide_spread",
-        "strong_downtrend"
+        "not_lower_range",
+        "strong_downtrend",
+        "insufficient_rebound_room",
+        "funding_outside_bounds"
       ],
       "liquidation_filter_reasons": [
         "wide_spread",
+        "not_lower_range",
         "strong_downtrend",
+        "insufficient_rebound_room",
+        "funding_outside_bounds",
         "coinglass_filter_not_met"
       ],
       "signal_eligible": false,
@@ -1791,13 +1795,15 @@
     },
     {
       "symbol": "ONEUSDTM",
-      "score": 76.7495,
+      "score": 73.4801,
       "reasons": [
         "wide_spread",
+        "not_lower_range",
         "strong_downtrend"
       ],
       "liquidation_filter_reasons": [
         "wide_spread",
+        "not_lower_range",
         "strong_downtrend",
         "coinglass_filter_not_met"
       ],
@@ -1808,7 +1814,7 @@
     },
     {
       "symbol": "2U2USDTM",
-      "score": 18.9906,
+      "score": 0,
       "reasons": [
         "wide_spread",
         "atr_outside_bounds",
@@ -1831,7 +1837,7 @@
     },
     {
       "symbol": "KERNELUSDTM",
-      "score": 81.7439,
+      "score": 81.0526,
       "reasons": [
         "no_completed_rebound",
         "strong_downtrend",
@@ -3387,7 +3393,7 @@
     }
   ],
   "coinglass": {
-    "fetched_at": 1790140796.0907671,
+    "fetched_at": 1790142630.409749,
     "symbols": {
       "2U2USDTM": {
         "eligible": false,
@@ -3442,7 +3448,7 @@
   },
   "health": {
     "mode": "paper",
-    "published_at": 1790142594.5387928,
+    "published_at": 1790142911.709943,
     "worker_alive": true,
     "experiment_status": "running",
     "collection_error": false,
@@ -3453,9 +3459,9 @@
         "count": 5
       }
     ],
-    "last_tick_at": 1790142327.593838,
-    "report_at": 1790140801.028119,
+    "last_tick_at": 1790142634.7309709,
+    "report_at": 1790142634.7309709,
     "last_attempt_at": null,
-    "last_poll_at": 1790142569.881872
+    "last_poll_at": 1790142907.293159
   }
 }
