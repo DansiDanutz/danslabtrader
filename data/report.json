@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "mode": "paper",
-  "published_at": 1790173616.316821,
+  "published_at": 1790173937.177401,
   "experiment": {
     "start_at": 1789081915.0211258,
     "end_at": null,
-    "last_tick_at": 1790171978.209503,
-    "report_at": 1790171978.209503,
+    "last_tick_at": 1790173811.515928,
+    "report_at": 1790173811.515928,
     "next_audit_at": 1790291515.0211258,
     "mode": "paper",
     "status": "running",
@@ -16,54 +16,28 @@
   },
   "accounts": {
     "baseline": {
-      "cash": 962.0664221738379,
-      "equity": 1010.5648981583139,
-      "realized_pnl": 11.774462774034108,
-      "unrealized_net_pnl": -1.209564615720213,
-      "daily_pnl": -1.2095646157199553,
+      "cash": 1008.9219134009978,
+      "equity": 1008.9219134009978,
+      "realized_pnl": 8.921913400998108,
+      "unrealized_net_pnl": -2.8421709430404007e-13,
+      "daily_pnl": -2.8525493730360267,
       "unpaid_liabilities": 0.0,
-      "trade_count": 22,
-      "total_fees": 2.04229248408636,
+      "trade_count": 23,
+      "total_fees": 2.07042265692636,
       "funding_cost": 0.09146958547565119,
       "max_drawdown": 28.509840218955333,
       "max_drawdown_pct": 2.7791775277689985,
       "initial_equity": 1000.0,
-      "experiment_pnl": 10.564898158313895,
-      "fills": 54,
+      "experiment_pnl": 8.921913400997823,
+      "fills": 55,
       "mode": "paper",
-      "equity_is_estimate": true,
+      "equity_is_estimate": false,
       "paused": false,
-      "positions": {
-        "KERNELUSDTM": {
-          "contracts": 87,
-          "quantity": 870.0,
-          "cost_basis": 49.678233660000004,
-          "entry_fees": 0.029806940195999998,
-          "funding_accrued": 0.0,
-          "adds": 0,
-          "multiplier": 10.0,
-          "lot_size": 1,
-          "average_price": 0.057101418,
-          "last_fill": 0.057101418,
-          "last_bid": 0.05579,
-          "last_mark": 0.05585,
-          "score": 85.1156,
-          "unrealized_net_pnl": -1.209564615720003,
-          "valuation_bid": 0.05579,
-          "opened_at": 1790161289.6348531,
-          "last_fill_at": 1790161289.6348531,
-          "quote_time": 1790171880.516,
-          "equity_is_estimate": true
-        }
-      },
-      "unpriced_positions": [
-        "KERNELUSDTM"
-      ],
-      "insufficient_exit_depth": [
-        "KERNELUSDTM"
-      ],
-      "checked_at": 1790171978.209503,
-      "last_success_at": 1790171978.209503,
+      "positions": {},
+      "unpriced_positions": [],
+      "insufficient_exit_depth": [],
+      "checked_at": 1790173811.515928,
+      "last_success_at": 1790173811.515928,
       "risk_halted": false
     },
     "liquidation_filter": {
@@ -87,17 +61,12 @@
       "positions": {},
       "unpriced_positions": [],
       "insufficient_exit_depth": [],
-      "checked_at": 1790171978.209503,
-      "last_success_at": 1790171978.209503,
+      "checked_at": 1790173811.515928,
+      "last_success_at": 1790173811.515928,
       "risk_halted": false
     }
   },
   "history": [
-    {
-      "time": 1789397942.187351,
-      "baseline_equity": 1020.6602757659062,
-      "liquidation_filter_equity": 1000.0
-    },
     {
       "time": 1789399779.3572328,
       "baseline_equity": 1020.6602757659062,
@@ -1772,18 +1741,25 @@
       "time": 1790171978.209503,
       "baseline_equity": 1010.5648981583139,
       "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1790173811.515928,
+      "baseline_equity": 1008.9219134009978,
+      "liquidation_filter_equity": 1000.0
     }
   ],
   "candidates": [
     {
       "symbol": "MUBARAKUSDTM",
-      "score": 80.5653,
+      "score": 80.1068,
       "reasons": [
+        "wide_spread",
         "atr_outside_bounds",
         "no_completed_rebound",
         "strong_downtrend"
       ],
       "liquidation_filter_reasons": [
+        "wide_spread",
         "atr_outside_bounds",
         "no_completed_rebound",
         "strong_downtrend",
@@ -1796,17 +1772,15 @@
     },
     {
       "symbol": "LONGXIAUSDTM",
-      "score": 73.8034,
+      "score": 69.7856,
       "reasons": [
         "wide_spread",
         "atr_outside_bounds",
-        "no_completed_rebound",
         "strong_downtrend"
       ],
       "liquidation_filter_reasons": [
         "wide_spread",
         "atr_outside_bounds",
-        "no_completed_rebound",
         "strong_downtrend",
         "coinglass_filter_not_met"
       ],
@@ -1817,7 +1791,7 @@
     },
     {
       "symbol": "ONEUSDTM",
-      "score": 73.1313,
+      "score": 63.7051,
       "reasons": [
         "wide_spread",
         "no_completed_rebound",
@@ -1836,19 +1810,15 @@
     },
     {
       "symbol": "2U2USDTM",
-      "score": 30.7972,
+      "score": 19.0129,
       "reasons": [
         "wide_spread",
-        "atr_outside_bounds",
         "not_lower_range",
-        "no_completed_rebound",
         "insufficient_rebound_room"
       ],
       "liquidation_filter_reasons": [
         "wide_spread",
-        "atr_outside_bounds",
         "not_lower_range",
-        "no_completed_rebound",
         "insufficient_rebound_room",
         "coinglass_missing_or_stale"
       ],
@@ -1859,14 +1829,16 @@
     },
     {
       "symbol": "KERNELUSDTM",
-      "score": 84.6573,
+      "score": 89.0473,
       "reasons": [
-        "stale_quote",
-        "no_completed_rebound"
+        "not_lower_range",
+        "no_completed_rebound",
+        "strong_downtrend"
       ],
       "liquidation_filter_reasons": [
-        "stale_quote",
+        "not_lower_range",
         "no_completed_rebound",
+        "strong_downtrend",
         "coinglass_filter_not_met"
       ],
       "signal_eligible": false,
@@ -1876,44 +1848,6 @@
     }
   ],
   "events": [
-    {
-      "type": "buy_rejected",
-      "account": "baseline",
-      "time": 1789937323.467231,
-      "net_pnl": null,
-      "fee": null,
-      "entry_fees": null,
-      "exit_fee": null,
-      "funding_model_cost": null,
-      "reason": "below_min_score",
-      "action": "open",
-      "stage": "selection",
-      "context": {
-        "lots": null,
-        "unit_cost": null,
-        "budget": null,
-        "required_contracts": null,
-        "ask_size": null,
-        "cost": null,
-        "fee": null,
-        "cash": null,
-        "existing_cost": null,
-        "position_cap": null,
-        "immediate_net": null,
-        "weighted_drop_pct": null,
-        "max_position_loss": null,
-        "max_price_drop_pct": null,
-        "expected_net": null,
-        "target_net_profit": null,
-        "score": 58.6227,
-        "min_score": 60.0,
-        "elapsed_seconds": null,
-        "cooldown_seconds": null,
-        "positions": null,
-        "max_positions": null
-      },
-      "symbol": "CAPUSDTM"
-    },
     {
       "type": "buy_rejected",
       "account": "baseline",
@@ -3368,6 +3302,17 @@
         "max_positions": null
       },
       "symbol": "KERNELUSDTM"
+    },
+    {
+      "type": "close",
+      "account": "baseline",
+      "time": 1790172893.7119732,
+      "net_pnl": -2.852549373036001,
+      "fee": null,
+      "entry_fees": 0.029806940195999998,
+      "exit_fee": 0.02813017284,
+      "funding_model_cost": 0.0,
+      "symbol": "KERNELUSDTM"
     }
   ],
   "limitations": [
@@ -3386,7 +3331,7 @@
     }
   ],
   "coinglass": {
-    "fetched_at": 1790171973.924355,
+    "fetched_at": 1790173806.169302,
     "symbols": {
       "2U2USDTM": {
         "eligible": false,
@@ -3441,7 +3386,7 @@
   },
   "health": {
     "mode": "paper",
-    "published_at": 1790173616.316821,
+    "published_at": 1790173937.177401,
     "worker_alive": true,
     "experiment_status": "running",
     "collection_error": false,
@@ -3452,9 +3397,9 @@
         "count": 5
       }
     ],
-    "last_tick_at": 1790173503.453572,
-    "report_at": 1790171978.209503,
+    "last_tick_at": 1790173811.515928,
+    "report_at": 1790173811.515928,
     "last_attempt_at": null,
-    "last_poll_at": 1790173594.641568
+    "last_poll_at": 1790173932.539017
   }
 }
