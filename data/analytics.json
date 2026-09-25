@@ -2,19 +2,19 @@
   "schema": 1,
   "mode": "paper",
   "status": "ok",
-  "generated_at": 1790376799.40222,
-  "source_last_tick_at": 1790376594.2927492,
+  "generated_at": 1790377437.485662,
+  "source_last_tick_at": 1790377203.7650728,
   "start_at": 1789081915.0211258,
   "windows": {
     "all": {
       "start_at": 1789081915.0211258,
-      "end_at": 1790376799.40222,
+      "end_at": 1790377437.485662,
       "checks": {
-        "attempts": 3368,
-        "successful": 3368,
+        "attempts": 3370,
+        "successful": 3370,
         "skipped": 0,
-        "expected_approximately": 4317,
-        "coverage_ratio": 0.7801714153347232,
+        "expected_approximately": 4319,
+        "coverage_ratio": 0.7802732113915258,
         "max_gap_seconds": 85913.0098388195
       },
       "discovery": {
@@ -66,7 +66,7 @@
         "new_discovery_scans": 15,
         "latest_scan_at": 1790370178.392985,
         "latest_liquid_contracts": 174,
-        "symbol_observations": 16965,
+        "symbol_observations": 16975,
         "baseline_eligible_observations": 608,
         "filtered_eligible_observations": 0
       },
@@ -87,10 +87,10 @@
           "profit_factor_state": "finite",
           "fees_paid": 2.27811947874432,
           "modeled_funding_on_closes": 0.09212705150661542,
-          "marked_equity_change": 10.210814819085385,
+          "marked_equity_change": 9.670589750465751,
           "start_equity": 1000.0,
-          "end_equity": 1010.2108148190854,
-          "end_mark_age_seconds": 205.1094708442688,
+          "end_equity": 1009.6705897504658,
+          "end_mark_age_seconds": 233.7205891609192,
           "observed_max_drawdown": 28.509840218955333,
           "observed_max_drawdown_pct": 2.7791775277689985,
           "expectancy": 0.4157247844956471,
@@ -147,7 +147,7 @@
           "buy_rejections": {
             "recorded": 229,
             "coverage": "partial",
-            "instrumented_checks": 3358,
+            "instrumented_checks": 3360,
             "legacy_checks": 10,
             "first_instrumented_at": 1789085135.240156,
             "reasons": [
@@ -184,8 +184,8 @@
             ]
           },
           "equity_sampling": {
-            "tick_samples": 3358,
-            "estimated_tick_samples": 848,
+            "tick_samples": 3360,
+            "estimated_tick_samples": 850,
             "resolution": "mixed"
           },
           "performance": {
@@ -274,8 +274,8 @@
             ],
             "per_symbol_total": 15,
             "exposure": {
-              "observed_seconds": 321128.01018738747,
-              "fraction": 0.2479974389034057,
+              "observed_seconds": 321766.0936293602,
+              "fraction": 0.24836782258697124,
               "coverage": "complete_recorded_lifecycles",
               "unknown_lifecycles": 0
             },
@@ -1227,7 +1227,7 @@
           "marked_equity_change": 0.0,
           "start_equity": 1000.0,
           "end_equity": 1000.0,
-          "end_mark_age_seconds": 205.1094708442688,
+          "end_mark_age_seconds": 233.7205891609192,
           "observed_max_drawdown": 0.0,
           "observed_max_drawdown_pct": 0.0,
           "expectancy": null,
@@ -1265,13 +1265,13 @@
           "buy_rejections": {
             "recorded": 0,
             "coverage": "partial",
-            "instrumented_checks": 3358,
+            "instrumented_checks": 3360,
             "legacy_checks": 10,
             "first_instrumented_at": 1789085135.240156,
             "reasons": []
           },
           "equity_sampling": {
-            "tick_samples": 3358,
+            "tick_samples": 3360,
             "estimated_tick_samples": 0,
             "resolution": "mixed"
           },
@@ -1602,7 +1602,7 @@
         },
         {
           "day": "2026-09-26",
-          "checks": 22,
+          "checks": 24,
           "baseline": {
             "entries": 1,
             "adds": 1,
@@ -1690,7 +1690,7 @@
         },
         {
           "symbol": "ONEUSDTM",
-          "observations": 942,
+          "observations": 944,
           "baseline_eligible": 1,
           "filtered_eligible": 0,
           "baseline": {
@@ -1756,7 +1756,7 @@
         },
         {
           "symbol": "BRUSDTM",
-          "observations": 613,
+          "observations": 615,
           "baseline_eligible": 0,
           "filtered_eligible": 0,
           "baseline": {
@@ -1954,7 +1954,7 @@
         },
         {
           "symbol": "SAGAUSDTM",
-          "observations": 372,
+          "observations": 374,
           "baseline_eligible": 63,
           "filtered_eligible": 0,
           "baseline": {
@@ -2460,7 +2460,7 @@
         },
         {
           "symbol": "PHAUSDTM",
-          "observations": 105,
+          "observations": 107,
           "baseline_eligible": 0,
           "filtered_eligible": 0,
           "baseline": {
@@ -2504,7 +2504,7 @@
         },
         {
           "symbol": "LYNUSDTM",
-          "observations": 22,
+          "observations": 24,
           "baseline_eligible": 0,
           "filtered_eligible": 0,
           "baseline": {
@@ -2527,15 +2527,15 @@
       ]
     },
     "24h": {
-      "start_at": 1790290399.40222,
-      "end_at": 1790376799.40222,
+      "start_at": 1790291037.485662,
+      "end_at": 1790377437.485662,
       "checks": {
-        "attempts": 105,
-        "successful": 105,
+        "attempts": 107,
+        "successful": 107,
         "skipped": 0,
         "expected_approximately": 289,
-        "coverage_ratio": 0.3633217993079585,
-        "max_gap_seconds": 54415.13917398453
+        "coverage_ratio": 0.370242214532872,
+        "max_gap_seconds": 53777.055732011795
       },
       "discovery": {
         "distinct_shortlist_coins": 7,
@@ -2552,7 +2552,7 @@
         "new_discovery_scans": 2,
         "latest_scan_at": 1790370178.392985,
         "latest_liquid_contracts": 174,
-        "symbol_observations": 525,
+        "symbol_observations": 535,
         "baseline_eligible_observations": 21,
         "filtered_eligible_observations": 0
       },
@@ -2573,12 +2573,12 @@
           "profit_factor_state": "no_losses",
           "fees_paid": 0.20769682181795998,
           "modeled_funding_on_closes": 0.0006574660309642487,
-          "marked_equity_change": 1.288901418087562,
+          "marked_equity_change": 0.748676349467928,
           "start_equity": 1008.9219134009978,
-          "end_equity": 1010.2108148190854,
-          "end_mark_age_seconds": 205.1094708442688,
-          "observed_max_drawdown": 1.5124753627451355,
-          "observed_max_drawdown_pct": 0.14975338759961732,
+          "end_equity": 1009.6705897504658,
+          "end_mark_age_seconds": 233.7205891609192,
+          "observed_max_drawdown": 1.7793743693696342,
+          "observed_max_drawdown_pct": 0.17592312348520842,
           "expectancy": 1.0554814268974226,
           "close_reasons": [
             {
@@ -2621,7 +2621,7 @@
           "buy_rejections": {
             "recorded": 4,
             "coverage": "complete",
-            "instrumented_checks": 105,
+            "instrumented_checks": 107,
             "legacy_checks": 0,
             "first_instrumented_at": 1790344814.541394,
             "reasons": [
@@ -2640,8 +2640,8 @@
             ]
           },
           "equity_sampling": {
-            "tick_samples": 105,
-            "estimated_tick_samples": 38,
+            "tick_samples": 107,
+            "estimated_tick_samples": 40,
             "resolution": "mixed"
           },
           "performance": {
@@ -2660,8 +2660,8 @@
             ],
             "per_symbol_total": 1,
             "exposure": {
-              "observed_seconds": 16391.122626304626,
-              "fraction": 0.18971206743408134,
+              "observed_seconds": 17029.20606827736,
+              "fraction": 0.19709729245691388,
               "coverage": "complete_recorded_lifecycles",
               "unknown_lifecycles": 0
             },
@@ -2739,7 +2739,7 @@
           "marked_equity_change": 0.0,
           "start_equity": 1000.0,
           "end_equity": 1000.0,
-          "end_mark_age_seconds": 205.1094708442688,
+          "end_mark_age_seconds": 233.7205891609192,
           "observed_max_drawdown": 0.0,
           "observed_max_drawdown_pct": 0.0,
           "expectancy": null,
@@ -2777,13 +2777,13 @@
           "buy_rejections": {
             "recorded": 0,
             "coverage": "complete",
-            "instrumented_checks": 105,
+            "instrumented_checks": 107,
             "legacy_checks": 0,
             "first_instrumented_at": 1790344814.541394,
             "reasons": []
           },
           "equity_sampling": {
-            "tick_samples": 105,
+            "tick_samples": 107,
             "estimated_tick_samples": 0,
             "resolution": "mixed"
           },
@@ -2834,7 +2834,7 @@
         },
         {
           "day": "2026-09-26",
-          "checks": 22,
+          "checks": 24,
           "baseline": {
             "entries": 1,
             "adds": 1,
@@ -2856,7 +2856,7 @@
       "coins": [
         {
           "symbol": "ONEUSDTM",
-          "observations": 105,
+          "observations": 107,
           "baseline_eligible": 0,
           "filtered_eligible": 0,
           "baseline": {
@@ -2878,7 +2878,7 @@
         },
         {
           "symbol": "PHAUSDTM",
-          "observations": 105,
+          "observations": 107,
           "baseline_eligible": 0,
           "filtered_eligible": 0,
           "baseline": {
@@ -2900,7 +2900,7 @@
         },
         {
           "symbol": "SAGAUSDTM",
-          "observations": 105,
+          "observations": 107,
           "baseline_eligible": 11,
           "filtered_eligible": 0,
           "baseline": {
@@ -2966,7 +2966,7 @@
         },
         {
           "symbol": "BRUSDTM",
-          "observations": 22,
+          "observations": 24,
           "baseline_eligible": 0,
           "filtered_eligible": 0,
           "baseline": {
@@ -2988,7 +2988,7 @@
         },
         {
           "symbol": "LYNUSDTM",
-          "observations": 22,
+          "observations": 24,
           "baseline_eligible": 0,
           "filtered_eligible": 0,
           "baseline": {
@@ -3011,8 +3011,8 @@
       ]
     },
     "7d": {
-      "start_at": 1789771999.40222,
-      "end_at": 1790376799.40222,
+      "start_at": 1789772637.485662,
+      "end_at": 1790377437.485662,
       "checks": {
         "attempts": 1440,
         "successful": 1440,
@@ -3073,10 +3073,10 @@
           "profit_factor_state": "finite",
           "fees_paid": 0.32880103216596,
           "modeled_funding_on_closes": 0.0011415519282704412,
-          "marked_equity_change": 3.8740449418421576,
+          "marked_equity_change": 3.3338198732225237,
           "start_equity": 1006.3367698772432,
-          "end_equity": 1010.2108148190854,
-          "end_mark_age_seconds": 205.1094708442688,
+          "end_equity": 1009.6705897504658,
+          "end_mark_age_seconds": 233.7205891609192,
           "observed_max_drawdown": 4.707233577639499,
           "observed_max_drawdown_pct": 0.4650664702592669,
           "expectancy": 1.213541650217375,
@@ -3129,7 +3129,7 @@
             "coverage": "complete",
             "instrumented_checks": 1440,
             "legacy_checks": 0,
-            "first_instrumented_at": 1789772248.4471722,
+            "first_instrumented_at": 1789772860.402785,
             "reasons": [
               {
                 "reason": "below_min_score",
@@ -3153,7 +3153,7 @@
           },
           "equity_sampling": {
             "tick_samples": 1440,
-            "estimated_tick_samples": 79,
+            "estimated_tick_samples": 81,
             "resolution": "mixed"
           },
           "performance": {
@@ -3182,8 +3182,8 @@
             ],
             "per_symbol_total": 3,
             "exposure": {
-              "observed_seconds": 30745.84194278717,
-              "fraction": 0.05083637887365604,
+              "observed_seconds": 31383.925384759903,
+              "fraction": 0.05189141101977497,
               "coverage": "complete_recorded_lifecycles",
               "unknown_lifecycles": 0
             },
@@ -3337,7 +3337,7 @@
           "marked_equity_change": 0.0,
           "start_equity": 1000.0,
           "end_equity": 1000.0,
-          "end_mark_age_seconds": 205.1094708442688,
+          "end_mark_age_seconds": 233.7205891609192,
           "observed_max_drawdown": 0.0,
           "observed_max_drawdown_pct": 0.0,
           "expectancy": null,
@@ -3377,7 +3377,7 @@
             "coverage": "complete",
             "instrumented_checks": 1440,
             "legacy_checks": 0,
-            "first_instrumented_at": 1789772248.4471722,
+            "first_instrumented_at": 1789772860.402785,
             "reasons": []
           },
           "equity_sampling": {
@@ -3412,7 +3412,7 @@
       "daily": [
         {
           "day": "2026-09-19",
-          "checks": 158,
+          "checks": 156,
           "baseline": {
             "entries": 1,
             "adds": 0,
@@ -3552,7 +3552,7 @@
         },
         {
           "day": "2026-09-26",
-          "checks": 22,
+          "checks": 24,
           "baseline": {
             "entries": 1,
             "adds": 1,
@@ -3574,7 +3574,7 @@
       "coins": [
         {
           "symbol": "AKEUSDTM",
-          "observations": 714,
+          "observations": 712,
           "baseline_eligible": 0,
           "filtered_eligible": 0,
           "baseline": {
@@ -3596,7 +3596,7 @@
         },
         {
           "symbol": "GUSDTM",
-          "observations": 714,
+          "observations": 712,
           "baseline_eligible": 31,
           "filtered_eligible": 0,
           "baseline": {
@@ -3662,7 +3662,7 @@
         },
         {
           "symbol": "ONEUSDTM",
-          "observations": 671,
+          "observations": 673,
           "baseline_eligible": 0,
           "filtered_eligible": 0,
           "baseline": {
@@ -3860,7 +3860,7 @@
         },
         {
           "symbol": "FUSDTM",
-          "observations": 158,
+          "observations": 156,
           "baseline_eligible": 0,
           "filtered_eligible": 0,
           "baseline": {
@@ -3882,7 +3882,7 @@
         },
         {
           "symbol": "MYXUSDTM",
-          "observations": 158,
+          "observations": 156,
           "baseline_eligible": 5,
           "filtered_eligible": 0,
           "baseline": {
@@ -3904,7 +3904,7 @@
         },
         {
           "symbol": "STGUSDTM",
-          "observations": 158,
+          "observations": 156,
           "baseline_eligible": 2,
           "filtered_eligible": 0,
           "baseline": {
@@ -3970,7 +3970,7 @@
         },
         {
           "symbol": "PHAUSDTM",
-          "observations": 105,
+          "observations": 107,
           "baseline_eligible": 0,
           "filtered_eligible": 0,
           "baseline": {
@@ -3992,7 +3992,7 @@
         },
         {
           "symbol": "SAGAUSDTM",
-          "observations": 105,
+          "observations": 107,
           "baseline_eligible": 11,
           "filtered_eligible": 0,
           "baseline": {
@@ -4036,7 +4036,7 @@
         },
         {
           "symbol": "BRUSDTM",
-          "observations": 22,
+          "observations": 24,
           "baseline_eligible": 0,
           "filtered_eligible": 0,
           "baseline": {
@@ -4058,7 +4058,7 @@
         },
         {
           "symbol": "LYNUSDTM",
-          "observations": 22,
+          "observations": 24,
           "baseline_eligible": 0,
           "filtered_eligible": 0,
           "baseline": {
