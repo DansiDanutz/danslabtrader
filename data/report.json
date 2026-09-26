@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "mode": "paper",
-  "published_at": 1790439105.7993689,
+  "published_at": 1790440637.567043,
   "experiment": {
     "start_at": 1789081915.0211258,
     "end_at": null,
-    "last_tick_at": 1790438349.673461,
-    "report_at": 1790438349.673461,
+    "last_tick_at": 1790440186.7465112,
+    "report_at": 1790440186.7465112,
     "next_audit_at": 1790464315.0211258,
     "mode": "paper",
     "status": "running",
@@ -17,18 +17,18 @@
   "accounts": {
     "baseline": {
       "cash": 905.6501088419092,
-      "equity": 1002.097951212988,
+      "equity": 999.9110870015534,
       "realized_pnl": 5.348815996189431,
-      "unrealized_net_pnl": -3.25086478320138,
-      "daily_pnl": -7.879443614907245,
+      "unrealized_net_pnl": -5.437728994636061,
+      "daily_pnl": -10.066307826341927,
       "unpaid_liabilities": 0.0,
       "trade_count": 27,
       "total_fees": 2.52395145473868,
-      "funding_cost": 0.10108559919311955,
+      "funding_cost": 0.10169994806780293,
       "max_drawdown": 28.509840218955333,
       "max_drawdown_pct": 2.7791775277689985,
       "initial_equity": 1000.0,
-      "experiment_pnl": 2.0979512129880504,
+      "experiment_pnl": -0.08891299844663081,
       "fills": 67,
       "mode": "paper",
       "equity_is_estimate": true,
@@ -39,20 +39,20 @@
           "quantity": 1100.0,
           "cost_basis": 49.762950599999996,
           "entry_fees": 0.029857770359999994,
-          "funding_accrued": 0.0005762578495882601,
+          "funding_accrued": 0.0008751383059204346,
           "adds": 0,
           "multiplier": 10.0,
           "lot_size": 1,
           "average_price": 0.045239046,
           "last_fill": 0.045239046,
-          "last_bid": 0.04256,
-          "last_mark": 0.04254,
+          "last_bid": 0.04212,
+          "last_mark": 0.04215,
           "score": 79.7886,
-          "unrealized_net_pnl": -3.0148318102895852,
-          "valuation_bid": 0.04256,
+          "unrealized_net_pnl": -3.4987435488259173,
+          "valuation_bid": 0.04212,
           "opened_at": 1790434979.497474,
           "last_fill_at": 1790434979.497474,
-          "quote_time": 1790438341.2510002,
+          "quote_time": 1790440169.443,
           "equity_is_estimate": true
         },
         "PHAUSDTM": {
@@ -60,20 +60,20 @@
           "quantity": 600.0,
           "cost_basis": 49.8759732,
           "entry_fees": 0.029925583919999995,
-          "funding_accrued": 0.00037215419153990853,
+          "funding_accrued": 0.0006876226098911166,
           "adds": 0,
           "multiplier": 10.0,
           "lot_size": 1,
           "average_price": 0.083126622,
           "last_fill": 0.083126622,
-          "last_bid": 0.08285,
-          "last_mark": 0.08289,
-          "score": 62.8402,
-          "unrealized_net_pnl": -0.23603297291153852,
-          "valuation_bid": 0.08285,
+          "last_bid": 0.08001,
+          "last_mark": 0.08016,
+          "score": 75.5243,
+          "unrealized_net_pnl": -1.9389854458098865,
+          "valuation_bid": 0.08001,
           "opened_at": 1790436201.312949,
           "last_fill_at": 1790436201.312949,
-          "quote_time": 1790438345.477,
+          "quote_time": 1790440142.554,
           "equity_is_estimate": false
         }
       },
@@ -81,8 +81,8 @@
       "insufficient_exit_depth": [
         "LYNUSDTM"
       ],
-      "checked_at": 1790438349.673461,
-      "last_success_at": 1790438349.673461,
+      "checked_at": 1790440186.7465112,
+      "last_success_at": 1790440186.7465112,
       "risk_halted": false
     },
     "liquidation_filter": {
@@ -106,17 +106,12 @@
       "positions": {},
       "unpriced_positions": [],
       "insufficient_exit_depth": [],
-      "checked_at": 1790438349.673461,
-      "last_success_at": 1790438349.673461,
+      "checked_at": 1790440186.7465112,
+      "last_success_at": 1790440186.7465112,
       "risk_halted": false
     }
   },
   "history": [
-    {
-      "time": 1789579768.079712,
-      "baseline_equity": 1012.9747079231022,
-      "liquidation_filter_equity": 1000.0
-    },
     {
       "time": 1789581605.81472,
       "baseline_equity": 1012.9747079231022,
@@ -1791,19 +1786,30 @@
       "time": 1790438349.673461,
       "baseline_equity": 1002.097951212988,
       "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1790440186.7465112,
+      "baseline_equity": 999.9110870015534,
+      "liquidation_filter_equity": 1000.0
     }
   ],
   "candidates": [
     {
       "symbol": "SAGAUSDTM",
-      "score": 80.0923,
+      "score": 77.635,
       "reasons": [
-        "atr_outside_bounds",
-        "no_completed_rebound"
-      ],
-      "liquidation_filter_reasons": [
+        "stale_quote",
+        "wide_spread",
         "atr_outside_bounds",
         "no_completed_rebound",
+        "strong_downtrend"
+      ],
+      "liquidation_filter_reasons": [
+        "stale_quote",
+        "wide_spread",
+        "atr_outside_bounds",
+        "no_completed_rebound",
+        "strong_downtrend",
         "coinglass_filter_not_met"
       ],
       "signal_eligible": false,
@@ -1813,13 +1819,17 @@
     },
     {
       "symbol": "LYNUSDTM",
-      "score": 77.8516,
+      "score": 77.5575,
       "reasons": [
-        "wide_spread"
+        "wide_spread",
+        "no_completed_rebound",
+        "strong_downtrend"
       ],
       "liquidation_filter_reasons": [
         "wide_spread",
-        "coinglass_missing_or_stale"
+        "no_completed_rebound",
+        "strong_downtrend",
+        "coinglass_filter_not_met"
       ],
       "signal_eligible": false,
       "add_signal_eligible": false,
@@ -1828,25 +1838,32 @@
     },
     {
       "symbol": "PHAUSDTM",
-      "score": 62.8402,
-      "reasons": [],
+      "score": 75.5243,
+      "reasons": [
+        "no_completed_rebound"
+      ],
       "liquidation_filter_reasons": [
+        "no_completed_rebound",
         "coinglass_filter_not_met"
       ],
-      "signal_eligible": true,
-      "add_signal_eligible": true,
-      "baseline_eligible": true,
+      "signal_eligible": false,
+      "add_signal_eligible": false,
+      "baseline_eligible": false,
       "liquidation_filter_eligible": false
     },
     {
       "symbol": "BRUSDTM",
-      "score": 26.229,
+      "score": 26.775,
       "reasons": [
+        "wide_spread",
         "not_lower_range",
+        "no_completed_rebound",
         "insufficient_rebound_room"
       ],
       "liquidation_filter_reasons": [
+        "wide_spread",
         "not_lower_range",
+        "no_completed_rebound",
         "insufficient_rebound_room",
         "coinglass_filter_not_met"
       ],
@@ -1857,16 +1874,12 @@
     },
     {
       "symbol": "ONEUSDTM",
-      "score": 29.3497,
+      "score": 48.3873,
       "reasons": [
-        "not_lower_range",
-        "no_completed_rebound",
-        "insufficient_rebound_room"
+        "stale_quote"
       ],
       "liquidation_filter_reasons": [
-        "not_lower_range",
-        "no_completed_rebound",
-        "insufficient_rebound_room",
+        "stale_quote",
         "coinglass_filter_not_met"
       ],
       "signal_eligible": false,
@@ -1876,234 +1889,6 @@
     }
   ],
   "events": [
-    {
-      "type": "buy_rejected",
-      "account": "baseline",
-      "time": 1790204374.6455219,
-      "net_pnl": null,
-      "fee": null,
-      "entry_fees": null,
-      "exit_fee": null,
-      "funding_model_cost": null,
-      "reason": "insufficient_ask_depth",
-      "action": "open",
-      "stage": "execution",
-      "context": {
-        "lots": null,
-        "unit_cost": null,
-        "budget": null,
-        "required_contracts": 3,
-        "ask_size": 1.0,
-        "cost": null,
-        "fee": null,
-        "cash": null,
-        "existing_cost": null,
-        "position_cap": null,
-        "immediate_net": null,
-        "weighted_drop_pct": null,
-        "max_position_loss": null,
-        "max_price_drop_pct": null,
-        "expected_net": null,
-        "target_net_profit": null,
-        "score": null,
-        "min_score": null,
-        "elapsed_seconds": null,
-        "cooldown_seconds": null,
-        "positions": null,
-        "max_positions": null
-      },
-      "symbol": "LONGXIAUSDTM"
-    },
-    {
-      "type": "buy_rejected",
-      "account": "baseline",
-      "time": 1790211699.160306,
-      "net_pnl": null,
-      "fee": null,
-      "entry_fees": null,
-      "exit_fee": null,
-      "funding_model_cost": null,
-      "reason": "insufficient_ask_depth",
-      "action": "open",
-      "stage": "execution",
-      "context": {
-        "lots": null,
-        "unit_cost": null,
-        "budget": null,
-        "required_contracts": 21,
-        "ask_size": 1.0,
-        "cost": null,
-        "fee": null,
-        "cash": null,
-        "existing_cost": null,
-        "position_cap": null,
-        "immediate_net": null,
-        "weighted_drop_pct": null,
-        "max_position_loss": null,
-        "max_price_drop_pct": null,
-        "expected_net": null,
-        "target_net_profit": null,
-        "score": null,
-        "min_score": null,
-        "elapsed_seconds": null,
-        "cooldown_seconds": null,
-        "positions": null,
-        "max_positions": null
-      },
-      "symbol": "FOLKSUSDTM"
-    },
-    {
-      "type": "buy_rejected",
-      "account": "baseline",
-      "time": 1790212003.830515,
-      "net_pnl": null,
-      "fee": null,
-      "entry_fees": null,
-      "exit_fee": null,
-      "funding_model_cost": null,
-      "reason": "insufficient_ask_depth",
-      "action": "open",
-      "stage": "execution",
-      "context": {
-        "lots": null,
-        "unit_cost": null,
-        "budget": null,
-        "required_contracts": 21,
-        "ask_size": 8.0,
-        "cost": null,
-        "fee": null,
-        "cash": null,
-        "existing_cost": null,
-        "position_cap": null,
-        "immediate_net": null,
-        "weighted_drop_pct": null,
-        "max_position_loss": null,
-        "max_price_drop_pct": null,
-        "expected_net": null,
-        "target_net_profit": null,
-        "score": null,
-        "min_score": null,
-        "elapsed_seconds": null,
-        "cooldown_seconds": null,
-        "positions": null,
-        "max_positions": null
-      },
-      "symbol": "FOLKSUSDTM"
-    },
-    {
-      "type": "buy_rejected",
-      "account": "baseline",
-      "time": 1790212310.204469,
-      "net_pnl": null,
-      "fee": null,
-      "entry_fees": null,
-      "exit_fee": null,
-      "funding_model_cost": null,
-      "reason": "insufficient_ask_depth",
-      "action": "open",
-      "stage": "execution",
-      "context": {
-        "lots": null,
-        "unit_cost": null,
-        "budget": null,
-        "required_contracts": 21,
-        "ask_size": 1.0,
-        "cost": null,
-        "fee": null,
-        "cash": null,
-        "existing_cost": null,
-        "position_cap": null,
-        "immediate_net": null,
-        "weighted_drop_pct": null,
-        "max_position_loss": null,
-        "max_price_drop_pct": null,
-        "expected_net": null,
-        "target_net_profit": null,
-        "score": null,
-        "min_score": null,
-        "elapsed_seconds": null,
-        "cooldown_seconds": null,
-        "positions": null,
-        "max_positions": null
-      },
-      "symbol": "FOLKSUSDTM"
-    },
-    {
-      "type": "buy_rejected",
-      "account": "baseline",
-      "time": 1790212614.973099,
-      "net_pnl": null,
-      "fee": null,
-      "entry_fees": null,
-      "exit_fee": null,
-      "funding_model_cost": null,
-      "reason": "insufficient_ask_depth",
-      "action": "open",
-      "stage": "execution",
-      "context": {
-        "lots": null,
-        "unit_cost": null,
-        "budget": null,
-        "required_contracts": 21,
-        "ask_size": 1.0,
-        "cost": null,
-        "fee": null,
-        "cash": null,
-        "existing_cost": null,
-        "position_cap": null,
-        "immediate_net": null,
-        "weighted_drop_pct": null,
-        "max_position_loss": null,
-        "max_price_drop_pct": null,
-        "expected_net": null,
-        "target_net_profit": null,
-        "score": null,
-        "min_score": null,
-        "elapsed_seconds": null,
-        "cooldown_seconds": null,
-        "positions": null,
-        "max_positions": null
-      },
-      "symbol": "FOLKSUSDTM"
-    },
-    {
-      "type": "buy_rejected",
-      "account": "baseline",
-      "time": 1790212919.684392,
-      "net_pnl": null,
-      "fee": null,
-      "entry_fees": null,
-      "exit_fee": null,
-      "funding_model_cost": null,
-      "reason": "insufficient_ask_depth",
-      "action": "open",
-      "stage": "execution",
-      "context": {
-        "lots": null,
-        "unit_cost": null,
-        "budget": null,
-        "required_contracts": 21,
-        "ask_size": 1.0,
-        "cost": null,
-        "fee": null,
-        "cash": null,
-        "existing_cost": null,
-        "position_cap": null,
-        "immediate_net": null,
-        "weighted_drop_pct": null,
-        "max_position_loss": null,
-        "max_price_drop_pct": null,
-        "expected_net": null,
-        "target_net_profit": null,
-        "score": null,
-        "min_score": null,
-        "elapsed_seconds": null,
-        "cooldown_seconds": null,
-        "positions": null,
-        "max_positions": null
-      },
-      "symbol": "FOLKSUSDTM"
-    },
     {
       "type": "buy_rejected",
       "account": "baseline",
@@ -2801,6 +2586,99 @@
       "exit_fee": null,
       "funding_model_cost": null,
       "symbol": "LYNUSDTM"
+    },
+    {
+      "type": "deferred_exit",
+      "account": "baseline",
+      "time": 1790438655.4938781,
+      "net_pnl": null,
+      "fee": null,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "symbol": "LYNUSDTM"
+    },
+    {
+      "type": "deferred_exit",
+      "account": "baseline",
+      "time": 1790438960.841802,
+      "net_pnl": null,
+      "fee": null,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "symbol": "LYNUSDTM"
+    },
+    {
+      "type": "deferred_exit",
+      "account": "baseline",
+      "time": 1790439265.792341,
+      "net_pnl": null,
+      "fee": null,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "symbol": "LYNUSDTM"
+    },
+    {
+      "type": "buy_rejected",
+      "account": "baseline",
+      "time": 1790439571.489801,
+      "net_pnl": null,
+      "fee": null,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "reason": "below_min_score",
+      "action": "open",
+      "stage": "selection",
+      "context": {
+        "lots": null,
+        "unit_cost": null,
+        "budget": null,
+        "required_contracts": null,
+        "ask_size": null,
+        "cost": null,
+        "fee": null,
+        "cash": null,
+        "existing_cost": null,
+        "position_cap": null,
+        "immediate_net": null,
+        "weighted_drop_pct": null,
+        "max_position_loss": null,
+        "max_price_drop_pct": null,
+        "expected_net": null,
+        "target_net_profit": null,
+        "score": 47.2224,
+        "min_score": 60.0,
+        "elapsed_seconds": null,
+        "cooldown_seconds": null,
+        "positions": null,
+        "max_positions": null
+      },
+      "symbol": "ONEUSDTM"
+    },
+    {
+      "type": "deferred_exit",
+      "account": "baseline",
+      "time": 1790439879.279385,
+      "net_pnl": null,
+      "fee": null,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "symbol": "LYNUSDTM"
+    },
+    {
+      "type": "deferred_exit",
+      "account": "baseline",
+      "time": 1790440186.7465112,
+      "net_pnl": null,
+      "fee": null,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "symbol": "LYNUSDTM"
     }
   ],
   "limitations": [
@@ -2819,7 +2697,7 @@
     }
   ],
   "coinglass": {
-    "fetched_at": 1790438345.111636,
+    "fetched_at": 1790440181.9034,
     "symbols": {
       "BRUSDTM": {
         "eligible": false,
@@ -2827,7 +2705,7 @@
       },
       "LYNUSDTM": {
         "eligible": false,
-        "reason": "data_unavailable"
+        "reason": "liquidation_burst_below_3x"
       },
       "ONEUSDTM": {
         "eligible": false,
@@ -2874,7 +2752,7 @@
   },
   "health": {
     "mode": "paper",
-    "published_at": 1790439105.7993689,
+    "published_at": 1790440637.567043,
     "worker_alive": true,
     "experiment_status": "running",
     "collection_error": false,
@@ -2885,9 +2763,9 @@
         "count": 5
       }
     ],
-    "last_tick_at": 1790438960.841802,
-    "report_at": 1790438349.673461,
+    "last_tick_at": 1790440492.253215,
+    "report_at": 1790440186.7465112,
     "last_attempt_at": null,
-    "last_poll_at": 1790439081.877523
+    "last_poll_at": 1790440613.246485
   }
 }
