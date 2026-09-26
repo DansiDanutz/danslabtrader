@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "mode": "paper",
-  "published_at": 1790381271.1353312,
+  "published_at": 1790382384.959358,
   "experiment": {
     "start_at": 1789081915.0211258,
     "end_at": null,
-    "last_tick_at": 1790379646.237616,
-    "report_at": 1790379646.237616,
+    "last_tick_at": 1790381475.840864,
+    "report_at": 1790381475.840864,
     "next_audit_at": 1790464315.0211258,
     "mode": "paper",
     "status": "running",
@@ -17,18 +17,18 @@
   "accounts": {
     "baseline": {
       "cash": 894.910848388549,
-      "equity": 1007.1603076846478,
+      "equity": 1006.8101924797363,
       "realized_pnl": 9.97739482789553,
-      "unrealized_net_pnl": -2.8170871432477114,
-      "daily_pnl": -2.817087143247477,
+      "unrealized_net_pnl": -3.167202348159215,
+      "daily_pnl": -3.1672023481589804,
       "unpaid_liabilities": 0.0,
       "trade_count": 24,
       "total_fees": 2.27811947874432,
-      "funding_cost": 0.09513337568687075,
+      "funding_cost": 0.0958492818369411,
       "max_drawdown": 28.509840218955333,
       "max_drawdown_pct": 2.7791775277689985,
       "initial_equity": 1000.0,
-      "experiment_pnl": 7.160307684647819,
+      "experiment_pnl": 6.810192479736315,
       "fills": 60,
       "mode": "paper",
       "equity_is_estimate": true,
@@ -39,20 +39,20 @@
           "quantity": 3178.9,
           "cost_basis": 114.9975479106,
           "entry_fees": 0.06899852874636,
-          "funding_accrued": 0.0030063241802552993,
+          "funding_accrued": 0.0037222303303256427,
           "adds": 1,
           "multiplier": 0.1,
           "lot_size": 1,
           "average_price": 0.03617526437151216,
           "last_fill": 0.03585717,
-          "last_bid": 0.03534,
-          "last_mark": 0.03542,
-          "score": 80.9724,
-          "unrealized_net_pnl": -2.8170871432474787,
-          "valuation_bid": 0.03534,
+          "last_bid": 0.03523,
+          "last_mark": 0.03525,
+          "score": 82.1261,
+          "unrealized_net_pnl": -3.167202348159039,
+          "valuation_bid": 0.03523,
           "opened_at": 1790370184.7067158,
           "last_fill_at": 1790373542.389515,
-          "quote_time": 1790379624.2870002,
+          "quote_time": 1790381461.676,
           "equity_is_estimate": true
         }
       },
@@ -60,8 +60,8 @@
       "insufficient_exit_depth": [
         "SAGAUSDTM"
       ],
-      "checked_at": 1790379646.237616,
-      "last_success_at": 1790379646.237616,
+      "checked_at": 1790381475.840864,
+      "last_success_at": 1790381475.840864,
       "risk_halted": false
     },
     "liquidation_filter": {
@@ -85,17 +85,12 @@
       "positions": {},
       "unpriced_positions": [],
       "insufficient_exit_depth": [],
-      "checked_at": 1790379646.237616,
-      "last_success_at": 1790379646.237616,
+      "checked_at": 1790381475.840864,
+      "last_success_at": 1790381475.840864,
       "risk_halted": false
     }
   },
   "history": [
-    {
-      "time": 1789521003.6868968,
-      "baseline_equity": 1012.9747079231022,
-      "liquidation_filter_equity": 1000.0
-    },
     {
       "time": 1789522839.794715,
       "baseline_equity": 1012.9747079231022,
@@ -1770,16 +1765,23 @@
       "time": 1790379646.237616,
       "baseline_equity": 1007.1603076846478,
       "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1790381475.840864,
+      "baseline_equity": 1006.8101924797363,
+      "liquidation_filter_equity": 1000.0
     }
   ],
   "candidates": [
     {
       "symbol": "SAGAUSDTM",
-      "score": 80.9724,
+      "score": 82.1261,
       "reasons": [
+        "no_completed_rebound",
         "strong_downtrend"
       ],
       "liquidation_filter_reasons": [
+        "no_completed_rebound",
         "strong_downtrend",
         "coinglass_filter_not_met"
       ],
@@ -1790,12 +1792,14 @@
     },
     {
       "symbol": "LYNUSDTM",
-      "score": 77.2229,
+      "score": 55.4913,
       "reasons": [
+        "wide_spread",
         "atr_outside_bounds",
         "strong_downtrend"
       ],
       "liquidation_filter_reasons": [
+        "wide_spread",
         "atr_outside_bounds",
         "strong_downtrend",
         "coinglass_filter_not_met"
@@ -1807,7 +1811,7 @@
     },
     {
       "symbol": "PHAUSDTM",
-      "score": 25.2966,
+      "score": 24.2351,
       "reasons": [
         "wide_spread",
         "atr_outside_bounds",
@@ -1830,13 +1834,15 @@
     },
     {
       "symbol": "BRUSDTM",
-      "score": 78.1578,
+      "score": 52.2209,
       "reasons": [
         "atr_outside_bounds",
+        "not_lower_range",
         "no_completed_rebound"
       ],
       "liquidation_filter_reasons": [
         "atr_outside_bounds",
+        "not_lower_range",
         "no_completed_rebound",
         "coinglass_filter_not_met"
       ],
@@ -1847,18 +1853,14 @@
     },
     {
       "symbol": "ONEUSDTM",
-      "score": 29.178,
+      "score": 28.7113,
       "reasons": [
         "not_lower_range",
-        "no_completed_rebound",
-        "insufficient_rebound_room",
-        "funding_outside_bounds"
+        "insufficient_rebound_room"
       ],
       "liquidation_filter_reasons": [
         "not_lower_range",
-        "no_completed_rebound",
         "insufficient_rebound_room",
-        "funding_outside_bounds",
         "coinglass_filter_not_met"
       ],
       "signal_eligible": false,
@@ -3216,7 +3218,7 @@
     }
   ],
   "coinglass": {
-    "fetched_at": 1790379641.7677922,
+    "fetched_at": 1790381471.133211,
     "symbols": {
       "BRUSDTM": {
         "eligible": false,
@@ -3271,7 +3273,7 @@
   },
   "health": {
     "mode": "paper",
-    "published_at": 1790381271.1353312,
+    "published_at": 1790382384.959358,
     "worker_alive": true,
     "experiment_status": "running",
     "collection_error": false,
@@ -3282,9 +3284,9 @@
         "count": 5
       }
     ],
-    "last_tick_at": 1790381169.422236,
-    "report_at": 1790379646.237616,
+    "last_tick_at": 1790382085.14221,
+    "report_at": 1790381475.840864,
     "last_attempt_at": null,
-    "last_poll_at": 1790381260.029818
+    "last_poll_at": 1790382356.932066
   }
 }
