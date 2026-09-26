@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "mode": "paper",
-  "published_at": 1790448991.363484,
+  "published_at": 1790449663.98658,
   "experiment": {
     "start_at": 1789081915.0211258,
     "end_at": null,
-    "last_tick_at": 1790447522.962146,
-    "report_at": 1790447522.962146,
+    "last_tick_at": 1790449359.6965692,
+    "report_at": 1790449359.6965692,
     "next_audit_at": 1790464315.0211258,
     "mode": "paper",
     "status": "running",
@@ -16,44 +16,44 @@
   },
   "accounts": {
     "baseline": {
-      "cash": 899.0573626174479,
-      "equity": 998.7967651180613,
+      "cash": 834.0196542495624,
+      "equity": 996.9371278067148,
       "realized_pnl": -0.898568118061486,
-      "unrealized_net_pnl": -0.30466676387718383,
-      "daily_pnl": -11.180629709833966,
+      "unrealized_net_pnl": -2.16430407522373,
+      "daily_pnl": -13.040267021180512,
       "unpaid_liabilities": 0.0,
       "trade_count": 29,
-      "total_fees": 2.640047478669,
-      "funding_cost": 0.10231480181636061,
-      "max_drawdown": 28.509840218955333,
-      "max_drawdown_pct": 2.7791775277689985,
+      "total_fees": 2.67904670415444,
+      "funding_cost": 0.10239035512414896,
+      "max_drawdown": 28.900190395903905,
+      "max_drawdown_pct": 2.8172293874568983,
       "initial_equity": 1000.0,
-      "experiment_pnl": -1.2032348819386698,
-      "fills": 71,
+      "experiment_pnl": -3.062872193285216,
+      "fills": 72,
       "mode": "paper",
       "equity_is_estimate": true,
       "paused": false,
       "positions": {
         "SAGAUSDTM": {
-          "contracts": 15376,
-          "quantity": 1537.6000000000001,
-          "cost_basis": 49.9973734752,
-          "entry_fees": 0.029998424085119997,
-          "funding_accrued": 0.0003118313334517363,
-          "adds": 0,
+          "contracts": 35583,
+          "quantity": 3558.3,
+          "cost_basis": 114.9960826176,
+          "entry_fees": 0.06899764957056,
+          "funding_accrued": 0.0003873846412400851,
+          "adds": 1,
           "multiplier": 0.1,
           "lot_size": 1,
-          "average_price": 0.032516501999999996,
-          "last_fill": 0.032516501999999996,
-          "last_bid": 0.03253,
-          "last_mark": 0.03259,
-          "score": 80.3808,
-          "unrealized_net_pnl": -0.04956423084319969,
-          "valuation_bid": 0.03253,
+          "average_price": 0.03231770300918978,
+          "last_fill": 0.032166432,
+          "last_bid": 0.0319,
+          "last_mark": 0.03192,
+          "score": 82.3718,
+          "unrealized_net_pnl": -1.6464918466394052,
+          "valuation_bid": 0.0319,
           "opened_at": 1790445690.615333,
-          "last_fill_at": 1790445690.615333,
-          "quote_time": 1790447422.411,
-          "equity_is_estimate": true
+          "last_fill_at": 1790448134.262613,
+          "quote_time": 1790449346.631,
+          "equity_is_estimate": false
         },
         "ONEUSDTM": {
           "contracts": 2191,
@@ -66,26 +66,23 @@
           "lot_size": 1,
           "average_price": 0.0022814562,
           "last_fill": 0.0022814562,
-          "last_bid": 0.002273,
-          "last_mark": 0.002274,
-          "score": 84.668,
-          "unrealized_net_pnl": -0.2551025330335989,
-          "valuation_bid": 0.002273,
+          "last_bid": 0.002261,
+          "last_mark": 0.002264,
+          "score": 83.467,
+          "unrealized_net_pnl": -0.5178122285839978,
+          "valuation_bid": 0.002261,
           "opened_at": 1790446300.927965,
           "last_fill_at": 1790446300.927965,
-          "quote_time": 1790447489.2350001,
+          "quote_time": 1790449355.4780002,
           "equity_is_estimate": true
         }
       },
-      "unpriced_positions": [
-        "SAGAUSDTM"
-      ],
+      "unpriced_positions": [],
       "insufficient_exit_depth": [
-        "SAGAUSDTM",
         "ONEUSDTM"
       ],
-      "checked_at": 1790447522.962146,
-      "last_success_at": 1790447522.962146,
+      "checked_at": 1790449359.6965692,
+      "last_success_at": 1790449359.6965692,
       "risk_halted": false
     },
     "liquidation_filter": {
@@ -109,17 +106,12 @@
       "positions": {},
       "unpriced_positions": [],
       "insufficient_exit_depth": [],
-      "checked_at": 1790447522.962146,
-      "last_success_at": 1790447522.962146,
+      "checked_at": 1790449359.6965692,
+      "last_success_at": 1790449359.6965692,
       "risk_halted": false
     }
   },
   "history": [
-    {
-      "time": 1789588960.239792,
-      "baseline_equity": 1012.9747079231022,
-      "liquidation_filter_equity": 1000.0
-    },
     {
       "time": 1789590798.644323,
       "baseline_equity": 1012.9747079231022,
@@ -1794,17 +1786,22 @@
       "time": 1790447522.962146,
       "baseline_equity": 998.7967651180613,
       "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1790449359.6965692,
+      "baseline_equity": 996.9371278067148,
+      "liquidation_filter_equity": 1000.0
     }
   ],
   "candidates": [
     {
       "symbol": "SAGAUSDTM",
-      "score": 81.7908,
+      "score": 82.3718,
       "reasons": [
-        "stale_quote"
+        "no_completed_rebound"
       ],
       "liquidation_filter_reasons": [
-        "stale_quote",
+        "no_completed_rebound",
         "coinglass_filter_not_met"
       ],
       "signal_eligible": false,
@@ -1814,15 +1811,13 @@
     },
     {
       "symbol": "LYNUSDTM",
-      "score": 76.8234,
+      "score": 76.0068,
       "reasons": [
         "wide_spread",
-        "no_completed_rebound",
         "strong_downtrend"
       ],
       "liquidation_filter_reasons": [
         "wide_spread",
-        "no_completed_rebound",
         "strong_downtrend",
         "coinglass_filter_not_met"
       ],
@@ -1833,14 +1828,12 @@
     },
     {
       "symbol": "PHAUSDTM",
-      "score": 80.445,
+      "score": 75.8286,
       "reasons": [
-        "stale_quote",
-        "no_completed_rebound"
+        "wide_spread"
       ],
       "liquidation_filter_reasons": [
-        "stale_quote",
-        "no_completed_rebound",
+        "wide_spread",
         "coinglass_filter_not_met"
       ],
       "signal_eligible": false,
@@ -1850,14 +1843,16 @@
     },
     {
       "symbol": "BRUSDTM",
-      "score": 35.0133,
+      "score": 42.9072,
       "reasons": [
         "not_lower_range",
-        "insufficient_rebound_room"
+        "no_completed_rebound",
+        "strong_downtrend"
       ],
       "liquidation_filter_reasons": [
         "not_lower_range",
-        "insufficient_rebound_room",
+        "no_completed_rebound",
+        "strong_downtrend",
         "coinglass_filter_not_met"
       ],
       "signal_eligible": false,
@@ -1867,56 +1862,21 @@
     },
     {
       "symbol": "ONEUSDTM",
-      "score": 84.668,
-      "reasons": [],
+      "score": 83.467,
+      "reasons": [
+        "no_completed_rebound"
+      ],
       "liquidation_filter_reasons": [
+        "no_completed_rebound",
         "coinglass_filter_not_met"
       ],
-      "signal_eligible": true,
-      "add_signal_eligible": true,
-      "baseline_eligible": true,
+      "signal_eligible": false,
+      "add_signal_eligible": false,
+      "baseline_eligible": false,
       "liquidation_filter_eligible": false
     }
   ],
   "events": [
-    {
-      "type": "buy_rejected",
-      "account": "baseline",
-      "time": 1790350315.227404,
-      "net_pnl": null,
-      "fee": null,
-      "entry_fees": null,
-      "exit_fee": null,
-      "funding_model_cost": null,
-      "reason": "insufficient_ask_depth",
-      "action": "add",
-      "stage": "execution",
-      "context": {
-        "lots": null,
-        "unit_cost": null,
-        "budget": null,
-        "required_contracts": 7172,
-        "ask_size": 1684.0,
-        "cost": null,
-        "fee": null,
-        "cash": null,
-        "existing_cost": null,
-        "position_cap": null,
-        "immediate_net": null,
-        "weighted_drop_pct": null,
-        "max_position_loss": null,
-        "max_price_drop_pct": null,
-        "expected_net": null,
-        "target_net_profit": null,
-        "score": null,
-        "min_score": null,
-        "elapsed_seconds": null,
-        "cooldown_seconds": null,
-        "positions": null,
-        "max_positions": null
-      },
-      "symbol": "XAIUSDTM"
-    },
     {
       "type": "add",
       "account": "baseline",
@@ -2561,6 +2521,17 @@
       "exit_fee": null,
       "funding_model_cost": null,
       "symbol": "ONEUSDTM"
+    },
+    {
+      "type": "add",
+      "account": "baseline",
+      "time": 1790448134.262613,
+      "net_pnl": null,
+      "fee": 0.03899922548544,
+      "entry_fees": null,
+      "exit_fee": null,
+      "funding_model_cost": null,
+      "symbol": "SAGAUSDTM"
     }
   ],
   "limitations": [
@@ -2579,7 +2550,7 @@
     }
   ],
   "coinglass": {
-    "fetched_at": 1790447518.2874398,
+    "fetched_at": 1790449354.565866,
     "symbols": {
       "BRUSDTM": {
         "eligible": false,
@@ -2634,7 +2605,7 @@
   },
   "health": {
     "mode": "paper",
-    "published_at": 1790448991.363484,
+    "published_at": 1790449663.98658,
     "worker_alive": true,
     "experiment_status": "running",
     "collection_error": false,
@@ -2645,9 +2616,9 @@
         "count": 5
       }
     ],
-    "last_tick_at": 1790448746.120337,
-    "report_at": 1790447522.962146,
+    "last_tick_at": 1790449359.6965692,
+    "report_at": 1790449359.6965692,
     "last_attempt_at": null,
-    "last_poll_at": 1790448988.443448
+    "last_poll_at": 1790449632.727792
   }
 }
