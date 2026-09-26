@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "generated_at_ms": 1790428505053,
-  "cycle_id": "CTRL-20260926-16",
-  "last_cycle_at": "2026-09-26T13:15:05.053000Z",
+  "generated_at_ms": 1790432106326,
+  "cycle_id": "CTRL-20260926-17",
+  "last_cycle_at": "2026-09-26T14:15:06.326000Z",
   "scheduler": "hourly :15 Europe/Bucharest",
   "doctor": {
-    "status": "ok",
+    "status": "warn",
     "failing": []
   },
   "open_dispatches": 4,
@@ -716,7 +716,7 @@
       "status": "OK",
       "last_seen_at": "2026-09-26T12:25:07Z",
       "installed": true,
-      "idle_h": 0.833,
+      "idle_h": 1.833,
       "max_idle_h": 24.0,
       "rooms": [
         "Paper Grid Trading Team",
@@ -730,7 +730,7 @@
       "status": "OK",
       "last_seen_at": "2026-09-26T03:21:09Z",
       "installed": true,
-      "idle_h": 9.899,
+      "idle_h": 10.899,
       "max_idle_h": 24.0,
       "rooms": [
         "Paper Grid Trading Team"
@@ -742,7 +742,7 @@
       "status": "OK",
       "last_seen_at": "2026-09-26T03:21:31Z",
       "installed": true,
-      "idle_h": 9.893,
+      "idle_h": 10.893,
       "max_idle_h": 24.0,
       "rooms": [
         "Paper Grid Trading Team"
@@ -754,7 +754,7 @@
       "status": "OK",
       "last_seen_at": "2026-09-26T04:27:57Z",
       "installed": true,
-      "idle_h": 8.786,
+      "idle_h": 9.786,
       "max_idle_h": 24.0,
       "rooms": [
         "Paper Grid Trading Team"
@@ -766,7 +766,7 @@
       "status": "OK",
       "last_seen_at": "2026-09-26T06:21:51Z",
       "installed": true,
-      "idle_h": 6.887,
+      "idle_h": 7.888,
       "max_idle_h": 24.0,
       "rooms": [
         "Paper Grid Research & Data"
@@ -778,7 +778,7 @@
       "status": "OK",
       "last_seen_at": "2026-09-26T06:20:25Z",
       "installed": true,
-      "idle_h": 6.911,
+      "idle_h": 7.911,
       "max_idle_h": 24.0,
       "rooms": [
         "Paper Grid Research & Data"
@@ -790,7 +790,7 @@
       "status": "OK",
       "last_seen_at": "2026-09-26T04:27:17Z",
       "installed": true,
-      "idle_h": 8.797,
+      "idle_h": 9.797,
       "max_idle_h": 24.0,
       "rooms": [
         "Paper Grid Trading Team",
@@ -803,7 +803,7 @@
       "status": "OK",
       "last_seen_at": "2026-09-26T12:26:21Z",
       "installed": true,
-      "idle_h": 0.812,
+      "idle_h": 1.813,
       "max_idle_h": 24.0,
       "rooms": [
         "Paper Grid Trading Team",
@@ -816,7 +816,7 @@
       "status": "OK",
       "last_seen_at": "2026-09-26T10:25:28Z",
       "installed": true,
-      "idle_h": 2.827,
+      "idle_h": 3.827,
       "max_idle_h": 24.0,
       "rooms": [
         "Paper Desk Office"
@@ -828,7 +828,7 @@
       "status": "IDLE",
       "last_seen_at": "2026-09-26T06:18:45Z",
       "installed": true,
-      "idle_h": 6.939,
+      "idle_h": 7.939,
       "max_idle_h": 6.0,
       "rooms": [
         "Paper Grid Research & Data",
@@ -841,7 +841,7 @@
       "status": "OK",
       "last_seen_at": "2026-09-26T07:17:30Z",
       "installed": true,
-      "idle_h": 5.96,
+      "idle_h": 6.96,
       "max_idle_h": 24.0,
       "rooms": [
         "Paper Desk Office"
@@ -851,9 +851,9 @@
       "name": "Market data collector",
       "kind": "deterministic",
       "status": "OK",
-      "last_seen_at": "2026-09-26T13:12:35.988000Z",
+      "last_seen_at": "2026-09-26T14:12:13.021000Z",
       "installed": true,
-      "idle_h": 0.041,
+      "idle_h": 0.048,
       "max_idle_h": 1.0,
       "rooms": []
     },
@@ -863,7 +863,7 @@
       "status": "OK",
       "last_seen_at": "2026-09-26T13:13:18.564000Z",
       "installed": true,
-      "idle_h": 0.03,
+      "idle_h": 1.03,
       "max_idle_h": 2.0,
       "rooms": []
     },
@@ -871,9 +871,9 @@
       "name": "Autopilot",
       "kind": "deterministic",
       "status": "OK",
-      "last_seen_at": "2026-09-26T13:14:53.321000Z",
+      "last_seen_at": "2026-09-26T14:14:43.561000Z",
       "installed": true,
-      "idle_h": 0.003,
+      "idle_h": 0.006,
       "max_idle_h": 0.1,
       "rooms": []
     },
@@ -881,9 +881,9 @@
       "name": "Publisher",
       "kind": "deterministic",
       "status": "OK",
-      "last_seen_at": "2026-09-26T13:14:33.951000Z",
+      "last_seen_at": "2026-09-26T14:10:32.269000Z",
       "installed": true,
-      "idle_h": 0.009,
+      "idle_h": 0.076,
       "max_idle_h": 0.5,
       "rooms": []
     },
@@ -891,9 +891,9 @@
       "name": "CoinGlass history",
       "kind": "deterministic",
       "status": "OK",
-      "last_seen_at": "2026-09-26T13:12:35.990000Z",
+      "last_seen_at": "2026-09-26T14:13:51.886000Z",
       "installed": true,
-      "idle_h": 0.041,
+      "idle_h": 0.021,
       "max_idle_h": 3.0,
       "rooms": []
     },
@@ -903,7 +903,7 @@
       "status": "OK",
       "last_seen_at": "2026-09-26T13:13:15.275000Z",
       "installed": true,
-      "idle_h": 0.03,
+      "idle_h": 1.031,
       "max_idle_h": 3.0,
       "rooms": []
     },
@@ -913,7 +913,7 @@
       "status": "OK",
       "last_seen_at": "2026-09-26T04:00:03.669000Z",
       "installed": true,
-      "idle_h": 9.25,
+      "idle_h": 10.251,
       "max_idle_h": 26.0,
       "rooms": []
     },
@@ -923,7 +923,7 @@
       "status": "OK",
       "last_seen_at": "2026-09-26T04:00:03.502000Z",
       "installed": true,
-      "idle_h": 9.25,
+      "idle_h": 10.251,
       "max_idle_h": 26.0,
       "rooms": []
     },
@@ -931,9 +931,9 @@
       "name": "Doctor",
       "kind": "deterministic",
       "status": "OK",
-      "last_seen_at": "2026-09-26T13:12:57.985000Z",
+      "last_seen_at": "2026-09-26T14:12:33.596000Z",
       "installed": true,
-      "idle_h": 0.035,
+      "idle_h": 0.042,
       "max_idle_h": 1.0,
       "rooms": []
     },
@@ -941,12 +941,12 @@
       "name": "Team controller",
       "kind": "deterministic",
       "status": "OK",
-      "last_seen_at": "2026-09-26T12:15:07.834000Z",
+      "last_seen_at": "2026-09-26T13:15:05.053000Z",
       "installed": true,
-      "idle_h": 0.999,
+      "idle_h": 1.0,
       "max_idle_h": 2.0,
       "rooms": []
     }
   ],
-  "published_at_ms": 1790431455725
+  "published_at_ms": 1790432134890
 }
