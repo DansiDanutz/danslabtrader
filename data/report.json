@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "mode": "paper",
-  "published_at": 1790523168.231182,
+  "published_at": 1790523484.630802,
   "experiment": {
     "start_at": 1789081915.0211258,
     "end_at": null,
-    "last_tick_at": 1790521494.720014,
-    "report_at": 1790521494.720014,
+    "last_tick_at": 1790523329.701917,
+    "report_at": 1790523329.701917,
     "next_audit_at": 1790637115.0211258,
     "mode": "paper",
     "status": "running",
@@ -36,8 +36,8 @@
       "positions": {},
       "unpriced_positions": [],
       "insufficient_exit_depth": [],
-      "checked_at": 1790521494.720014,
-      "last_success_at": 1790521494.720014,
+      "checked_at": 1790523329.701917,
+      "last_success_at": 1790523329.701917,
       "risk_halted": true
     },
     "liquidation_filter": {
@@ -61,17 +61,12 @@
       "positions": {},
       "unpriced_positions": [],
       "insufficient_exit_depth": [],
-      "checked_at": 1790521494.720014,
-      "last_success_at": 1790521494.720014,
+      "checked_at": 1790523329.701917,
+      "last_success_at": 1790523329.701917,
       "risk_halted": false
     }
   },
   "history": [
-    {
-      "time": 1789743041.782261,
-      "baseline_equity": 1003.1687711308776,
-      "liquidation_filter_equity": 1000.0
-    },
     {
       "time": 1789744878.956349,
       "baseline_equity": 1001.4893821213495,
@@ -1746,20 +1741,23 @@
       "time": 1790521494.720014,
       "baseline_equity": 964.8216346253989,
       "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1790523329.701917,
+      "baseline_equity": 964.8216346253989,
+      "liquidation_filter_equity": 1000.0
     }
   ],
   "candidates": [
     {
       "symbol": "QUSDTM",
-      "score": 68.4496,
+      "score": 74.8997,
       "reasons": [
-        "wide_spread",
         "atr_outside_bounds",
         "no_completed_rebound",
         "strong_downtrend"
       ],
       "liquidation_filter_reasons": [
-        "wide_spread",
         "atr_outside_bounds",
         "no_completed_rebound",
         "strong_downtrend"
@@ -1771,7 +1769,7 @@
     },
     {
       "symbol": "BTWUSDTM",
-      "score": 24.7961,
+      "score": 21.9583,
       "reasons": [
         "not_lower_range",
         "insufficient_rebound_room"
@@ -1788,12 +1786,14 @@
     },
     {
       "symbol": "RAREUSDTM",
-      "score": 78.8329,
+      "score": 76.9268,
       "reasons": [
+        "stale_quote",
         "wide_spread",
         "no_completed_rebound"
       ],
       "liquidation_filter_reasons": [
+        "stale_quote",
         "wide_spread",
         "no_completed_rebound",
         "coinglass_filter_not_met"
@@ -1805,7 +1805,7 @@
     },
     {
       "symbol": "SAGAUSDTM",
-      "score": 83.6071,
+      "score": 80.7626,
       "reasons": [
         "no_completed_rebound",
         "strong_downtrend",
@@ -1824,12 +1824,14 @@
     },
     {
       "symbol": "LONGXIAUSDTM",
-      "score": 28.6755,
+      "score": 31.652,
       "reasons": [
+        "wide_spread",
         "not_lower_range",
         "insufficient_rebound_room"
       ],
       "liquidation_filter_reasons": [
+        "wide_spread",
         "not_lower_range",
         "insufficient_rebound_room",
         "coinglass_missing_or_stale"
@@ -2513,7 +2515,7 @@
     }
   ],
   "coinglass": {
-    "fetched_at": 1790521490.3258219,
+    "fetched_at": 1790523325.168562,
     "symbols": {
       "BTWUSDTM": {
         "eligible": false,
@@ -2568,7 +2570,7 @@
   },
   "health": {
     "mode": "paper",
-    "published_at": 1790523168.231182,
+    "published_at": 1790523484.630802,
     "worker_alive": true,
     "experiment_status": "running",
     "collection_error": false,
@@ -2579,9 +2581,9 @@
         "count": 5
       }
     ],
-    "last_tick_at": 1790523022.490607,
-    "report_at": 1790521494.720014,
+    "last_tick_at": 1790523329.701917,
+    "report_at": 1790523329.701917,
     "last_attempt_at": null,
-    "last_poll_at": 1790523143.6272771
+    "last_poll_at": 1790523481.1606588
   }
 }
