@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "mode": "paper",
-  "published_at": 1790530514.871289,
+  "published_at": 1790531155.749534,
   "experiment": {
     "start_at": 1789081915.0211258,
     "end_at": null,
-    "last_tick_at": 1790528837.0803661,
-    "report_at": 1790528837.0803661,
+    "last_tick_at": 1790530673.7480772,
+    "report_at": 1790530673.7480772,
     "next_audit_at": 1790637115.0211258,
     "mode": "paper",
     "status": "running",
@@ -36,8 +36,8 @@
       "positions": {},
       "unpriced_positions": [],
       "insufficient_exit_depth": [],
-      "checked_at": 1790528837.0803661,
-      "last_success_at": 1790528837.0803661,
+      "checked_at": 1790530673.7480772,
+      "last_success_at": 1790530673.7480772,
       "risk_halted": true
     },
     "liquidation_filter": {
@@ -61,17 +61,12 @@
       "positions": {},
       "unpriced_positions": [],
       "insufficient_exit_depth": [],
-      "checked_at": 1790528837.0803661,
-      "last_success_at": 1790528837.0803661,
+      "checked_at": 1790530673.7480772,
+      "last_success_at": 1790530673.7480772,
       "risk_halted": false
     }
   },
   "history": [
-    {
-      "time": 1789750374.824897,
-      "baseline_equity": 1002.7808907830064,
-      "liquidation_filter_equity": 1000.0
-    },
     {
       "time": 1789752206.58972,
       "baseline_equity": 1002.8229775632699,
@@ -1746,12 +1741,17 @@
       "time": 1790528837.0803661,
       "baseline_equity": 964.8216346253989,
       "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1790530673.7480772,
+      "baseline_equity": 964.8216346253989,
+      "liquidation_filter_equity": 1000.0
     }
   ],
   "candidates": [
     {
       "symbol": "QUSDTM",
-      "score": 70.734,
+      "score": 70.4157,
       "reasons": [
         "wide_spread",
         "atr_outside_bounds",
@@ -1770,12 +1770,14 @@
     },
     {
       "symbol": "BTWUSDTM",
-      "score": 23.5918,
+      "score": 19.7119,
       "reasons": [
+        "wide_spread",
         "not_lower_range",
         "insufficient_rebound_room"
       ],
       "liquidation_filter_reasons": [
+        "wide_spread",
         "not_lower_range",
         "insufficient_rebound_room",
         "coinglass_filter_not_met"
@@ -1787,22 +1789,19 @@
     },
     {
       "symbol": "RAREUSDTM",
-      "score": 74.077,
-      "reasons": [
-        "wide_spread"
-      ],
+      "score": 77.8387,
+      "reasons": [],
       "liquidation_filter_reasons": [
-        "wide_spread",
         "coinglass_filter_not_met"
       ],
-      "signal_eligible": false,
-      "add_signal_eligible": false,
-      "baseline_eligible": false,
+      "signal_eligible": true,
+      "add_signal_eligible": true,
+      "baseline_eligible": true,
       "liquidation_filter_eligible": false
     },
     {
       "symbol": "SAGAUSDTM",
-      "score": 80.4266,
+      "score": 79.1544,
       "reasons": [
         "strong_downtrend",
         "funding_outside_bounds"
@@ -1819,13 +1818,11 @@
     },
     {
       "symbol": "LONGXIAUSDTM",
-      "score": 56.6279,
+      "score": 73.2118,
       "reasons": [
-        "wide_spread",
         "no_completed_rebound"
       ],
       "liquidation_filter_reasons": [
-        "wide_spread",
         "no_completed_rebound",
         "coinglass_filter_not_met"
       ],
@@ -2508,7 +2505,7 @@
     }
   ],
   "coinglass": {
-    "fetched_at": 1790528832.1977139,
+    "fetched_at": 1790530668.8528209,
     "symbols": {
       "BTWUSDTM": {
         "eligible": false,
@@ -2563,7 +2560,7 @@
   },
   "health": {
     "mode": "paper",
-    "published_at": 1790530514.871289,
+    "published_at": 1790531155.749534,
     "worker_alive": true,
     "experiment_status": "running",
     "collection_error": false,
@@ -2574,9 +2571,9 @@
         "count": 5
       }
     ],
-    "last_tick_at": 1790530365.970519,
-    "report_at": 1790528837.0803661,
+    "last_tick_at": 1790530979.758785,
+    "report_at": 1790530673.7480772,
     "last_attempt_at": null,
-    "last_poll_at": 1790530487.1654248
+    "last_poll_at": 1790531131.2264938
   }
 }
