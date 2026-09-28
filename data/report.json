@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "mode": "paper",
-  "published_at": 1790624417.2505548,
+  "published_at": 1790626772.0513768,
   "experiment": {
     "start_at": 1789081915.0211258,
     "end_at": null,
-    "last_tick_at": 1790622915.5876212,
-    "report_at": 1790622915.5876212,
+    "last_tick_at": 1790626612.029078,
+    "report_at": 1790626612.029078,
     "next_audit_at": 1790637115.0211258,
     "mode": "paper",
     "status": "running",
@@ -36,8 +36,8 @@
       "positions": {},
       "unpriced_positions": [],
       "insufficient_exit_depth": [],
-      "checked_at": 1790622915.5876212,
-      "last_success_at": 1790622915.5876212,
+      "checked_at": 1790626612.029078,
+      "last_success_at": 1790626612.029078,
       "risk_halted": false
     },
     "liquidation_filter": {
@@ -61,22 +61,12 @@
       "positions": {},
       "unpriced_positions": [],
       "insufficient_exit_depth": [],
-      "checked_at": 1790622915.5876212,
-      "last_success_at": 1790622915.5876212,
+      "checked_at": 1790626612.029078,
+      "last_success_at": 1790626612.029078,
       "risk_halted": false
     }
   },
   "history": [
-    {
-      "time": 1789875153.879851,
-      "baseline_equity": 1011.7744627740339,
-      "liquidation_filter_equity": 1000.0
-    },
-    {
-      "time": 1789876987.092814,
-      "baseline_equity": 1011.7744627740339,
-      "liquidation_filter_equity": 1000.0
-    },
     {
       "time": 1789878815.482162,
       "baseline_equity": 1011.7744627740339,
@@ -1746,20 +1736,28 @@
       "time": 1790622915.5876212,
       "baseline_equity": 982.1647821661765,
       "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1790624758.979291,
+      "baseline_equity": 982.1647821661765,
+      "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1790626612.029078,
+      "baseline_equity": 982.1647821661765,
+      "liquidation_filter_equity": 1000.0
     }
   ],
   "candidates": [
     {
       "symbol": "QUSDTM",
-      "score": 83.2003,
+      "score": 85.8796,
       "reasons": [
         "atr_outside_bounds",
-        "no_completed_rebound",
         "strong_downtrend"
       ],
       "liquidation_filter_reasons": [
         "atr_outside_bounds",
-        "no_completed_rebound",
         "strong_downtrend",
         "coinglass_filter_not_met"
       ],
@@ -1770,16 +1768,16 @@
     },
     {
       "symbol": "READYUSDTM",
-      "score": 67.9943,
+      "score": 72.9965,
       "reasons": [
         "wide_spread",
         "atr_outside_bounds",
-        "no_completed_rebound"
+        "strong_downtrend"
       ],
       "liquidation_filter_reasons": [
         "wide_spread",
         "atr_outside_bounds",
-        "no_completed_rebound",
+        "strong_downtrend",
         "coinglass_missing_or_stale"
       ],
       "signal_eligible": false,
@@ -1789,7 +1787,7 @@
     },
     {
       "symbol": "QNTUSDTM",
-      "score": 79.7708,
+      "score": 79.2213,
       "reasons": [
         "atr_outside_bounds",
         "no_completed_rebound"
@@ -1806,7 +1804,7 @@
     },
     {
       "symbol": "SOONUSDTM",
-      "score": 36.6069,
+      "score": 32.5468,
       "reasons": [
         "not_lower_range",
         "insufficient_rebound_room"
@@ -1823,15 +1821,17 @@
     },
     {
       "symbol": "ARXUSDTM",
-      "score": 32.287,
+      "score": 33.8687,
       "reasons": [
         "not_lower_range",
         "no_completed_rebound",
+        "strong_downtrend",
         "insufficient_rebound_room"
       ],
       "liquidation_filter_reasons": [
         "not_lower_range",
         "no_completed_rebound",
+        "strong_downtrend",
         "insufficient_rebound_room",
         "coinglass_missing_or_stale"
       ],
@@ -2920,7 +2920,7 @@
     }
   ],
   "coinglass": {
-    "fetched_at": 1790622910.3795252,
+    "fetched_at": 1790626607.5838091,
     "symbols": {
       "ARXUSDTM": {
         "eligible": false,
@@ -2975,7 +2975,7 @@
   },
   "health": {
     "mode": "paper",
-    "published_at": 1790624417.2505548,
+    "published_at": 1790626772.0513768,
     "worker_alive": true,
     "experiment_status": "running",
     "collection_error": false,
@@ -2986,9 +2986,9 @@
         "count": 5
       }
     ],
-    "last_tick_at": 1790624141.97239,
-    "report_at": 1790622915.5876212,
+    "last_tick_at": 1790626612.029078,
+    "report_at": 1790626612.029078,
     "last_attempt_at": null,
-    "last_poll_at": 1790624415.524823
+    "last_poll_at": 1790626764.576004
   }
 }
