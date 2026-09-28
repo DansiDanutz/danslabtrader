@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "mode": "paper",
-  "published_at": 1790568941.7564669,
+  "published_at": 1790569261.486185,
   "experiment": {
     "start_at": 1789081915.0211258,
     "end_at": null,
-    "last_tick_at": 1790567399.911144,
-    "report_at": 1790567399.911144,
+    "last_tick_at": 1790569234.0771961,
+    "report_at": 1790569234.0771961,
     "next_audit_at": 1790637115.0211258,
     "mode": "paper",
     "status": "running",
@@ -36,8 +36,8 @@
       "positions": {},
       "unpriced_positions": [],
       "insufficient_exit_depth": [],
-      "checked_at": 1790567399.911144,
-      "last_success_at": 1790567399.911144,
+      "checked_at": 1790569234.0771961,
+      "last_success_at": 1790569234.0771961,
       "risk_halted": false
     },
     "liquidation_filter": {
@@ -61,17 +61,12 @@
       "positions": {},
       "unpriced_positions": [],
       "insufficient_exit_depth": [],
-      "checked_at": 1790567399.911144,
-      "last_success_at": 1790567399.911144,
+      "checked_at": 1790569234.0771961,
+      "last_success_at": 1790569234.0771961,
       "risk_halted": false
     }
   },
   "history": [
-    {
-      "time": 1789789045.7430248,
-      "baseline_equity": 1011.7744627740339,
-      "liquidation_filter_equity": 1000.0
-    },
     {
       "time": 1789790878.6784482,
       "baseline_equity": 1011.7744627740339,
@@ -1746,23 +1741,24 @@
       "time": 1790567399.911144,
       "baseline_equity": 964.8216346253989,
       "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1790569234.0771961,
+      "baseline_equity": 964.8216346253989,
+      "liquidation_filter_equity": 1000.0
     }
   ],
   "candidates": [
     {
       "symbol": "QUSDTM",
-      "score": 72.3231,
+      "score": 71.0908,
       "reasons": [
         "wide_spread",
-        "atr_outside_bounds",
-        "no_completed_rebound",
-        "strong_downtrend"
+        "atr_outside_bounds"
       ],
       "liquidation_filter_reasons": [
         "wide_spread",
         "atr_outside_bounds",
-        "no_completed_rebound",
-        "strong_downtrend",
         "coinglass_filter_not_met"
       ],
       "signal_eligible": false,
@@ -1772,20 +1768,16 @@
     },
     {
       "symbol": "READYUSDTM",
-      "score": 17.4928,
+      "score": 57.5494,
       "reasons": [
         "wide_spread",
         "atr_outside_bounds",
-        "not_lower_range",
-        "no_completed_rebound",
-        "insufficient_rebound_room"
+        "no_completed_rebound"
       ],
       "liquidation_filter_reasons": [
         "wide_spread",
         "atr_outside_bounds",
-        "not_lower_range",
         "no_completed_rebound",
-        "insufficient_rebound_room",
         "coinglass_missing_or_stale"
       ],
       "signal_eligible": false,
@@ -1795,12 +1787,16 @@
     },
     {
       "symbol": "QNTUSDTM",
-      "score": 72.4779,
+      "score": 46.229,
       "reasons": [
-        "atr_outside_bounds"
+        "atr_outside_bounds",
+        "not_lower_range",
+        "no_completed_rebound"
       ],
       "liquidation_filter_reasons": [
         "atr_outside_bounds",
+        "not_lower_range",
+        "no_completed_rebound",
         "coinglass_filter_not_met"
       ],
       "signal_eligible": false,
@@ -1810,14 +1806,14 @@
     },
     {
       "symbol": "SOONUSDTM",
-      "score": 63.4091,
+      "score": 27.4922,
       "reasons": [
-        "atr_outside_bounds",
-        "no_completed_rebound"
+        "not_lower_range",
+        "insufficient_rebound_room"
       ],
       "liquidation_filter_reasons": [
-        "atr_outside_bounds",
-        "no_completed_rebound",
+        "not_lower_range",
+        "insufficient_rebound_room",
         "coinglass_filter_not_met"
       ],
       "signal_eligible": false,
@@ -1827,13 +1823,13 @@
     },
     {
       "symbol": "ARXUSDTM",
-      "score": 81.0909,
+      "score": 73.9247,
       "reasons": [
-        "no_completed_rebound",
+        "wide_spread",
         "strong_downtrend"
       ],
       "liquidation_filter_reasons": [
-        "no_completed_rebound",
+        "wide_spread",
         "strong_downtrend",
         "coinglass_filter_not_met"
       ],
@@ -2516,7 +2512,7 @@
     }
   ],
   "coinglass": {
-    "fetched_at": 1790567395.610413,
+    "fetched_at": 1790569229.594638,
     "symbols": {
       "ARXUSDTM": {
         "eligible": false,
@@ -2571,7 +2567,7 @@
   },
   "health": {
     "mode": "paper",
-    "published_at": 1790568941.7564669,
+    "published_at": 1790569261.486185,
     "worker_alive": true,
     "experiment_status": "running",
     "collection_error": false,
@@ -2582,9 +2578,9 @@
         "count": 5
       }
     ],
-    "last_tick_at": 1790568926.765771,
-    "report_at": 1790567399.911144,
+    "last_tick_at": 1790569234.0771961,
+    "report_at": 1790569234.0771961,
     "last_attempt_at": null,
-    "last_poll_at": 1790568926.9176378
+    "last_poll_at": 1790569234.2378309
   }
 }
