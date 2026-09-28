@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "mode": "paper",
-  "published_at": 1790565528.6831622,
+  "published_at": 1790565853.814194,
   "experiment": {
     "start_at": 1789081915.0211258,
     "end_at": null,
-    "last_tick_at": 1790563733.418006,
-    "report_at": 1790563733.418006,
+    "last_tick_at": 1790565566.798292,
+    "report_at": 1790565566.798292,
     "next_audit_at": 1790637115.0211258,
     "mode": "paper",
     "status": "running",
@@ -36,8 +36,8 @@
       "positions": {},
       "unpriced_positions": [],
       "insufficient_exit_depth": [],
-      "checked_at": 1790563733.418006,
-      "last_success_at": 1790563733.418006,
+      "checked_at": 1790565566.798292,
+      "last_success_at": 1790565566.798292,
       "risk_halted": false
     },
     "liquidation_filter": {
@@ -61,17 +61,12 @@
       "positions": {},
       "unpriced_positions": [],
       "insufficient_exit_depth": [],
-      "checked_at": 1790563733.418006,
-      "last_success_at": 1790563733.418006,
+      "checked_at": 1790565566.798292,
+      "last_success_at": 1790565566.798292,
       "risk_halted": false
     }
   },
   "history": [
-    {
-      "time": 1789785379.518551,
-      "baseline_equity": 1011.7744627740339,
-      "liquidation_filter_equity": 1000.0
-    },
     {
       "time": 1789787212.455929,
       "baseline_equity": 1011.7744627740339,
@@ -1746,12 +1741,17 @@
       "time": 1790563733.418006,
       "baseline_equity": 964.8216346253989,
       "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1790565566.798292,
+      "baseline_equity": 964.8216346253989,
+      "liquidation_filter_equity": 1000.0
     }
   ],
   "candidates": [
     {
       "symbol": "QUSDTM",
-      "score": 73.381,
+      "score": 75.8255,
       "reasons": [
         "wide_spread",
         "atr_outside_bounds",
@@ -1772,7 +1772,7 @@
     },
     {
       "symbol": "READYUSDTM",
-      "score": 17.3946,
+      "score": 25.6991,
       "reasons": [
         "wide_spread",
         "atr_outside_bounds",
@@ -1795,18 +1795,14 @@
     },
     {
       "symbol": "QNTUSDTM",
-      "score": 35.3459,
+      "score": 59.911,
       "reasons": [
         "atr_outside_bounds",
-        "not_lower_range",
-        "no_completed_rebound",
-        "insufficient_rebound_room"
+        "not_lower_range"
       ],
       "liquidation_filter_reasons": [
         "atr_outside_bounds",
         "not_lower_range",
-        "no_completed_rebound",
-        "insufficient_rebound_room",
         "coinglass_filter_not_met"
       ],
       "signal_eligible": false,
@@ -1816,18 +1812,16 @@
     },
     {
       "symbol": "SOONUSDTM",
-      "score": 33.2059,
+      "score": 42.5083,
       "reasons": [
         "atr_outside_bounds",
         "not_lower_range",
-        "no_completed_rebound",
-        "insufficient_rebound_room"
+        "no_completed_rebound"
       ],
       "liquidation_filter_reasons": [
         "atr_outside_bounds",
         "not_lower_range",
         "no_completed_rebound",
-        "insufficient_rebound_room",
         "coinglass_filter_not_met"
       ],
       "signal_eligible": false,
@@ -1837,7 +1831,7 @@
     },
     {
       "symbol": "ARXUSDTM",
-      "score": 83.32,
+      "score": 81.8395,
       "reasons": [
         "no_completed_rebound",
         "strong_downtrend"
@@ -2526,7 +2520,7 @@
     }
   ],
   "coinglass": {
-    "fetched_at": 1790563729.0867531,
+    "fetched_at": 1790565562.238187,
     "symbols": {
       "ARXUSDTM": {
         "eligible": false,
@@ -2581,7 +2575,7 @@
   },
   "health": {
     "mode": "paper",
-    "published_at": 1790565528.6831622,
+    "published_at": 1790565853.814194,
     "worker_alive": true,
     "experiment_status": "running",
     "collection_error": false,
@@ -2592,9 +2586,9 @@
         "count": 5
       }
     ],
-    "last_tick_at": 1790565259.4774961,
-    "report_at": 1790563733.418006,
+    "last_tick_at": 1790565566.798292,
+    "report_at": 1790565566.798292,
     "last_attempt_at": null,
-    "last_poll_at": 1790565501.718366
+    "last_poll_at": 1790565839.146383
   }
 }
