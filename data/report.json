@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "mode": "paper",
-  "published_at": 1790637303.298156,
+  "published_at": 1790637980.938039,
   "experiment": {
     "start_at": 1789081915.0211258,
     "end_at": null,
-    "last_tick_at": 1790635848.9449642,
-    "report_at": 1790635848.9449642,
+    "last_tick_at": 1790637695.6115332,
+    "report_at": 1790637695.6115332,
     "next_audit_at": 1790809915.0211258,
     "mode": "paper",
     "status": "running",
@@ -36,8 +36,8 @@
       "positions": {},
       "unpriced_positions": [],
       "insufficient_exit_depth": [],
-      "checked_at": 1790635848.9449642,
-      "last_success_at": 1790635848.9449642,
+      "checked_at": 1790637695.6115332,
+      "last_success_at": 1790637695.6115332,
       "risk_halted": false
     },
     "liquidation_filter": {
@@ -61,17 +61,12 @@
       "positions": {},
       "unpriced_positions": [],
       "insufficient_exit_depth": [],
-      "checked_at": 1790635848.9449642,
-      "last_success_at": 1790635848.9449642,
+      "checked_at": 1790637695.6115332,
+      "last_success_at": 1790637695.6115332,
       "risk_halted": false
     }
   },
   "history": [
-    {
-      "time": 1789887955.942249,
-      "baseline_equity": 1011.7744627740339,
-      "liquidation_filter_equity": 1000.0
-    },
     {
       "time": 1789889785.969051,
       "baseline_equity": 1011.7744627740339,
@@ -1746,21 +1741,24 @@
       "time": 1790635848.9449642,
       "baseline_equity": 982.1647821661765,
       "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1790637695.6115332,
+      "baseline_equity": 982.1647821661765,
+      "liquidation_filter_equity": 1000.0
     }
   ],
   "candidates": [
     {
       "symbol": "READYUSDTM",
-      "score": 78.0081,
+      "score": 76.6665,
       "reasons": [
         "wide_spread",
-        "atr_outside_bounds",
         "no_completed_rebound",
         "strong_downtrend"
       ],
       "liquidation_filter_reasons": [
         "wide_spread",
-        "atr_outside_bounds",
         "no_completed_rebound",
         "strong_downtrend",
         "coinglass_missing_or_stale"
@@ -1772,29 +1770,14 @@
     },
     {
       "symbol": "QNTUSDTM",
-      "score": 83.1597,
+      "score": 79.9924,
       "reasons": [
         "atr_outside_bounds",
-        "no_completed_rebound"
-      ],
-      "liquidation_filter_reasons": [
-        "atr_outside_bounds",
-        "no_completed_rebound",
-        "coinglass_filter_not_met"
-      ],
-      "signal_eligible": false,
-      "add_signal_eligible": false,
-      "baseline_eligible": false,
-      "liquidation_filter_eligible": false
-    },
-    {
-      "symbol": "QUSDTM",
-      "score": 83.7534,
-      "reasons": [
         "no_completed_rebound",
         "strong_downtrend"
       ],
       "liquidation_filter_reasons": [
+        "atr_outside_bounds",
         "no_completed_rebound",
         "strong_downtrend",
         "coinglass_filter_not_met"
@@ -1805,8 +1788,23 @@
       "liquidation_filter_eligible": false
     },
     {
+      "symbol": "QUSDTM",
+      "score": 80.9555,
+      "reasons": [
+        "strong_downtrend"
+      ],
+      "liquidation_filter_reasons": [
+        "strong_downtrend",
+        "coinglass_filter_not_met"
+      ],
+      "signal_eligible": false,
+      "add_signal_eligible": false,
+      "baseline_eligible": false,
+      "liquidation_filter_eligible": false
+    },
+    {
       "symbol": "BTWUSDTM",
-      "score": 69.2804,
+      "score": 60.5193,
       "reasons": [
         "wide_spread",
         "atr_outside_bounds"
@@ -1823,15 +1821,13 @@
     },
     {
       "symbol": "MARSCOINUSDTM",
-      "score": 29.5248,
+      "score": 28.8949,
       "reasons": [
         "not_lower_range",
-        "no_completed_rebound",
         "insufficient_rebound_room"
       ],
       "liquidation_filter_reasons": [
         "not_lower_range",
-        "no_completed_rebound",
         "insufficient_rebound_room",
         "coinglass_filter_not_met"
       ],
@@ -2920,7 +2916,7 @@
     }
   ],
   "coinglass": {
-    "fetched_at": 1790635843.06861,
+    "fetched_at": 1790637690.4713228,
     "symbols": {
       "BTWUSDTM": {
         "eligible": false,
@@ -2975,7 +2971,7 @@
   },
   "health": {
     "mode": "paper",
-    "published_at": 1790637303.298156,
+    "published_at": 1790637980.938039,
     "worker_alive": true,
     "experiment_status": "running",
     "collection_error": false,
@@ -2986,9 +2982,9 @@
         "count": 5
       }
     ],
-    "last_tick_at": 1790637080.250566,
-    "report_at": 1790635848.9449642,
+    "last_tick_at": 1790637695.6115332,
+    "report_at": 1790637695.6115332,
     "last_attempt_at": null,
-    "last_poll_at": 1790637292.365025
+    "last_poll_at": 1790637969.35416
   }
 }
