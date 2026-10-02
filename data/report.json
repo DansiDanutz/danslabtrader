@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "mode": "paper",
-  "published_at": 1790980218.024019,
+  "published_at": 1790980543.154544,
   "experiment": {
     "start_at": 1789081915.0211258,
     "end_at": null,
-    "last_tick_at": 1790978469.5630322,
-    "report_at": 1790978469.5630322,
+    "last_tick_at": 1790980298.839148,
+    "report_at": 1790980298.839148,
     "next_audit_at": 1790982715.0211258,
     "mode": "paper",
     "status": "running",
@@ -36,8 +36,8 @@
       "positions": {},
       "unpriced_positions": [],
       "insufficient_exit_depth": [],
-      "checked_at": 1790978469.5630322,
-      "last_success_at": 1790978469.5630322,
+      "checked_at": 1790980298.839148,
+      "last_success_at": 1790980298.839148,
       "risk_halted": false
     },
     "liquidation_filter": {
@@ -61,17 +61,12 @@
       "positions": {},
       "unpriced_positions": [],
       "insufficient_exit_depth": [],
-      "checked_at": 1790978469.5630322,
-      "last_success_at": 1790978469.5630322,
+      "checked_at": 1790980298.839148,
+      "last_success_at": 1790980298.839148,
       "risk_halted": false
     }
   },
   "history": [
-    {
-      "time": 1789986810.668149,
-      "baseline_equity": 1011.7744627740339,
-      "liquidation_filter_equity": 1000.0
-    },
     {
       "time": 1789988641.808744,
       "baseline_equity": 1011.7744627740339,
@@ -1746,12 +1741,17 @@
       "time": 1790978469.5630322,
       "baseline_equity": 978.16844258797,
       "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1790980298.839148,
+      "baseline_equity": 978.16844258797,
+      "liquidation_filter_equity": 1000.0
     }
   ],
   "candidates": [
     {
       "symbol": "LONGXIAUSDTM",
-      "score": 80.8502,
+      "score": 79.5271,
       "reasons": [
         "atr_outside_bounds",
         "no_completed_rebound",
@@ -1770,7 +1770,7 @@
     },
     {
       "symbol": "USUSDTM",
-      "score": 83.1082,
+      "score": 83.7846,
       "reasons": [
         "no_completed_rebound",
         "strong_downtrend"
@@ -1802,7 +1802,7 @@
     },
     {
       "symbol": "SANDUSDTM",
-      "score": 30.4842,
+      "score": 30.1221,
       "reasons": [
         "not_lower_range",
         "insufficient_rebound_room",
@@ -1821,7 +1821,7 @@
     },
     {
       "symbol": "MOVRUSDTM",
-      "score": 84.242,
+      "score": 82.2298,
       "reasons": [
         "strong_downtrend"
       ],
@@ -2099,15 +2099,15 @@
   "errors": [
     {
       "category": "coinglass_data",
-      "count": 17
+      "count": 15
     },
     {
       "category": "unknown",
-      "count": 13
+      "count": 15
     }
   ],
   "coinglass": {
-    "fetched_at": 1790978465.017229,
+    "fetched_at": 1790980294.344152,
     "symbols": {
       "LONGXIAUSDTM": {
         "eligible": false,
@@ -2162,7 +2162,7 @@
   },
   "health": {
     "mode": "paper",
-    "published_at": 1790980218.024019,
+    "published_at": 1790980543.154544,
     "worker_alive": true,
     "experiment_status": "running",
     "collection_error": false,
@@ -2177,9 +2177,9 @@
         "count": 2
       }
     ],
-    "last_tick_at": 1790979992.8866591,
-    "report_at": 1790978469.5630322,
+    "last_tick_at": 1790980298.839148,
+    "report_at": 1790980298.839148,
     "last_attempt_at": null,
-    "last_poll_at": 1790980203.923307
+    "last_poll_at": 1790980540.022698
   }
 }
