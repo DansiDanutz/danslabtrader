@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "mode": "paper",
-  "published_at": 1790923554.738861,
+  "published_at": 1790924200.521664,
   "experiment": {
     "start_at": 1789081915.0211258,
     "end_at": null,
-    "last_tick_at": 1790921739.447459,
-    "report_at": 1790921739.447459,
+    "last_tick_at": 1790923567.1074932,
+    "report_at": 1790923567.1074932,
     "next_audit_at": 1790982715.0211258,
     "mode": "paper",
     "status": "running",
@@ -16,52 +16,28 @@
   },
   "accounts": {
     "baseline": {
-      "cash": 932.1407289200893,
-      "equity": 979.910779157125,
-      "realized_pnl": -17.835217833823492,
-      "unrealized_net_pnl": -2.2540030090514733,
-      "daily_pnl": -2.2540030090514165,
+      "cash": 978.16844258797,
+      "equity": 978.16844258797,
+      "realized_pnl": -21.83155741203004,
+      "unrealized_net_pnl": 8.881784197001252e-14,
+      "daily_pnl": -3.9963395782064026,
       "unpaid_liabilities": 0.0,
-      "trade_count": 35,
-      "total_fees": 3.3593445289457997,
-      "funding_cost": 0.1564793986300991,
+      "trade_count": 36,
+      "total_fees": 3.3869793268805997,
+      "funding_cost": 0.1565806625495543,
       "max_drawdown": 66.59103808266468,
       "max_drawdown_pct": 6.491383857953189,
       "initial_equity": 1000.0,
-      "experiment_pnl": -20.089220842874965,
-      "fills": 87,
+      "experiment_pnl": -21.83155741202995,
+      "fills": 88,
       "mode": "paper",
-      "equity_is_estimate": true,
+      "equity_is_estimate": false,
       "paused": false,
-      "positions": {
-        "ALICEUSDTM": {
-          "contracts": 2527,
-          "quantity": 252.70000000000002,
-          "cost_basis": 49.994056812000004,
-          "entry_fees": 0.0299964340872,
-          "funding_accrued": 0.002546828265094331,
-          "adds": 0,
-          "multiplier": 0.1,
-          "lot_size": 1,
-          "average_price": 0.19783956,
-          "last_fill": 0.19783956,
-          "last_bid": 0.1892,
-          "last_mark": 0.1895,
-          "score": 76.5256,
-          "unrealized_net_pnl": -2.2540030090514875,
-          "valuation_bid": 0.1892,
-          "opened_at": 1790906207.57306,
-          "last_fill_at": 1790906207.57306,
-          "quote_time": 1790921613.428,
-          "equity_is_estimate": true
-        }
-      },
-      "unpriced_positions": [
-        "ALICEUSDTM"
-      ],
+      "positions": {},
+      "unpriced_positions": [],
       "insufficient_exit_depth": [],
-      "checked_at": 1790921739.447459,
-      "last_success_at": 1790921739.447459,
+      "checked_at": 1790923567.1074932,
+      "last_success_at": 1790923567.1074932,
       "risk_halted": false
     },
     "liquidation_filter": {
@@ -85,17 +61,12 @@
       "positions": {},
       "unpriced_positions": [],
       "insufficient_exit_depth": [],
-      "checked_at": 1790921739.447459,
-      "last_success_at": 1790921739.447459,
+      "checked_at": 1790923567.1074932,
+      "last_success_at": 1790923567.1074932,
       "risk_halted": false
     }
   },
   "history": [
-    {
-      "time": 1789930007.061468,
-      "baseline_equity": 1011.7744627740339,
-      "liquidation_filter_equity": 1000.0
-    },
     {
       "time": 1789931835.948798,
       "baseline_equity": 1011.7744627740339,
@@ -1770,12 +1741,17 @@
       "time": 1790921739.447459,
       "baseline_equity": 979.910779157125,
       "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1790923567.1074932,
+      "baseline_equity": 978.16844258797,
+      "liquidation_filter_equity": 1000.0
     }
   ],
   "candidates": [
     {
       "symbol": "LONGXIAUSDTM",
-      "score": 79.4849,
+      "score": 81.4126,
       "reasons": [
         "wide_spread",
         "atr_outside_bounds",
@@ -1798,15 +1774,13 @@
     },
     {
       "symbol": "USUSDTM",
-      "score": 25.9793,
+      "score": 31.9907,
       "reasons": [
-        "wide_spread",
         "atr_outside_bounds",
         "not_lower_range",
         "insufficient_rebound_room"
       ],
       "liquidation_filter_reasons": [
-        "wide_spread",
         "atr_outside_bounds",
         "not_lower_range",
         "insufficient_rebound_room",
@@ -1819,16 +1793,14 @@
     },
     {
       "symbol": "MOVRUSDTM",
-      "score": 83.2704,
+      "score": 79.8554,
       "reasons": [
         "atr_outside_bounds",
-        "not_lower_range",
         "no_completed_rebound",
         "strong_downtrend"
       ],
       "liquidation_filter_reasons": [
         "atr_outside_bounds",
-        "not_lower_range",
         "no_completed_rebound",
         "strong_downtrend",
         "coinglass_filter_not_met"
@@ -1840,16 +1812,12 @@
     },
     {
       "symbol": "ALICEUSDTM",
-      "score": 75.0644,
+      "score": 84.7242,
       "reasons": [
-        "stale_quote",
-        "wide_spread",
         "no_completed_rebound",
         "strong_downtrend"
       ],
       "liquidation_filter_reasons": [
-        "stale_quote",
-        "wide_spread",
         "no_completed_rebound",
         "strong_downtrend",
         "coinglass_filter_not_met"
@@ -1861,11 +1829,13 @@
     },
     {
       "symbol": "NOMUSDTM",
-      "score": 79.0839,
+      "score": 77.9664,
       "reasons": [
+        "wide_spread",
         "strong_downtrend"
       ],
       "liquidation_filter_reasons": [
+        "wide_spread",
         "strong_downtrend",
         "coinglass_filter_not_met"
       ],
@@ -2000,6 +1970,17 @@
         "max_positions": null
       },
       "symbol": "NOMUSDTM"
+    },
+    {
+      "type": "close",
+      "account": "baseline",
+      "time": 1790922348.469155,
+      "net_pnl": -3.996339578206547,
+      "fee": null,
+      "entry_fees": 0.0299964340872,
+      "exit_fee": 0.0276347979348,
+      "funding_model_cost": 0.0026480921845495452,
+      "symbol": "ALICEUSDTM"
     }
   ],
   "limitations": [
@@ -2018,7 +1999,7 @@
     }
   ],
   "coinglass": {
-    "fetched_at": 1790921734.864489,
+    "fetched_at": 1790923562.33532,
     "symbols": {
       "ALICEUSDTM": {
         "eligible": false,
@@ -2073,7 +2054,7 @@
   },
   "health": {
     "mode": "paper",
-    "published_at": 1790923554.738861,
+    "published_at": 1790924200.521664,
     "worker_alive": true,
     "experiment_status": "running",
     "collection_error": false,
@@ -2084,9 +2065,9 @@
         "count": 5
       }
     ],
-    "last_tick_at": 1790923260.6146939,
-    "report_at": 1790921739.447459,
+    "last_tick_at": 1790924176.449636,
+    "report_at": 1790923567.1074932,
     "last_attempt_at": null,
-    "last_poll_at": 1790923532.145925
+    "last_poll_at": 1790924176.495221
   }
 }
