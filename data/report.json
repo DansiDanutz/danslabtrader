@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "mode": "paper",
-  "published_at": 1790966998.535242,
+  "published_at": 1790967646.07893,
   "experiment": {
     "start_at": 1789081915.0211258,
     "end_at": null,
-    "last_tick_at": 1790965651.4241338,
-    "report_at": 1790965651.4241338,
+    "last_tick_at": 1790967481.947242,
+    "report_at": 1790967481.947242,
     "next_audit_at": 1790982715.0211258,
     "mode": "paper",
     "status": "running",
@@ -36,8 +36,8 @@
       "positions": {},
       "unpriced_positions": [],
       "insufficient_exit_depth": [],
-      "checked_at": 1790965651.4241338,
-      "last_success_at": 1790965651.4241338,
+      "checked_at": 1790967481.947242,
+      "last_success_at": 1790967481.947242,
       "risk_halted": false
     },
     "liquidation_filter": {
@@ -61,17 +61,12 @@
       "positions": {},
       "unpriced_positions": [],
       "insufficient_exit_depth": [],
-      "checked_at": 1790965651.4241338,
-      "last_success_at": 1790965651.4241338,
+      "checked_at": 1790967481.947242,
+      "last_success_at": 1790967481.947242,
       "risk_halted": false
     }
   },
   "history": [
-    {
-      "time": 1789973985.530802,
-      "baseline_equity": 1011.7744627740339,
-      "liquidation_filter_equity": 1000.0
-    },
     {
       "time": 1789975817.1415849,
       "baseline_equity": 1011.7744627740339,
@@ -1746,12 +1741,17 @@
       "time": 1790965651.4241338,
       "baseline_equity": 978.16844258797,
       "liquidation_filter_equity": 1000.0
+    },
+    {
+      "time": 1790967481.947242,
+      "baseline_equity": 978.16844258797,
+      "liquidation_filter_equity": 1000.0
     }
   ],
   "candidates": [
     {
       "symbol": "LONGXIAUSDTM",
-      "score": 78.2441,
+      "score": 83.0954,
       "reasons": [
         "atr_outside_bounds",
         "strong_downtrend"
@@ -1768,7 +1768,7 @@
     },
     {
       "symbol": "USUSDTM",
-      "score": 81.6666,
+      "score": 80.5645,
       "reasons": [
         "atr_outside_bounds",
         "no_completed_rebound",
@@ -1787,14 +1787,16 @@
     },
     {
       "symbol": "MOVRUSDTM",
-      "score": 82.0096,
+      "score": 83.0813,
       "reasons": [
         "atr_outside_bounds",
+        "not_lower_range",
         "no_completed_rebound",
         "strong_downtrend"
       ],
       "liquidation_filter_reasons": [
         "atr_outside_bounds",
+        "not_lower_range",
         "no_completed_rebound",
         "strong_downtrend",
         "coinglass_filter_not_met"
@@ -1806,12 +1808,14 @@
     },
     {
       "symbol": "ALICEUSDTM",
-      "score": 83.1737,
+      "score": 79.1137,
       "reasons": [
+        "wide_spread",
         "no_completed_rebound",
         "strong_downtrend"
       ],
       "liquidation_filter_reasons": [
+        "wide_spread",
         "no_completed_rebound",
         "strong_downtrend",
         "coinglass_filter_not_met"
@@ -1823,13 +1827,17 @@
     },
     {
       "symbol": "NOMUSDTM",
-      "score": 78.8094,
+      "score": 77.0635,
       "reasons": [
+        "stale_quote",
         "low_turnover",
+        "wide_spread",
         "no_completed_rebound"
       ],
       "liquidation_filter_reasons": [
+        "stale_quote",
         "low_turnover",
+        "wide_spread",
         "no_completed_rebound",
         "coinglass_filter_not_met"
       ],
@@ -2107,7 +2115,7 @@
     }
   ],
   "coinglass": {
-    "fetched_at": 1790965647.081269,
+    "fetched_at": 1790967477.431842,
     "symbols": {
       "ALICEUSDTM": {
         "eligible": false,
@@ -2162,7 +2170,7 @@
   },
   "health": {
     "mode": "paper",
-    "published_at": 1790966998.535242,
+    "published_at": 1790967646.07893,
     "worker_alive": true,
     "experiment_status": "running",
     "collection_error": false,
@@ -2173,9 +2181,9 @@
         "count": 5
       }
     ],
-    "last_tick_at": 1790966870.593958,
-    "report_at": 1790965651.4241338,
+    "last_tick_at": 1790967481.947242,
+    "report_at": 1790967481.947242,
     "last_attempt_at": null,
-    "last_poll_at": 1790966991.49859
+    "last_poll_at": 1790967633.0551438
   }
 }
