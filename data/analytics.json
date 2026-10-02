@@ -2,27 +2,28 @@
   "schema": 1,
   "mode": "paper",
   "status": "ok",
-  "generated_at": 1790905290.8804328,
-  "source_last_tick_at": 1790660962.053466,
+  "generated_at": 1790905627.793659,
+  "source_last_tick_at": 1790905600.0469398,
   "start_at": 1789081915.0211258,
   "windows": {
     "all": {
       "start_at": 1789081915.0211258,
-      "end_at": 1790905290.8804328,
+      "end_at": 1790905627.793659,
       "checks": {
-        "attempts": 4287,
-        "successful": 4287,
+        "attempts": 4289,
+        "successful": 4289,
         "skipped": 0,
-        "expected_approximately": 6078,
-        "coverage_ratio": 0.7053307008884502,
-        "max_gap_seconds": 244328.82696676254
+        "expected_approximately": 6080,
+        "coverage_ratio": 0.7054276315789474,
+        "max_gap_seconds": 244333.78662896156
       },
       "discovery": {
-        "distinct_shortlist_coins": 48,
+        "distinct_shortlist_coins": 52,
         "shortlist_symbols": [
           "2U2USDTM",
           "AINUSDTM",
           "AKEUSDTM",
+          "ALICEUSDTM",
           "ARKUSDTM",
           "ARXUSDTM",
           "AVAUSDTM",
@@ -47,11 +48,13 @@
           "LYNUSDTM",
           "MARSCOINUSDTM",
           "METUSDTM",
+          "MOVRUSDTM",
           "MTLUSDTM",
           "MUBARAKUSDTM",
           "MYXUSDTM",
           "NESUSDTM",
           "NIULAIUSDTM",
+          "NOMUSDTM",
           "ONEUSDTM",
           "PHAUSDTM",
           "POWERUSDTM",
@@ -67,13 +70,14 @@
           "STGUSDTM",
           "TAKEUSDTM",
           "UAIUSDTM",
+          "USUSDTM",
           "XAIUSDTM"
         ],
-        "distinct_scan_snapshots": 19,
-        "new_discovery_scans": 18,
-        "latest_scan_at": 1790629377.588599,
-        "latest_liquid_contracts": 184,
-        "symbol_observations": 21602,
+        "distinct_scan_snapshots": 20,
+        "new_discovery_scans": 19,
+        "latest_scan_at": 1790905288.3274791,
+        "latest_liquid_contracts": 171,
+        "symbol_observations": 21612,
         "baseline_eligible_observations": 793,
         "filtered_eligible_observations": 0
       },
@@ -97,7 +101,7 @@
           "marked_equity_change": -17.83521783382355,
           "start_equity": 1000.0,
           "end_equity": 982.1647821661765,
-          "end_mark_age_seconds": 244328.82696676254,
+          "end_mark_age_seconds": 27.746719121932983,
           "observed_max_drawdown": 66.59103808266468,
           "observed_max_drawdown_pct": 6.491383857953189,
           "expectancy": -0.5095776523949569,
@@ -160,7 +164,7 @@
           "buy_rejections": {
             "recorded": 267,
             "coverage": "partial",
-            "instrumented_checks": 4277,
+            "instrumented_checks": 4279,
             "legacy_checks": 10,
             "first_instrumented_at": 1789085135.240156,
             "reasons": [
@@ -197,7 +201,7 @@
             ]
           },
           "equity_sampling": {
-            "tick_samples": 4277,
+            "tick_samples": 4279,
             "estimated_tick_samples": 1143,
             "resolution": "mixed"
           },
@@ -318,7 +322,7 @@
             "per_symbol_total": 21,
             "exposure": {
               "observed_seconds": 427790.491802454,
-              "fraction": 0.23461454182300626,
+              "fraction": 0.23457119906455626,
               "coverage": "complete_recorded_lifecycles",
               "unknown_lifecycles": 0
             },
@@ -1688,7 +1692,7 @@
           "marked_equity_change": 0.0,
           "start_equity": 1000.0,
           "end_equity": 1000.0,
-          "end_mark_age_seconds": 244328.82696676254,
+          "end_mark_age_seconds": 27.746719121932983,
           "observed_max_drawdown": 0.0,
           "observed_max_drawdown_pct": 0.0,
           "expectancy": null,
@@ -1726,13 +1730,13 @@
           "buy_rejections": {
             "recorded": 0,
             "coverage": "partial",
-            "instrumented_checks": 4277,
+            "instrumented_checks": 4279,
             "legacy_checks": 10,
             "first_instrumented_at": 1789085135.240156,
             "reasons": []
           },
           "equity_sampling": {
-            "tick_samples": 4277,
+            "tick_samples": 4279,
             "estimated_tick_samples": 0,
             "resolution": "mixed"
           },
@@ -2183,7 +2187,7 @@
         },
         {
           "day": "2026-10-02",
-          "checks": 0,
+          "checks": 2,
           "baseline": {
             "entries": 0,
             "adds": 0,
@@ -2205,7 +2209,7 @@
       "coins": [
         {
           "symbol": "LONGXIAUSDTM",
-          "observations": 1549,
+          "observations": 1551,
           "baseline_eligible": 8,
           "filtered_eligible": 0,
           "baseline": {
@@ -3258,28 +3262,122 @@
             "losses": 0,
             "net_closed_pnl": 0.0
           }
+        },
+        {
+          "symbol": "ALICEUSDTM",
+          "observations": 2,
+          "baseline_eligible": 0,
+          "filtered_eligible": 0,
+          "baseline": {
+            "entries": 0,
+            "adds": 0,
+            "closes": 0,
+            "wins": 0,
+            "losses": 0,
+            "net_closed_pnl": 0.0
+          },
+          "liquidation_filter": {
+            "entries": 0,
+            "adds": 0,
+            "closes": 0,
+            "wins": 0,
+            "losses": 0,
+            "net_closed_pnl": 0.0
+          }
+        },
+        {
+          "symbol": "MOVRUSDTM",
+          "observations": 2,
+          "baseline_eligible": 0,
+          "filtered_eligible": 0,
+          "baseline": {
+            "entries": 0,
+            "adds": 0,
+            "closes": 0,
+            "wins": 0,
+            "losses": 0,
+            "net_closed_pnl": 0.0
+          },
+          "liquidation_filter": {
+            "entries": 0,
+            "adds": 0,
+            "closes": 0,
+            "wins": 0,
+            "losses": 0,
+            "net_closed_pnl": 0.0
+          }
+        },
+        {
+          "symbol": "NOMUSDTM",
+          "observations": 2,
+          "baseline_eligible": 0,
+          "filtered_eligible": 0,
+          "baseline": {
+            "entries": 0,
+            "adds": 0,
+            "closes": 0,
+            "wins": 0,
+            "losses": 0,
+            "net_closed_pnl": 0.0
+          },
+          "liquidation_filter": {
+            "entries": 0,
+            "adds": 0,
+            "closes": 0,
+            "wins": 0,
+            "losses": 0,
+            "net_closed_pnl": 0.0
+          }
+        },
+        {
+          "symbol": "USUSDTM",
+          "observations": 2,
+          "baseline_eligible": 0,
+          "filtered_eligible": 0,
+          "baseline": {
+            "entries": 0,
+            "adds": 0,
+            "closes": 0,
+            "wins": 0,
+            "losses": 0,
+            "net_closed_pnl": 0.0
+          },
+          "liquidation_filter": {
+            "entries": 0,
+            "adds": 0,
+            "closes": 0,
+            "wins": 0,
+            "losses": 0,
+            "net_closed_pnl": 0.0
+          }
         }
       ]
     },
     "24h": {
-      "start_at": 1790818890.8804328,
-      "end_at": 1790905290.8804328,
+      "start_at": 1790819227.793659,
+      "end_at": 1790905627.793659,
       "checks": {
-        "attempts": 0,
-        "successful": 0,
+        "attempts": 2,
+        "successful": 2,
         "skipped": 0,
         "expected_approximately": 289,
-        "coverage_ratio": 0.0,
-        "max_gap_seconds": 86400.0
+        "coverage_ratio": 0.006920415224913495,
+        "max_gap_seconds": 86068.0464360714
       },
       "discovery": {
-        "distinct_shortlist_coins": 0,
-        "shortlist_symbols": [],
-        "distinct_scan_snapshots": 0,
-        "new_discovery_scans": 0,
-        "latest_scan_at": null,
-        "latest_liquid_contracts": null,
-        "symbol_observations": 0,
+        "distinct_shortlist_coins": 5,
+        "shortlist_symbols": [
+          "ALICEUSDTM",
+          "LONGXIAUSDTM",
+          "MOVRUSDTM",
+          "NOMUSDTM",
+          "USUSDTM"
+        ],
+        "distinct_scan_snapshots": 1,
+        "new_discovery_scans": 1,
+        "latest_scan_at": 1790905288.3274791,
+        "latest_liquid_contracts": 171,
+        "symbol_observations": 10,
         "baseline_eligible_observations": 0,
         "filtered_eligible_observations": 0
       },
@@ -3303,9 +3401,9 @@
           "marked_equity_change": 0.0,
           "start_equity": 982.1647821661765,
           "end_equity": 982.1647821661765,
-          "end_mark_age_seconds": 244328.82696676254,
-          "observed_max_drawdown": null,
-          "observed_max_drawdown_pct": null,
+          "end_mark_age_seconds": 27.746719121932983,
+          "observed_max_drawdown": 0.0,
+          "observed_max_drawdown_pct": 0.0,
           "expectancy": null,
           "close_reasons": [],
           "add_cohorts": [
@@ -3340,16 +3438,16 @@
           ],
           "buy_rejections": {
             "recorded": 0,
-            "coverage": "unavailable",
-            "instrumented_checks": 0,
+            "coverage": "complete",
+            "instrumented_checks": 2,
             "legacy_checks": 0,
-            "first_instrumented_at": null,
+            "first_instrumented_at": 1790905295.840095,
             "reasons": []
           },
           "equity_sampling": {
-            "tick_samples": 0,
+            "tick_samples": 2,
             "estimated_tick_samples": 0,
-            "resolution": "published_only"
+            "resolution": "mixed"
           },
           "performance": {
             "closed_trades": 0,
@@ -3400,9 +3498,9 @@
           "marked_equity_change": 0.0,
           "start_equity": 1000.0,
           "end_equity": 1000.0,
-          "end_mark_age_seconds": 244328.82696676254,
-          "observed_max_drawdown": null,
-          "observed_max_drawdown_pct": null,
+          "end_mark_age_seconds": 27.746719121932983,
+          "observed_max_drawdown": 0.0,
+          "observed_max_drawdown_pct": 0.0,
           "expectancy": null,
           "close_reasons": [],
           "add_cohorts": [
@@ -3437,16 +3535,16 @@
           ],
           "buy_rejections": {
             "recorded": 0,
-            "coverage": "unavailable",
-            "instrumented_checks": 0,
+            "coverage": "complete",
+            "instrumented_checks": 2,
             "legacy_checks": 0,
-            "first_instrumented_at": null,
+            "first_instrumented_at": 1790905295.840095,
             "reasons": []
           },
           "equity_sampling": {
-            "tick_samples": 0,
+            "tick_samples": 2,
             "estimated_tick_samples": 0,
-            "resolution": "published_only"
+            "resolution": "mixed"
           },
           "performance": {
             "closed_trades": 0,
@@ -3495,7 +3593,7 @@
         },
         {
           "day": "2026-10-02",
-          "checks": 0,
+          "checks": 2,
           "baseline": {
             "entries": 0,
             "adds": 0,
@@ -3514,28 +3612,142 @@
           }
         }
       ],
-      "coins": []
+      "coins": [
+        {
+          "symbol": "ALICEUSDTM",
+          "observations": 2,
+          "baseline_eligible": 0,
+          "filtered_eligible": 0,
+          "baseline": {
+            "entries": 0,
+            "adds": 0,
+            "closes": 0,
+            "wins": 0,
+            "losses": 0,
+            "net_closed_pnl": 0.0
+          },
+          "liquidation_filter": {
+            "entries": 0,
+            "adds": 0,
+            "closes": 0,
+            "wins": 0,
+            "losses": 0,
+            "net_closed_pnl": 0.0
+          }
+        },
+        {
+          "symbol": "LONGXIAUSDTM",
+          "observations": 2,
+          "baseline_eligible": 0,
+          "filtered_eligible": 0,
+          "baseline": {
+            "entries": 0,
+            "adds": 0,
+            "closes": 0,
+            "wins": 0,
+            "losses": 0,
+            "net_closed_pnl": 0.0
+          },
+          "liquidation_filter": {
+            "entries": 0,
+            "adds": 0,
+            "closes": 0,
+            "wins": 0,
+            "losses": 0,
+            "net_closed_pnl": 0.0
+          }
+        },
+        {
+          "symbol": "MOVRUSDTM",
+          "observations": 2,
+          "baseline_eligible": 0,
+          "filtered_eligible": 0,
+          "baseline": {
+            "entries": 0,
+            "adds": 0,
+            "closes": 0,
+            "wins": 0,
+            "losses": 0,
+            "net_closed_pnl": 0.0
+          },
+          "liquidation_filter": {
+            "entries": 0,
+            "adds": 0,
+            "closes": 0,
+            "wins": 0,
+            "losses": 0,
+            "net_closed_pnl": 0.0
+          }
+        },
+        {
+          "symbol": "NOMUSDTM",
+          "observations": 2,
+          "baseline_eligible": 0,
+          "filtered_eligible": 0,
+          "baseline": {
+            "entries": 0,
+            "adds": 0,
+            "closes": 0,
+            "wins": 0,
+            "losses": 0,
+            "net_closed_pnl": 0.0
+          },
+          "liquidation_filter": {
+            "entries": 0,
+            "adds": 0,
+            "closes": 0,
+            "wins": 0,
+            "losses": 0,
+            "net_closed_pnl": 0.0
+          }
+        },
+        {
+          "symbol": "USUSDTM",
+          "observations": 2,
+          "baseline_eligible": 0,
+          "filtered_eligible": 0,
+          "baseline": {
+            "entries": 0,
+            "adds": 0,
+            "closes": 0,
+            "wins": 0,
+            "losses": 0,
+            "net_closed_pnl": 0.0
+          },
+          "liquidation_filter": {
+            "entries": 0,
+            "adds": 0,
+            "closes": 0,
+            "wins": 0,
+            "losses": 0,
+            "net_closed_pnl": 0.0
+          }
+        }
+      ]
     },
     "7d": {
-      "start_at": 1790300490.8804328,
-      "end_at": 1790905290.8804328,
+      "start_at": 1790300827.793659,
+      "end_at": 1790905627.793659,
       "checks": {
-        "attempts": 1024,
-        "successful": 1024,
+        "attempts": 1026,
+        "successful": 1026,
         "skipped": 0,
         "expected_approximately": 2017,
-        "coverage_ratio": 0.5076846802181457,
-        "max_gap_seconds": 244328.82696676254
+        "coverage_ratio": 0.5086762518591968,
+        "max_gap_seconds": 244333.78662896156
       },
       "discovery": {
-        "distinct_shortlist_coins": 15,
+        "distinct_shortlist_coins": 19,
         "shortlist_symbols": [
+          "ALICEUSDTM",
           "ARXUSDTM",
           "BRUSDTM",
           "BTWUSDTM",
           "LONGXIAUSDTM",
           "LYNUSDTM",
           "MARSCOINUSDTM",
+          "MOVRUSDTM",
+          "NOMUSDTM",
           "ONEUSDTM",
           "PHAUSDTM",
           "QNTUSDTM",
@@ -3544,13 +3756,14 @@
           "READYUSDTM",
           "SAGAUSDTM",
           "SOONUSDTM",
+          "USUSDTM",
           "XAIUSDTM"
         ],
-        "distinct_scan_snapshots": 5,
-        "new_discovery_scans": 5,
-        "latest_scan_at": 1790629377.588599,
-        "latest_liquid_contracts": 184,
-        "symbol_observations": 5162,
+        "distinct_scan_snapshots": 6,
+        "new_discovery_scans": 6,
+        "latest_scan_at": 1790905288.3274791,
+        "latest_liquid_contracts": 171,
+        "symbol_observations": 5172,
         "baseline_eligible_observations": 206,
         "filtered_eligible_observations": 0
       },
@@ -3574,7 +3787,7 @@
           "marked_equity_change": -26.757131234821372,
           "start_equity": 1008.9219134009978,
           "end_equity": 982.1647821661765,
-          "end_mark_age_seconds": 244328.82696676254,
+          "end_mark_age_seconds": 27.746719121932983,
           "observed_max_drawdown": 52.20368399988138,
           "observed_max_drawdown_pct": 5.161272020540242,
           "expectancy": -2.2297609362351327,
@@ -3631,7 +3844,7 @@
           "buy_rejections": {
             "recorded": 42,
             "coverage": "complete",
-            "instrumented_checks": 1024,
+            "instrumented_checks": 1026,
             "legacy_checks": 0,
             "first_instrumented_at": 1790344814.541394,
             "reasons": [
@@ -3662,7 +3875,7 @@
             ]
           },
           "equity_sampling": {
-            "tick_samples": 1024,
+            "tick_samples": 1026,
             "estimated_tick_samples": 333,
             "resolution": "mixed"
           },
@@ -4214,7 +4427,7 @@
           "marked_equity_change": 0.0,
           "start_equity": 1000.0,
           "end_equity": 1000.0,
-          "end_mark_age_seconds": 244328.82696676254,
+          "end_mark_age_seconds": 27.746719121932983,
           "observed_max_drawdown": 0.0,
           "observed_max_drawdown_pct": 0.0,
           "expectancy": null,
@@ -4252,13 +4465,13 @@
           "buy_rejections": {
             "recorded": 0,
             "coverage": "complete",
-            "instrumented_checks": 1024,
+            "instrumented_checks": 1026,
             "legacy_checks": 0,
             "first_instrumented_at": 1790344814.541394,
             "reasons": []
           },
           "equity_sampling": {
-            "tick_samples": 1024,
+            "tick_samples": 1026,
             "estimated_tick_samples": 0,
             "resolution": "mixed"
           },
@@ -4429,7 +4642,7 @@
         },
         {
           "day": "2026-10-02",
-          "checks": 0,
+          "checks": 2,
           "baseline": {
             "entries": 0,
             "adds": 0,
@@ -4605,7 +4818,7 @@
         },
         {
           "symbol": "LONGXIAUSDTM",
-          "observations": 362,
+          "observations": 364,
           "baseline_eligible": 3,
           "filtered_eligible": 0,
           "baseline": {
@@ -4769,6 +4982,94 @@
             "wins": 1,
             "losses": 0,
             "net_closed_pnl": 1.0554814268974226
+          },
+          "liquidation_filter": {
+            "entries": 0,
+            "adds": 0,
+            "closes": 0,
+            "wins": 0,
+            "losses": 0,
+            "net_closed_pnl": 0.0
+          }
+        },
+        {
+          "symbol": "ALICEUSDTM",
+          "observations": 2,
+          "baseline_eligible": 0,
+          "filtered_eligible": 0,
+          "baseline": {
+            "entries": 0,
+            "adds": 0,
+            "closes": 0,
+            "wins": 0,
+            "losses": 0,
+            "net_closed_pnl": 0.0
+          },
+          "liquidation_filter": {
+            "entries": 0,
+            "adds": 0,
+            "closes": 0,
+            "wins": 0,
+            "losses": 0,
+            "net_closed_pnl": 0.0
+          }
+        },
+        {
+          "symbol": "MOVRUSDTM",
+          "observations": 2,
+          "baseline_eligible": 0,
+          "filtered_eligible": 0,
+          "baseline": {
+            "entries": 0,
+            "adds": 0,
+            "closes": 0,
+            "wins": 0,
+            "losses": 0,
+            "net_closed_pnl": 0.0
+          },
+          "liquidation_filter": {
+            "entries": 0,
+            "adds": 0,
+            "closes": 0,
+            "wins": 0,
+            "losses": 0,
+            "net_closed_pnl": 0.0
+          }
+        },
+        {
+          "symbol": "NOMUSDTM",
+          "observations": 2,
+          "baseline_eligible": 0,
+          "filtered_eligible": 0,
+          "baseline": {
+            "entries": 0,
+            "adds": 0,
+            "closes": 0,
+            "wins": 0,
+            "losses": 0,
+            "net_closed_pnl": 0.0
+          },
+          "liquidation_filter": {
+            "entries": 0,
+            "adds": 0,
+            "closes": 0,
+            "wins": 0,
+            "losses": 0,
+            "net_closed_pnl": 0.0
+          }
+        },
+        {
+          "symbol": "USUSDTM",
+          "observations": 2,
+          "baseline_eligible": 0,
+          "filtered_eligible": 0,
+          "baseline": {
+            "entries": 0,
+            "adds": 0,
+            "closes": 0,
+            "wins": 0,
+            "losses": 0,
+            "net_closed_pnl": 0.0
           },
           "liquidation_filter": {
             "entries": 0,
